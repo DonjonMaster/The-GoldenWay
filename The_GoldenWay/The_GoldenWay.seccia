@@ -1,0 +1,776 @@
+{
+"general": {
+"version": "25"
+},
+"project": {
+"game": {
+"languages": {
+"english": "1",
+"os": "1",
+"native": "French",
+"default": "French",
+"french": "1"
+},
+"name": "The_GoldenWay",
+"version": "1.0.0",
+"width": "1920",
+"height": "1080",
+"label_color": "FFFFFF",
+"font_color_menu1": "FFFFFF",
+"font_color_menu2": "57E657",
+"font_color_menu3": "FFFF60",
+"font_color_menu4": "FFFFFF",
+"font_color_credits": "FFFFFF",
+"font_color_credits2": "57E657",
+"light_ambient": "255",
+"merge_audio_text": "1",
+"font": {
+"name": "Cartoon",
+"meta": {
+"aid": "9d771b5a8f4f5d95"
+},
+"textures": [
+{
+"aid": "46b344e71d0c600d"
+}
+]
+},
+"savegame": {
+"chapters": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+},
+"dialog": {
+"speed": "Fast",
+"prompt_color": "FFFFFF",
+"prompt_door_color": "57E657",
+"def_choice_text_color": "FFFFFF",
+"def_choice_text_highlight_color": "57E657",
+"def_choice_back_color": "000000C0",
+"def_talk_text_color": "FFFFFF",
+"comics_talk_text_color": "FFFFFF",
+"movie_margin": "24",
+"movie_talk_text_color": "FFFFFF",
+"vn_choice_text_color": "FFFFFF",
+"vn_choice_text_highlight_color": "57E657",
+"vn_talk_name_color": "FFFFFF",
+"vn_talk_text_color": "FFFFFF",
+"cinematic_text_color": "FFFFFF",
+"cinematic_margin": "24",
+"layouts": {
+"comicsTalk": {
+"back": {
+"x": 42,
+"y": 42,
+"w": 42,
+"h": 42
+},
+"text": {
+"x": 42,
+"y": 42,
+"w": 42,
+"h": 42
+},
+"width": 128,
+"height": 128
+},
+"vnChoice": {
+"text": {
+"x": 83,
+"y": 55,
+"w": 83,
+"h": 55
+},
+"icon": {
+"x": 100,
+"y": 66,
+"w": 50,
+"h": 33
+},
+"width": 250,
+"height": 165
+}
+}
+},
+"configs": [
+{
+"platform": "WINDOWS",
+"name": "windows"
+},
+{
+"platform": "WINDOWS",
+"name": "play_windows"
+},
+{
+"platform": "WEB",
+"name": "play_web",
+"distribution": "Local"
+}
+],
+"palette": {
+"Blue": 16744448,
+"Brown": 2121888,
+"Cyan": 15266376,
+"DarkGreen": 32768,
+"Gold": 2138336,
+"Gray": 10398381,
+"Green": 5760599,
+"Magenta": 15357406,
+"Maroon": 160,
+"Orange": 33023,
+"Pink": 12632319,
+"Purple": 9519498,
+"Red": 3937500,
+"Silver": 12632256,
+"Yellow": 6356991,
+"White": 16777215,
+"User": 16777215,
+"user": 16777215
+},
+"layout": {
+"autosave": {
+"active": true,
+"width": 128,
+"height": 128
+},
+"bag": {
+"active": true,
+"x": 1688,
+"width": 128,
+"height": 128,
+"horz": 2,
+"rclick": true
+},
+"detach": {
+"y": 128,
+"width": 128,
+"height": 128,
+"horz": 2,
+"bag": "Enabled"
+},
+"items": {
+"active": true,
+"y": 880,
+"width": 1820,
+"height": 128,
+"horz": 3,
+"vert": 2,
+"bag": "Enabled"
+},
+"prompt": {
+"active": true,
+"x": 160,
+"y": 16,
+"width": 1500,
+"height": 32,
+"horz": 3
+},
+"magnify": {
+"active": true,
+"width": 400,
+"height": 400,
+"zoom": 200
+},
+"menu": {
+"active": true,
+"x": 1688,
+"y": 128,
+"width": 128,
+"height": 128,
+"horz": 2,
+"bag": "Enabled"
+},
+"players": {
+"x": 1688,
+"y": 256,
+"width": 128,
+"height": 512,
+"vert": 3,
+"bag": "Enabled"
+},
+"shutup": {
+"active": true,
+"x": 1688,
+"width": 128,
+"height": 128,
+"horz": 2
+}
+},
+"meta": {
+"nextAssetID": 6
+}
+},
+"puzzle": {
+"board": {
+"nextid": 8,
+"x": 759,
+"y": 408,
+"boxes": [
+{
+"type": 257,
+"id": 1,
+"name": "start",
+"plugs": [
+{
+"id": 2,
+"type": 3,
+"trgs": [
+6
+]
+}
+]
+},
+{
+"type": 260,
+"id": 3,
+"name": "end",
+"x": 200,
+"plugs": [
+{
+"id": 4,
+"type": 2
+}
+]
+},
+{
+"type": 256,
+"id": 5,
+"name": "#puzzle",
+"x": 100,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
+"type": 3,
+"trgs": [
+4
+]
+}
+]
+}
+]
+}
+},
+"logics": [
+{
+"sid": 2,
+"uid": "L_HOME",
+"graph": {
+"board": {
+"nextid": 3,
+"boxes": [
+{
+"type": 257,
+"id": 1,
+"plugs": [
+{
+"id": 2,
+"type": 3
+}
+]
+}
+]
+}
+}
+},
+{
+"sid": 3,
+"uid": "L_GAME",
+"content": {
+"start": true
+},
+"graph": {
+"board": {
+"nextid": 8,
+"boxes": [
+{
+"type": 257,
+"id": 1,
+"plugs": [
+{
+"id": 2,
+"type": 3
+}
+]
+},
+{
+"id": 3,
+"type": 1309,
+"y": 100,
+"mode": "NEW",
+"plugs": [
+{
+"type": 3,
+"id": 4,
+"trgs": [
+6
+]
+}
+]
+},
+{
+"id": 5,
+"type": 789,
+"x": 200,
+"y": 100,
+"player": "P_HERO",
+"change": "True",
+"plugs": [
+{
+"type": 2,
+"id": 6
+},
+{
+"type": 3,
+"id": 7
+}
+]
+}
+]
+}
+}
+}
+],
+"scenes": [
+{
+"sid": 1,
+"uid": "S_HOME",
+"content": {
+"light_ambient": -1,
+"light_blur": -1,
+"nextID": 2
+},
+"layers": {
+"BACK": {
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100,
+"image": {
+"aid": "5401c55474687531"
+},
+"texture": {
+"width": 1920,
+"height": 1080,
+"rects": [
+{
+"w": 1920,
+"h": 1080
+}
+],
+"textures": [
+{
+"aid": "580503907b3c0cef"
+}
+]
+}
+},
+"MA": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"MB": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"MC": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"MD": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FA": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FB": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FC": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FD": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+}
+},
+"instances": [
+{
+"uid": "O_HERO",
+"id": 1,
+"x": 910,
+"y": 512,
+"parallax": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1
+}
+]
+}
+],
+"objects": [
+{
+"sid": 4,
+"uid": "O_HERO",
+"content": {
+"bbox": true,
+"width": 120,
+"height": 100
+},
+"icons": [
+{},
+{},
+{},
+{}
+],
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "1ead8d948a1103a0"
+},
+"lo": {
+"aid": "d625eca1bd299835"
+}
+},
+"x": 11,
+"y": 20,
+"w": 103,
+"h": 79
+}
+]
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+}
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 103,
+"h": 79
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "782cf01fe88213f5"
+},
+"texture": {
+"aid": "d4e93a83ef0f254b"
+}
+}
+]
+}
+}
+],
+"players": [
+{
+"sid": 5,
+"uid": "P_HERO",
+"content": {
+"scroll_smooth": 50,
+"zoom_smooth": 50,
+"path_color": -1,
+"object": "O_HERO",
+"scene": "S_HOME"
+},
+"icons": [
+{
+"image": {
+"aid": "dfd60406b04429eb"
+},
+"texture": {
+"aid": "da911bf2e2cc4ccf"
+}
+},
+{},
+{},
+{}
+]
+}
+],
+"images": {
+"APP_ANDROID": {
+"image": {
+"aid": "77eae4cfe3628df9"
+},
+"texture": {
+"aid": "9ced72aa1b8011b0"
+}
+},
+"APP_IOS": {
+"image": {
+"aid": "8cf340454effaab6"
+},
+"texture": {
+"aid": "17e9f85aeecb23c4"
+}
+},
+"APP_WINDOWS": {
+"image": {
+"aid": "57c6df2e28bd85fc"
+},
+"texture": {
+"aid": "e97be58982b872f6"
+}
+},
+"DIALOG_COMICS_TALK": {
+"image": {
+"aid": "4c791ff7d10b4f9f"
+},
+"texture": {
+"aid": "b1f31d71c22140fd"
+}
+},
+"DIALOG_VN_CHOICE": {
+"image": {
+"aid": "83154a8b1e4433e2"
+},
+"texture": {
+"aid": "5adba165df0dd1eb"
+}
+},
+"CURSOR": {
+"image": {
+"aid": "fbcf7bac74d976d2"
+},
+"texture": {
+"aid": "1018077c49d0023d"
+}
+},
+"LAYOUT_AUTOSAVE": {
+"image": {
+"aid": "e117395b22014245"
+},
+"texture": {
+"aid": "52e580ca8c2c00c5"
+}
+},
+"LAYOUT_BAG": {
+"image": {
+"aid": "d47657afd5ae10a0"
+},
+"texture": {
+"aid": "80512ae8b02a504e"
+}
+},
+"LAYOUT_MAGNIFY": {
+"image": {
+"aid": "0b63c68f67b8a5e2"
+},
+"texture": {
+"aid": "62881659233023d4"
+}
+},
+"LAYOUT_MENU": {
+"image": {
+"aid": "8505f60dd0538007"
+},
+"texture": {
+"aid": "9f8ba327487a6e2b"
+}
+},
+"LAYOUT_OBJECT": {
+"image": {
+"aid": "6f7391846fe6e5e4"
+},
+"texture": {
+"aid": "c412cac7233bb905"
+}
+},
+"LAYOUT_OBJECT_PREV": {
+"image": {
+"aid": "eea8e9086fa6726d"
+},
+"texture": {
+"aid": "f77871cffa7643bd"
+}
+},
+"LAYOUT_OBJECT_NEXT": {
+"image": {
+"aid": "5016d233d22f5b3d"
+},
+"texture": {
+"aid": "bd663abc976ccdee"
+}
+},
+"LAYOUT_PLAYER": {
+"image": {
+"aid": "62ac2e43c39f19ed"
+},
+"texture": {
+"aid": "d4ebd2c9c69bbdc9"
+}
+},
+"LAYOUT_SHUTUP": {
+"image": {
+"aid": "aef2cee24d9776e3"
+},
+"texture": {
+"aid": "92c113a6dd5b5afd"
+}
+},
+"MENU": {
+"image": {
+"aid": "40f57fc177a679f5"
+},
+"texture": {
+"aid": "3beabe03a045d730"
+}
+}
+}
+}

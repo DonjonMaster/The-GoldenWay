@@ -3588,11 +3588,91 @@
 "sentences": [
 {
 "id": 2,
+"speaker": "O_RHALE_BAULE",
+"text": {
+"fr": "Ah, inspecteur ! Vous tombez bien !",
+"en": "Ah, inspector ! You come at a good time !"
+},
+"sentences": [
+{
+"id": 3,
+"choice": true,
+"text": {
+"fr": "Qu'est ce qu'il y a ?",
+"en": "What is it ?"
+},
+"sentences": [
+{
+"id": 4,
+"sentences": [
+{
+"id": 5,
+"text": {
+"fr": "Vous pouvez allez me chercher de l'eau ?",
+"en": "Could you perhaps go and fetch me some water ?"
+},
+"speaker": "O_RHALE_BAULE"
+}
+],
+"text": {
+"fr": "Il fait très chaud içi, et je commence à avoir soif.",
+"en": "It's very hot in here, and I'm starting to get thirsty."
+},
+"speaker": "O_RHALE_BAULE"
+}
+]
+}
+]
+},
+{
+"id": 9,
+"sentences": [
+{
+"id": 10,
+"choice": true,
+"sentences": [
+{
+"id": 13,
+"text": {
+"fr": "Merçi. Tenez, voici la clé du wagon restaurant. Vous en aurez besoin pour votre enquête.",
+"en": "Thank you. Here, take this. It's key for the dining car. You might need it for your case."
+},
+"speaker": "O_RHALE_BAULE"
+}
+],
+"text": {
+"fr": "Oui, voilà.",
+"en": "Yes, here."
+}
+},
+{
+"id": 11,
+"choice": true,
+"sentences": [
+{
+"id": 12,
+"text": {
+"fr": "Et bien, qu'attendez vous ?",
+"en": "Well, what are you waiting for ?"
+},
+"speaker": "O_RHALE_BAULE"
+}
+],
+"text": {
+"fr": "Non, pas encore.",
+"en": "No, not yet."
+}
+}
+],
+"text": {
+"fr": "Ah, inspecteur ! Vous avez de l'eau ?",
+"en": "Ah, inspector ! Do you have water ?"
+},
 "speaker": "O_RHALE_BAULE"
 }
 ]
 },
-"nextID": 3
+"nextID": 14
 }
 }
 ]

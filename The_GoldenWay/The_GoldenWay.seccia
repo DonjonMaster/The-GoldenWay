@@ -1077,8 +1077,8 @@
 "light_blur": -1,
 "zoom": 48,
 "nextID": 1,
-"x": -31,
-"y": 53
+"x": -147,
+"y": 24
 },
 "layers": {
 "BACK": {
@@ -1158,20 +1158,14 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
-"nextID": 1
+"zoom": 43,
+"nextID": 2
 },
 "layers": {
 "BACK": {
 "opacity_min": 100,
 "opacity_max": 100,
-"opacity_speed": 100,
-"image": {
-"aid": "71e8b49e89b78e2c"
-},
-"texture": {
-"aid": "f1dc6725f9ba9203"
-}
+"opacity_speed": 100
 },
 "MA": {
 "speed_x": 100,
@@ -2010,7 +2004,9 @@
 "title": {
 "en": "Rhale BAULE",
 "fr": "Rhale BAULE"
-}
+},
+"width": 1376,
+"height": 768
 },
 "icons": [
 {},
@@ -2029,7 +2025,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "a12c3ce1968d807c"
+},
+"lo": {
+"aid": "d0af59cb208613a6"
+}
+},
+"x": 562,
+"y": 48,
+"w": 301,
+"h": 715
+}
+]
 },
 {
 "name": "FRONT"
@@ -2118,7 +2130,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 301,
+"h": 715
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "85aeba98eb190931"
+},
+"texture": {
+"aid": "73bc9e2c435e74a8"
+}
+}
 ]
+}
 },
 {
 "sid": 34,
@@ -2128,7 +2160,9 @@
 "title": {
 "en": "Rex LAMER",
 "fr": "Rex LAMER"
-}
+},
+"width": 1376,
+"height": 768
 },
 "icons": [
 {},
@@ -2147,7 +2181,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "a7e1d66bfbe50bec"
+},
+"lo": {
+"aid": "47dc225b8ecee03b"
+}
+},
+"x": 503,
+"y": 19,
+"w": 370,
+"h": 749
+}
+]
 },
 {
 "name": "FRONT"
@@ -2236,7 +2286,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 370,
+"h": 749
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "3dc23290b9b3129c"
+},
+"texture": {
+"aid": "d25357c969ac8a89"
+}
+}
 ]
+}
 },
 {
 "sid": 35,
@@ -2246,7 +2316,9 @@
 "title": {
 "en": "Esaa PRSITI",
 "fr": "Esaa PRSITI"
-}
+},
+"width": 1376,
+"height": 768
 },
 "icons": [
 {},
@@ -2265,7 +2337,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "a8d305f374e50940"
+},
+"lo": {
+"aid": "2fa41b7e8668b12e"
+}
+},
+"x": 421,
+"y": 48,
+"w": 482,
+"h": 720
+}
+]
 },
 {
 "name": "FRONT"
@@ -2354,7 +2442,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 482,
+"h": 720
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "87bf37f6d8eaf11f"
+},
+"texture": {
+"aid": "cf105399a407aedd"
+}
+}
 ]
+}
 },
 {
 "sid": 36,
@@ -2364,7 +2472,9 @@
 "title": {
 "en": "Tauro RELOUT",
 "fr": "Tauro RELOUT"
-}
+},
+"width": 1376,
+"height": 768
 },
 "icons": [
 {},
@@ -2383,7 +2493,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "3888e68feae32f88"
+},
+"lo": {
+"aid": "c1d46ea5b9bb733e"
+}
+},
+"x": 429,
+"y": 39,
+"w": 466,
+"h": 726
+}
+]
 },
 {
 "name": "FRONT"
@@ -2472,7 +2598,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 466,
+"h": 726
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "318b815e2feac95b"
+},
+"texture": {
+"aid": "ddee57c70c3d3e35"
+}
+}
 ]
+}
 },
 {
 "sid": 37,
@@ -2482,7 +2628,9 @@
 "title": {
 "en": "Kisel PATRON",
 "fr": "Kisel PATRON"
-}
+},
+"width": 1376,
+"height": 768
 },
 "icons": [
 {},
@@ -2501,7 +2649,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "1f64289dbf49b5c1"
+},
+"lo": {
+"aid": "58c1e408697bb186"
+}
+},
+"x": 565,
+"y": 44,
+"w": 326,
+"h": 724
+}
+]
 },
 {
 "name": "FRONT"
@@ -2590,7 +2754,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 326,
+"h": 724
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "54b304212616104f"
+},
+"texture": {
+"aid": "941458db01174d66"
+}
+}
 ]
+}
 },
 {
 "sid": 38,
@@ -2600,7 +2784,9 @@
 "title": {
 "en": "Dio SCESE",
 "fr": "Dio SCESE"
-}
+},
+"width": 1376,
+"height": 768
 },
 "icons": [
 {},
@@ -2619,7 +2805,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "8a98935909cb2108"
+},
+"lo": {
+"aid": "38584e8b66622cf1"
+}
+},
+"x": 575,
+"y": 66,
+"w": 228,
+"h": 702
+}
+]
 },
 {
 "name": "FRONT"
@@ -2708,7 +2910,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 228,
+"h": 702
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "2115f19cadcbb2f0"
+},
+"texture": {
+"aid": "1aa5313b44bee06e"
+}
+}
 ]
+}
 },
 {
 "sid": 39,
@@ -2718,7 +2940,9 @@
 "title": {
 "en": "Ethan AULE",
 "fr": "Ethan AULE"
-}
+},
+"width": 1376,
+"height": 768
 },
 "icons": [
 {},
@@ -2737,7 +2961,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "6fe8a7393268c89f"
+},
+"lo": {
+"aid": "258cdc3cf10b4b56"
+}
+},
+"x": 568,
+"y": 61,
+"w": 239,
+"h": 707
+}
+]
 },
 {
 "name": "FRONT"
@@ -2826,7 +3066,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 239,
+"h": 707
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "837fef0dbce86470"
+},
+"texture": {
+"aid": "12899f9ce5d5fa80"
+}
+}
 ]
+}
 },
 {
 "sid": 40,
@@ -2836,7 +3096,9 @@
 "title": {
 "en": "Li Shein TAN",
 "fr": "Li Shein TAN"
-}
+},
+"width": 1376,
+"height": 768
 },
 "icons": [
 {},
@@ -2855,7 +3117,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "2708df0e27aa4d6b"
+},
+"lo": {
+"aid": "8b3694d3e4515864"
+}
+},
+"x": 577,
+"y": 66,
+"w": 219,
+"h": 702
+}
+]
 },
 {
 "name": "FRONT"
@@ -2944,7 +3222,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 219,
+"h": 702
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "5a65bc6f363400e2"
+},
+"texture": {
+"aid": "657f7fb929d3bed4"
+}
+}
 ]
+}
 },
 {
 "sid": 41,

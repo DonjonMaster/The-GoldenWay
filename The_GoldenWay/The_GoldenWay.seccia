@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 52,
-"x": 702,
-"y": 722,
+"x": 682,
+"y": 493,
 "boxes": [
 {
 "type": 257,
@@ -727,7 +727,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 49,
 "nextID": 1,
 "x": -342,
 "y": -48
@@ -829,7 +829,7 @@
 "light_ambient": -1,
 "light_blur": -1,
 "zoom": 49,
-"nextID": 1
+"nextID": 2
 },
 "layers": {
 "BACK": {
@@ -919,7 +919,27 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "VIP",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 545,
+"y": 355,
+"width": 98,
+"height": 202,
+"title": {
+"en": "VIP wagon",
+"fr": "Wagon VIP"
 }
+}
+]
 },
 {
 "sid": 10,
@@ -928,7 +948,7 @@
 "light_ambient": -1,
 "light_blur": -1,
 "zoom": 49,
-"nextID": 1
+"nextID": 4
 },
 "layers": {
 "BACK": {
@@ -1018,7 +1038,63 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "C_ANNIE",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 275,
+"width": 119,
+"height": 504,
+"title": {
+"en": "Annie cabin",
+"fr": "Cabine de Annie"
 }
+},
+{
+"name": "C_REMI",
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 722,
+"y": 165,
+"width": 207,
+"height": 771,
+"title": {
+"en": "Remi cabin",
+"fr": "Cabine de Remi"
+}
+},
+{
+"name": "C_ZIEG",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 186,
+"y": 367,
+"width": 115,
+"height": 257,
+"title": {
+"en": "Zieg cabin",
+"fr": "Cabine de Zieg"
+}
+}
+]
 },
 {
 "sid": 12,
@@ -1026,8 +1102,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 1
+"zoom": 49,
+"nextID": 8
 },
 "layers": {
 "BACK": {
@@ -1117,7 +1193,117 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "C_DIO",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 116,
+"y": 151,
+"width": 163,
+"height": 790,
+"title": {
+"en": "Dio cabin",
+"fr": "Cabine de Dio"
 }
+},
+{
+"name": "C_ETHAN",
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 533,
+"y": 346,
+"width": 47,
+"height": 339,
+"title": {
+"en": "Ethan cabin",
+"fr": "Cabine de Ethan"
+}
+},
+{
+"name": "C_KISEL",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 387,
+"y": 281,
+"width": 81,
+"height": 503,
+"title": {
+"en": "Kisel cabin",
+"fr": "Cabine de Kisel"
+}
+},
+{
+"name": "C_LISHEI",
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 624,
+"y": 390,
+"width": 34,
+"height": 235,
+"title": {
+"en": "Li Shei cabin",
+"fr": "Cabine de Li Shei"
+}
+},
+{
+"name": "C_HERO",
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 838,
+"y": 226,
+"width": 108,
+"height": 780,
+"title": {
+"en": "Your cabin",
+"fr": "Votre cabine"
+}
+},
+{
+"name": "RESTAU",
+"id": 7,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 694,
+"y": 406,
+"width": 90,
+"height": 198,
+"title": {
+"en": "Restaurant ",
+"fr": "Restaurant"
+}
+}
+]
 },
 {
 "sid": 14,
@@ -1125,8 +1311,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 1,
+"zoom": 49,
+"nextID": 2,
 "x": -147,
 "y": 24
 },
@@ -1218,7 +1404,27 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "SORTIE_ANNIE",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 522,
+"y": 371,
+"width": 122,
+"height": 245,
+"title": {
+"en": "Exit",
+"fr": "Sortir"
 }
+}
+]
 },
 {
 "sid": 16,
@@ -1226,8 +1432,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 2
+"zoom": 49,
+"nextID": 4
 },
 "layers": {
 "BACK": {
@@ -1317,7 +1523,27 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "SORTIE_DIO",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 533,
+"y": 369,
+"width": 122,
+"height": 245,
+"title": {
+"en": "Exit",
+"fr": "Sortir"
 }
+}
+]
 },
 {
 "sid": 18,
@@ -1325,8 +1551,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 1
+"zoom": 49,
+"nextID": 2
 },
 "layers": {
 "BACK": {
@@ -1416,7 +1642,27 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "SORTIE_ETHAN",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 522,
+"y": 371,
+"width": 122,
+"height": 245,
+"title": {
+"en": "Exit",
+"fr": "Sortir"
 }
+}
+]
 },
 {
 "sid": 20,
@@ -1424,8 +1670,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 1
+"zoom": 49,
+"nextID": 2
 },
 "layers": {
 "BACK": {
@@ -1515,7 +1761,27 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "SORTIE_KISEL",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 522,
+"y": 371,
+"width": 122,
+"height": 245,
+"title": {
+"en": "Exit",
+"fr": "Sortir"
 }
+}
+]
 },
 {
 "sid": 22,
@@ -1524,7 +1790,7 @@
 "light_ambient": -1,
 "light_blur": -1,
 "zoom": 49,
-"nextID": 1
+"nextID": 2
 },
 "layers": {
 "BACK": {
@@ -1614,7 +1880,27 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "SORTIE_LISHEI",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 522,
+"y": 371,
+"width": 122,
+"height": 245,
+"title": {
+"en": "Exit",
+"fr": "Sortir"
 }
+}
+]
 },
 {
 "sid": 24,
@@ -1622,8 +1908,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 1
+"zoom": 49,
+"nextID": 2
 },
 "layers": {
 "BACK": {
@@ -1713,7 +1999,27 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "SORTIE_HERO",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 522,
+"y": 371,
+"width": 122,
+"height": 245,
+"title": {
+"en": "Exit",
+"fr": "Sortir"
 }
+}
+]
 },
 {
 "sid": 26,
@@ -1721,8 +2027,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 1
+"zoom": 49,
+"nextID": 2
 },
 "layers": {
 "BACK": {
@@ -1812,7 +2118,27 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "SORTIE_REMI",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 522,
+"y": 371,
+"width": 122,
+"height": 245,
+"title": {
+"en": "Exit",
+"fr": "Sortir"
 }
+}
+]
 },
 {
 "sid": 28,
@@ -1821,7 +2147,7 @@
 "light_ambient": -1,
 "light_blur": -1,
 "zoom": 49,
-"nextID": 1
+"nextID": 2
 },
 "layers": {
 "BACK": {
@@ -1911,7 +2237,27 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "SORTIE_ZIEG",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 522,
+"y": 371,
+"width": 122,
+"height": 245,
+"title": {
+"en": "Exit",
+"fr": "Sortir"
 }
+}
+]
 },
 {
 "sid": 30,
@@ -1919,8 +2265,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 1
+"zoom": 49,
+"nextID": 2
 },
 "layers": {
 "BACK": {
@@ -2010,7 +2356,27 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
+},
+"labels": [
+{
+"name": "SORTIE_TOILETTE",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 410,
+"y": 281,
+"width": 216,
+"height": 467,
+"title": {
+"en": "Exit",
+"fr": "Sortir"
 }
+}
+]
 }
 ],
 "objects": [

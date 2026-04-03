@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 52,
-"x": 594,
-"y": 435,
+"x": 491,
+"y": 593,
 "boxes": [
 {
 "type": 257,
@@ -532,7 +532,7 @@
 },
 {
 "sid": 15,
-"uid": "L_CABINE_PASSAGER_1",
+"uid": "L_CABINE_ANNIE",
 "graph": {
 "board": {
 "nextid": 3,
@@ -553,7 +553,7 @@
 },
 {
 "sid": 17,
-"uid": "L_CABINE_PASSAGER_2",
+"uid": "L_CABINE_DIO",
 "graph": {
 "board": {
 "nextid": 3,
@@ -574,7 +574,7 @@
 },
 {
 "sid": 19,
-"uid": "L_CABINE_PASSAGER_3",
+"uid": "L_CABINE_ETHAN",
 "graph": {
 "board": {
 "nextid": 3,
@@ -595,7 +595,7 @@
 },
 {
 "sid": 21,
-"uid": "L_CABINE_PASSAGER_4",
+"uid": "L_CABINE_KISEL",
 "graph": {
 "board": {
 "nextid": 3,
@@ -616,7 +616,7 @@
 },
 {
 "sid": 23,
-"uid": "L_CABINE_PASSAGER_5",
+"uid": "L_CABINE_LI_SHEI",
 "graph": {
 "board": {
 "nextid": 3,
@@ -637,7 +637,7 @@
 },
 {
 "sid": 25,
-"uid": "L_CABINE_VIP_1",
+"uid": "L_CABINE_HERO",
 "graph": {
 "board": {
 "nextid": 3,
@@ -658,7 +658,7 @@
 },
 {
 "sid": 27,
-"uid": "L_CABINE_VIP_2",
+"uid": "L_CABINE_REMI",
 "graph": {
 "board": {
 "nextid": 3,
@@ -679,7 +679,7 @@
 },
 {
 "sid": 29,
-"uid": "L_CABINE_VIP_3",
+"uid": "L_CABINE_ZIEG",
 "graph": {
 "board": {
 "nextid": 3,
@@ -1071,24 +1071,20 @@
 },
 {
 "sid": 14,
-"uid": "S_CABINE_PASSAGER_1",
+"uid": "S_CABINE_ANNIE",
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
 "zoom": 48,
-"nextID": 1
+"nextID": 1,
+"x": -31,
+"y": 53
 },
 "layers": {
 "BACK": {
 "opacity_min": 100,
 "opacity_max": 100,
-"opacity_speed": 100,
-"image": {
-"aid": "c8e1dca5deeafed0"
-},
-"texture": {
-"aid": "be3cdc1f06548620"
-}
+"opacity_speed": 100
 },
 "MA": {
 "speed_x": 100,
@@ -1158,7 +1154,7 @@
 },
 {
 "sid": 16,
-"uid": "S_CABINE_PASSAGER_2",
+"uid": "S_CABINE_DIO",
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
@@ -1245,7 +1241,7 @@
 },
 {
 "sid": 18,
-"uid": "S_CABINE_PASSAGER_3",
+"uid": "S_CABINE_ETHAN",
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
@@ -1332,7 +1328,7 @@
 },
 {
 "sid": 20,
-"uid": "S_CABINE_PASSAGER_4",
+"uid": "S_CABINE_KISEL",
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
@@ -1419,7 +1415,7 @@
 },
 {
 "sid": 22,
-"uid": "S_CABINE_PASSAGER_5",
+"uid": "S_CABINE_LI_SHEI",
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
@@ -1506,7 +1502,7 @@
 },
 {
 "sid": 24,
-"uid": "S_CABINE_VIP_1",
+"uid": "S_CABINE_HERO",
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
@@ -1593,7 +1589,7 @@
 },
 {
 "sid": 26,
-"uid": "S_CABINE_VIP_2",
+"uid": "S_CABINE_REMI",
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
@@ -1680,7 +1676,7 @@
 },
 {
 "sid": 28,
-"uid": "S_CABINE_VIP_3",
+"uid": "S_CABINE_ZIEG",
 "content": {
 "light_ambient": -1,
 "light_blur": -1,

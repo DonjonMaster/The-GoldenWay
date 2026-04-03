@@ -13,8 +13,8 @@
 },
 "name": "The_GoldenWay",
 "version": "1.0.0",
-"width": "1920",
-"height": "1080",
+"width": "1024",
+"height": "1024",
 "label_color": "FFFFFF",
 "font_color_menu1": "FFFFFF",
 "font_color_menu2": "57E657",
@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 52,
-"x": 491,
-"y": 593,
+"x": 702,
+"y": 722,
 "boxes": [
 {
 "type": 257,
@@ -727,7 +727,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1
 },
 "layers": {
@@ -736,10 +736,22 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "7c8c584b44eda690"
+"aid": "c417a28b3bb60960"
 },
 "texture": {
-"aid": "b0dd19a5478c9cdb"
+"width": 2048,
+"height": 2048,
+"rects": [
+{
+"w": 2048,
+"h": 2048
+}
+],
+"textures": [
+{
+"aid": "fb98439f436deaed"
+}
+]
 }
 },
 "MA": {
@@ -814,7 +826,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1
 },
 "layers": {
@@ -823,10 +835,22 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "d4710fb205d289a0"
+"aid": "2d93f21cbba44bd3"
 },
 "texture": {
-"aid": "8dd339d807b5264f"
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "37f361beccf80529"
+}
+]
 }
 },
 "MA": {
@@ -901,7 +925,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1
 },
 "layers": {
@@ -910,10 +934,22 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "22a0c2c96a11b393"
+"aid": "12cfcdb6299b8d57"
 },
 "texture": {
-"aid": "1a25bfdbfeca454a"
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "3b8f456119d1f493"
+}
+]
 }
 },
 "MA": {
@@ -988,7 +1024,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1
 },
 "layers": {
@@ -997,10 +1033,22 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "ef28d0b5090f6b7e"
+"aid": "bb21c34b0fa658cb"
 },
 "texture": {
-"aid": "93325ec2ae1c1b79"
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "c7e4fe5ad8a91e0d"
+}
+]
 }
 },
 "MA": {
@@ -1075,7 +1123,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1,
 "x": -147,
 "y": 24
@@ -1084,7 +1132,25 @@
 "BACK": {
 "opacity_min": 100,
 "opacity_max": 100,
-"opacity_speed": 100
+"opacity_speed": 100,
+"image": {
+"aid": "7bee03633b0acc01"
+},
+"texture": {
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "3673744eb0e38736"
+}
+]
+}
 },
 "MA": {
 "speed_x": 100,
@@ -1158,14 +1224,32 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 43,
+"zoom": 49,
 "nextID": 2
 },
 "layers": {
 "BACK": {
 "opacity_min": 100,
 "opacity_max": 100,
-"opacity_speed": 100
+"opacity_speed": 100,
+"image": {
+"aid": "50325efc3b3391cb"
+},
+"texture": {
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "e03f0e14cfc906ca"
+}
+]
+}
 },
 "MA": {
 "speed_x": 100,
@@ -1239,7 +1323,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1
 },
 "layers": {
@@ -1248,10 +1332,22 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "488eb5f7377a12ef"
+"aid": "3f489e9c06deaa9f"
 },
 "texture": {
-"aid": "872ac86ef55fa26a"
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "f2bf7aabf3a1af31"
+}
+]
 }
 },
 "MA": {
@@ -1326,7 +1422,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1
 },
 "layers": {
@@ -1335,10 +1431,22 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "3d86e40860caf5b2"
+"aid": "ea96331e8289083f"
 },
 "texture": {
-"aid": "5fcc61852b042f08"
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "c40bcd8dbb0c2750"
+}
+]
 }
 },
 "MA": {
@@ -1413,7 +1521,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1
 },
 "layers": {
@@ -1422,10 +1530,22 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "f9acd5491e7ce2a2"
+"aid": "eab557b66235dfd3"
 },
 "texture": {
-"aid": "14d7a8c67aaa9809"
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "682aaca6fba6e2a8"
+}
+]
 }
 },
 "MA": {
@@ -1500,7 +1620,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1
 },
 "layers": {
@@ -1509,10 +1629,22 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "8b6ed7a169039113"
+"aid": "cfd194abaf18ab65"
 },
 "texture": {
-"aid": "7ba24215c27b9b74"
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "7f3ce28318996a20"
+}
+]
 }
 },
 "MA": {
@@ -1587,7 +1719,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1
 },
 "layers": {
@@ -1596,10 +1728,22 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "d8bb16ff43c3c6d8"
+"aid": "768400069b355f9e"
 },
 "texture": {
-"aid": "318d8f69c5c3378f"
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "b445553885cd8a77"
+}
+]
 }
 },
 "MA": {
@@ -1674,7 +1818,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1
 },
 "layers": {
@@ -1683,10 +1827,22 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "9d3360d5e76cb383"
+"aid": "b2d4c113e53b9685"
 },
 "texture": {
-"aid": "48d4af4b57f36b62"
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "ae1f04f1ed288d7d"
+}
+]
 }
 },
 "MA": {
@@ -1761,7 +1917,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 49,
 "nextID": 1
 },
 "layers": {
@@ -1770,10 +1926,22 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "55cd78dd0697f26b"
+"aid": "24ae2d6961acdd26"
 },
 "texture": {
-"aid": "90542632460cadb9"
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "0f9ec95106aba2f6"
+}
+]
 }
 },
 "MA": {

@@ -727,8 +727,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
-"nextID": 1
+"zoom": 50,
+"nextID": 1,
+"x": -342,
+"y": -48
 },
 "layers": {
 "BACK": {
@@ -736,20 +738,20 @@
 "opacity_max": 100,
 "opacity_speed": 100,
 "image": {
-"aid": "c417a28b3bb60960"
+"aid": "5d6e1d377d897599"
 },
 "texture": {
-"width": 2048,
-"height": 2048,
+"width": 1024,
+"height": 1024,
 "rects": [
 {
-"w": 2048,
-"h": 2048
+"w": 1024,
+"h": 1024
 }
 ],
 "textures": [
 {
-"aid": "fb98439f436deaed"
+"aid": "8dd71c9cae56fe68"
 }
 ]
 }
@@ -1024,7 +1026,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
+"zoom": 50,
 "nextID": 1
 },
 "layers": {
@@ -1123,7 +1125,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
+"zoom": 50,
 "nextID": 1,
 "x": -147,
 "y": 24
@@ -1224,7 +1226,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
+"zoom": 50,
 "nextID": 2
 },
 "layers": {
@@ -1323,7 +1325,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
+"zoom": 50,
 "nextID": 1
 },
 "layers": {
@@ -1422,7 +1424,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
+"zoom": 50,
 "nextID": 1
 },
 "layers": {
@@ -1620,7 +1622,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
+"zoom": 50,
 "nextID": 1
 },
 "layers": {
@@ -1719,7 +1721,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
+"zoom": 50,
 "nextID": 1
 },
 "layers": {
@@ -1917,7 +1919,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
+"zoom": 50,
 "nextID": 1
 },
 "layers": {

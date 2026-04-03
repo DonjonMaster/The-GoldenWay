@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 52,
-"x": 682,
-"y": 493,
+"x": 702,
+"y": 722,
 "boxes": [
 {
 "type": 257,
@@ -356,7 +356,7 @@
 {
 "type": 263,
 "id": 42,
-"name": "RÃ‰COLTER LES INGRÃ‰DIENTS",
+"name": "RÉCOLTER LES INGRÉDIENTS",
 "resize": true,
 "width": 192,
 "height": 337,
@@ -963,25 +963,6 @@
 "opacity_speed": 100
 }
 },
-"labels": [
-{
-"name": "VIP",
-"id": 1,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 545,
-"y": 355,
-"width": 98,
-"height": 202,
-"title": {
-"en": "VIP wagon",
-"fr": "Wagon VIP"
-}
-}
 "instances": [
 {
 "name": "ESAA_PRISTI",
@@ -1221,63 +1202,7 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
-},
-"labels": [
-{
-"name": "C_ANNIE",
-"id": 1,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 512,
-"y": 275,
-"width": 119,
-"height": 504,
-"title": {
-"en": "Annie cabin",
-"fr": "Cabine de Annie"
 }
-},
-{
-"name": "C_REMI",
-"id": 2,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 722,
-"y": 165,
-"width": 207,
-"height": 771,
-"title": {
-"en": "Remi cabin",
-"fr": "Cabine de Remi"
-}
-},
-{
-"name": "C_ZIEG",
-"id": 3,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 186,
-"y": 367,
-"width": 115,
-"height": 257,
-"title": {
-"en": "Zieg cabin",
-"fr": "Cabine de Zieg"
-}
-}
-]
 },
 {
 "sid": 12,
@@ -1285,8 +1210,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
-"nextID": 8
+"zoom": 50,
+"nextID": 1
 },
 "layers": {
 "BACK": {
@@ -1376,117 +1301,7 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
-},
-"labels": [
-{
-"name": "C_DIO",
-"id": 1,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 116,
-"y": 151,
-"width": 163,
-"height": 790,
-"title": {
-"en": "Dio cabin",
-"fr": "Cabine de Dio"
 }
-},
-{
-"name": "C_ETHAN",
-"id": 2,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 533,
-"y": 346,
-"width": 47,
-"height": 339,
-"title": {
-"en": "Ethan cabin",
-"fr": "Cabine de Ethan"
-}
-},
-{
-"name": "C_KISEL",
-"id": 3,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 387,
-"y": 281,
-"width": 81,
-"height": 503,
-"title": {
-"en": "Kisel cabin",
-"fr": "Cabine de Kisel"
-}
-},
-{
-"name": "C_LISHEI",
-"id": 4,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 624,
-"y": 390,
-"width": 34,
-"height": 235,
-"title": {
-"en": "Li Shei cabin",
-"fr": "Cabine de Li Shei"
-}
-},
-{
-"name": "C_HERO",
-"id": 5,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 838,
-"y": 226,
-"width": 108,
-"height": 780,
-"title": {
-"en": "Your cabin",
-"fr": "Votre cabine"
-}
-},
-{
-"name": "RESTAU",
-"id": 7,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 694,
-"y": 406,
-"width": 90,
-"height": 198,
-"title": {
-"en": "Restaurant ",
-"fr": "Restaurant"
-}
-}
-]
 },
 {
 "sid": 14,
@@ -1494,8 +1309,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
-"nextID": 2,
+"zoom": 50,
+"nextID": 1,
 "x": -147,
 "y": 24
 },
@@ -1587,27 +1402,7 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
-},
-"labels": [
-{
-"name": "SORTIE_ANNIE",
-"id": 1,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 522,
-"y": 371,
-"width": 122,
-"height": 245,
-"title": {
-"en": "Exit",
-"fr": "Sortir"
 }
-}
-]
 },
 {
 "sid": 16,
@@ -1709,18 +1504,6 @@
 "opacity_speed": 100
 }
 },
-"labels": [
-{
-"name": "SORTIE_DIO",
-"id": 3,
-"x": 533,
-"y": 369,
-"width": 122,
-"height": 245,
-"title": {
-"en": "Exit",
-"fr": "Sortir"
-}
 "instances": [
 {
 "name": "DIO_SCESE",
@@ -1913,17 +1696,6 @@
 "opacity_speed": 100
 }
 },
-"labels": [
-{
-"name": "SORTIE_ETHAN",
-"x": 522,
-"y": 371,
-"width": 122,
-"height": 245,
-"title": {
-"en": "Exit",
-"fr": "Sortir"
-}
 "instances": [
 {
 "name": "ETHAN_AULE",
@@ -2066,25 +1838,6 @@
 "opacity_speed": 100
 }
 },
-"labels": [
-{
-"name": "SORTIE_KISEL",
-"id": 1,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 522,
-"y": 371,
-"width": 122,
-"height": 245,
-"title": {
-"en": "Exit",
-"fr": "Sortir"
-}
-}
 "instances": [
 {
 "name": "KISEL_PATRON",
@@ -2236,17 +1989,6 @@
 "opacity_speed": 100
 }
 },
-"labels": [
-{
-"name": "SORTIE_LISHEI",
-"x": 522,
-"y": 371,
-"width": 122,
-"height": 245,
-"title": {
-"en": "Exit",
-"fr": "Sortir"
-}
 "instances": [
 {
 "name": "LI_SHEIN_TAN",
@@ -2386,27 +2128,7 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
-},
-"labels": [
-{
-"name": "SORTIE_HERO",
-"id": 1,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 522,
-"y": 371,
-"width": 122,
-"height": 245,
-"title": {
-"en": "Exit",
-"fr": "Sortir"
 }
-}
-]
 },
 {
 "sid": 26,
@@ -2414,8 +2136,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
-"nextID": 2
+"zoom": 50,
+"nextID": 1
 },
 "layers": {
 "BACK": {
@@ -2505,27 +2227,7 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
-},
-"labels": [
-{
-"name": "SORTIE_REMI",
-"id": 1,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 522,
-"y": 371,
-"width": 122,
-"height": 245,
-"title": {
-"en": "Exit",
-"fr": "Sortir"
 }
-}
-]
 },
 {
 "sid": 28,
@@ -2624,27 +2326,7 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
-},
-"labels": [
-{
-"name": "SORTIE_ZIEG",
-"id": 1,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 522,
-"y": 371,
-"width": 122,
-"height": 245,
-"title": {
-"en": "Exit",
-"fr": "Sortir"
 }
-}
-]
 },
 {
 "sid": 30,
@@ -2652,8 +2334,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 49,
-"nextID": 2
+"zoom": 50,
+"nextID": 1
 },
 "layers": {
 "BACK": {
@@ -2743,27 +2425,7 @@
 "opacity_max": 100,
 "opacity_speed": 100
 }
-},
-"labels": [
-{
-"name": "SORTIE_TOILETTE",
-"id": 1,
-"tags": [
-"",
-"",
-"",
-""
-],
-"x": 410,
-"y": 281,
-"width": 216,
-"height": 467,
-"title": {
-"en": "Exit",
-"fr": "Sortir"
 }
-}
-]
 }
 ],
 "objects": [
@@ -4291,8 +3953,8 @@
 "content": {
 "bbox": true,
 "title": {
-"en": "RÃ©mi PLEGIE",
-"fr": "RÃ©mi PLEGIE"
+"en": "Rémi PLEGIE",
+"fr": "Rémi PLEGIE"
 }
 },
 "icons": [
@@ -4846,7 +4508,7 @@
 }
 ],
 "text": {
-"fr": "Il fait trÃ¨s chaud iÃ§i, et je commence Ã  avoir soif.",
+"fr": "Il fait très chaud içi, et je commence à avoir soif.",
 "en": "It's very hot in here, and I'm starting to get thirsty."
 },
 "speaker": "O_RHALE_BAULE",
@@ -4907,7 +4569,7 @@
 {
 "id": 13,
 "text": {
-"fr": "MerÃ§i. Tenez, voici la clÃ© du wagon restaurant. Vous en aurez besoin pour votre enquÃªte.",
+"fr": "Merçi. Tenez, voici la clé du wagon restaurant. Vous en aurez besoin pour votre enquête.",
 "en": "Thank you. Here, take this. It's key for the dining car. You might need it for your case."
 },
 "speaker": "O_RHALE_BAULE",
@@ -4928,7 +4590,7 @@
 }
 ],
 "text": {
-"fr": "Oui, voilÃ .",
+"fr": "Oui, voilà.",
 "en": "Yes, here."
 },
 "voice": {

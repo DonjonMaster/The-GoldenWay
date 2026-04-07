@@ -213,7 +213,7 @@
 }
 },
 "meta": {
-"nextAssetID": 45
+"nextAssetID": 46
 }
 },
 "puzzle": {
@@ -5736,6 +5736,24 @@
 }
 },
 "nextID": 14
+}
+},
+{
+"sid": 45,
+"uid": "D_DIO_SCESE",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Ah Inspecteur ! Vous me devez une explication !"
+},
+"speaker": "O_DIO_SCESE"
+}
+]
+},
+"nextID": 2
 }
 }
 ]

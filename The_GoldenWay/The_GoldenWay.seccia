@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 52,
-"x": 632,
-"y": 389,
+"x": 723,
+"y": 433,
 "boxes": [
 {
 "type": 257,
@@ -1704,8 +1704,8 @@
 "",
 ""
 ],
-"x": -272,
-"y": 218,
+"x": 380,
+"y": 553,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -1742,7 +1742,11 @@
 "a": 100,
 "b": 100
 }
-]
+],
+"title": {
+"en": "Rhale BAULE",
+"fr": "Rhale BAULE"
+}
 },
 {
 "name": "BACK",
@@ -1808,8 +1812,8 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -1961,8 +1965,8 @@
 "",
 ""
 ],
-"x": -196,
-"y": 388,
+"x": 798,
+"y": 379,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -1988,7 +1992,11 @@
 {},
 {},
 {}
-]
+],
+"title": {
+"en": "Esaa PRISTI",
+"fr": "Esaa PRISTI"
+}
 },
 {
 "name": "TAURO_RELOUT",
@@ -2011,8 +2019,8 @@
 "",
 ""
 ],
-"x": 358,
-"y": 266,
+"x": 842,
+"y": 747,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -2038,7 +2046,11 @@
 {},
 {},
 {}
-]
+],
+"title": {
+"en": "Tauro RELOUT",
+"fr": "Tauro RELOUT"
+}
 },
 {
 "name": "REX_LAMER",
@@ -2050,8 +2062,8 @@
 "",
 ""
 ],
-"x": -446,
-"y": 39,
+"x": 345,
+"y": 736,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -2077,7 +2089,22 @@
 {},
 {},
 {}
-]
+],
+"depths": [
+{
+"a": 80,
+"b": 100
+},
+{
+"y": 1024,
+"a": 80,
+"b": 100
+}
+],
+"title": {
+"en": "Rex LAMER",
+"fr": "Rex LAMER"
+}
 },
 {
 "name": "HERO",
@@ -2089,8 +2116,8 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -2361,8 +2388,8 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -2667,8 +2694,8 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -2813,8 +2840,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 45,
-"nextID": 3,
+"zoom": 50,
+"nextID": 4,
 "x": -343,
 "y": 66
 },
@@ -2938,9 +2965,52 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"name": "ANNIE_MATION",
+"uid": "O_ANNIE_MATION",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 320,
+"y": 658,
+"parallax": 100,
+"title": {
+"en": "Annie MATION",
+"fr": "Annie MATION"
+},
 "opacity": 100,
 "light_ambient": 255,
 "light_diffuse": 16777215,
@@ -2975,7 +3045,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 40,
+"zoom": 50,
 "nextID": 7,
 "x": -305,
 "y": 8
@@ -3080,8 +3150,8 @@
 "",
 ""
 ],
-"x": -426,
-"y": 311,
+"x": 270,
+"y": 686,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -3107,7 +3177,11 @@
 {},
 {},
 {}
-]
+],
+"title": {
+"en": "Dio SCESE",
+"fr": "Dio SCESE"
+}
 },
 {
 "name": "HERO",
@@ -3119,8 +3193,8 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -3281,8 +3355,8 @@
 "",
 ""
 ],
-"x": -426,
-"y": 311,
+"x": 275,
+"y": 644,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -3308,7 +3382,11 @@
 {},
 {},
 {}
-]
+],
+"title": {
+"en": "Ethan AULE",
+"fr": "Ethan AULE"
+}
 },
 {
 "name": "HERO",
@@ -3320,8 +3398,8 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -3493,8 +3571,8 @@
 "",
 ""
 ],
-"x": -426,
-"y": 311,
+"x": 259,
+"y": 665,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -3520,7 +3598,11 @@
 {},
 {},
 {}
-]
+],
+"title": {
+"en": "Kisel PATRON",
+"fr": "Kisel PATRON"
+}
 },
 {
 "name": "HERO",
@@ -3532,8 +3614,8 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -3589,7 +3671,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 40,
+"zoom": 50,
 "nextID": 4,
 "x": -324,
 "y": 9
@@ -3694,8 +3776,8 @@
 "",
 ""
 ],
-"x": -426,
-"y": 311,
+"x": 275,
+"y": 643,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -3721,7 +3803,11 @@
 {},
 {},
 {}
-]
+],
+"title": {
+"en": "LiShei TAN",
+"fr": "LiShei TAN"
+}
 },
 {
 "name": "HERO",
@@ -3733,8 +3819,8 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -3915,8 +4001,8 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -3952,8 +4038,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 45,
-"nextID": 3,
+"zoom": 50,
+"nextID": 4,
 "x": -335,
 "y": 62
 },
@@ -4077,9 +4163,52 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"name": "REMI_PLEGIE",
+"uid": "O_REMI_PLEGIE",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 282,
+"y": 644,
+"parallax": 100,
+"title": {
+"en": "Remi PLEGIE",
+"fr": "Remi PLEGIE"
+},
 "opacity": 100,
 "light_ambient": 255,
 "light_diffuse": 16777215,
@@ -4114,8 +4243,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 45,
-"nextID": 3,
+"zoom": 50,
+"nextID": 4,
 "x": -344,
 "y": 39
 },
@@ -4239,9 +4368,52 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"name": "ZIEG_ARRETE",
+"uid": "O_ZIEG_ARRETE",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 330,
+"y": 548,
+"parallax": 100,
+"title": {
+"en": "Zieg ARRETE",
+"fr": "Zieg ARRETE"
+},
 "opacity": 100,
 "light_ambient": 255,
 "light_diffuse": 16777215,
@@ -4276,8 +4448,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 40,
-"nextID": 3,
+"zoom": 50,
+"nextID": 4,
 "x": -354,
 "y": -3
 },
@@ -4401,9 +4573,63 @@
 "",
 ""
 ],
-"x": 456,
-"y": 1003,
+"x": 1149,
+"y": 1338,
 "parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"name": "VOY_YAGER",
+"depths": [
+{
+"a": 80,
+"b": 100
+},
+{
+"y": 1024,
+"a": 80,
+"b": 100
+}
+],
+"uid": "O_VOY_YAGER",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 432,
+"y": 952,
+"parallax": 100,
+"title": {
+"en": "Voy YAGER",
+"fr": "Voy YAGER"
+},
 "opacity": 100,
 "light_ambient": 255,
 "light_diffuse": 16777215,
@@ -4439,8 +4665,10 @@
 "uid": "O_HERO",
 "content": {
 "bbox": true,
-"width": 120,
-"height": 100
+"width": 1376,
+"height": 768,
+"x": 693,
+"y": 335
 },
 "icons": [
 {},
@@ -4464,16 +4692,16 @@
 {
 "image": {
 "hi": {
-"aid": "1ead8d948a1103a0"
+"aid": "9fcb37ae23754a71"
 },
 "lo": {
-"aid": "d625eca1bd299835"
+"aid": "12e987ea235a5b40"
 }
 },
-"x": 11,
-"y": 20,
-"w": 103,
-"h": 79
+"x": 565,
+"y": 44,
+"w": 257,
+"h": 724
 }
 ]
 },
@@ -4569,18 +4797,18 @@
 "frames": [
 {
 "index2": -1,
-"w": 103,
-"h": 79
+"w": 257,
+"h": 724
 }
 ],
 "packs": [
 {
 "count": 1,
 "collider": {
-"aid": "782cf01fe88213f5"
+"aid": "ff309682c2daebec"
 },
 "texture": {
-"aid": "d4e93a83ef0f254b"
+"aid": "d521ea044ae16364"
 }
 }
 ]
@@ -4596,7 +4824,9 @@
 "fr": "Rhale BAULE"
 },
 "width": 1376,
-"height": 768
+"height": 768,
+"x": 650,
+"y": 335
 },
 "icons": [
 {},
@@ -4752,7 +4982,9 @@
 "fr": "Rex LAMER"
 },
 "width": 1376,
-"height": 768
+"height": 768,
+"x": 717,
+"y": 357
 },
 "icons": [
 {},
@@ -4908,7 +5140,9 @@
 "fr": "Esaa PRSITI"
 },
 "width": 1376,
-"height": 768
+"height": 768,
+"x": 736,
+"y": 337
 },
 "icons": [
 {},
@@ -5064,7 +5298,9 @@
 "fr": "Tauro RELOUT"
 },
 "width": 1376,
-"height": 768
+"height": 768,
+"x": 698,
+"y": 341
 },
 "icons": [
 {},
@@ -5220,7 +5456,9 @@
 "fr": "Kisel PATRON"
 },
 "width": 1376,
-"height": 768
+"height": 768,
+"x": 685,
+"y": 354
 },
 "icons": [
 {},
@@ -5376,7 +5614,9 @@
 "fr": "Dio SCESE"
 },
 "width": 1376,
-"height": 768
+"height": 768,
+"x": 696,
+"y": 375
 },
 "icons": [
 {},
@@ -5532,7 +5772,9 @@
 "fr": "Ethan AULE"
 },
 "width": 1376,
-"height": 768
+"height": 768,
+"x": 701,
+"y": 333
 },
 "icons": [
 {},
@@ -5688,7 +5930,9 @@
 "fr": "Li Shein TAN"
 },
 "width": 1376,
-"height": 768
+"height": 768,
+"x": 701,
+"y": 332
 },
 "icons": [
 {},
@@ -5842,7 +6086,11 @@
 "title": {
 "en": "Voy YAGER",
 "fr": "Voy YAGER"
-}
+},
+"width": 1376,
+"height": 768,
+"x": 644,
+"y": 435
 },
 "icons": [
 {},
@@ -5861,7 +6109,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "613b6236ec421a69"
+},
+"lo": {
+"aid": "8ec17006d7fc4dc2"
+}
+},
+"x": 225,
+"y": 245,
+"w": 937,
+"h": 441
+}
+]
 },
 {
 "name": "FRONT"
@@ -5950,7 +6214,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 937,
+"h": 441
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "89c976dd7d0662fc"
+},
+"texture": {
+"aid": "cc1d78e67f1b9e56"
+}
+}
 ]
+}
 },
 {
 "sid": 42,
@@ -5960,7 +6244,11 @@
 "title": {
 "en": "Rémi PLEGIE",
 "fr": "Rémi PLEGIE"
-}
+},
+"width": 1376,
+"height": 768,
+"x": 714,
+"y": 337
 },
 "icons": [
 {},
@@ -5979,7 +6267,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "ebd862c851032bd5"
+},
+"lo": {
+"aid": "6cdeb09853eebe21"
+}
+},
+"x": 564,
+"y": 51,
+"w": 325,
+"h": 717
+}
+]
 },
 {
 "name": "FRONT"
@@ -6068,7 +6372,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 325,
+"h": 717
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "7a358d4898178e37"
+},
+"texture": {
+"aid": "407bc4f41dd97c6e"
+}
+}
 ]
+}
 },
 {
 "sid": 43,
@@ -6078,7 +6402,11 @@
 "title": {
 "en": "Annie MATION",
 "fr": "Annie MATION"
-}
+},
+"width": 1376,
+"height": 768,
+"x": 699,
+"y": 327
 },
 "icons": [
 {},
@@ -6097,7 +6425,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "bc81d4153410a74f"
+},
+"lo": {
+"aid": "4b6e8cf07d2cebd4"
+}
+},
+"x": 527,
+"y": 46,
+"w": 332,
+"h": 722
+}
+]
 },
 {
 "name": "FRONT"
@@ -6186,7 +6530,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 332,
+"h": 722
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "4b27cb553520ea23"
+},
+"texture": {
+"aid": "255a54334bb60dd0"
+}
+}
 ]
+}
 },
 {
 "sid": 44,
@@ -6196,7 +6560,11 @@
 "title": {
 "en": "Zieg ARRETE",
 "fr": "Zieg ARRETE"
-}
+},
+"width": 1376,
+"height": 768,
+"x": 698,
+"y": 322
 },
 "icons": [
 {},
@@ -6215,7 +6583,23 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT"
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "9c80351e2855f409"
+},
+"lo": {
+"aid": "e8bee36f98a34b69"
+}
+},
+"x": 522,
+"y": 53,
+"w": 324,
+"h": 714
+}
+]
 },
 {
 "name": "FRONT"
@@ -6304,7 +6688,27 @@
 ],
 "loop_count": -1
 }
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 324,
+"h": 714
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "c04050d57c4e22e6"
+},
+"texture": {
+"aid": "52dec90306a7cc52"
+}
+}
 ]
+}
 },
 {
 "sid": 46,

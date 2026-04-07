@@ -2294,10 +2294,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 45,
+"zoom": 50,
 "nextID": 6,
-"x": -404,
-"y": 83
+"x": -274,
+"y": 168
 },
 "layers": {
 "BACK": {
@@ -2449,8 +2449,8 @@
 "",
 ""
 ],
-"x": 517,
-"y": 1021,
+"x": 671,
+"y": 1073,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -3001,8 +3001,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 20,
-"nextID": 3
+"zoom": 40,
+"nextID": 4,
+"x": -325,
+"y": 139
 },
 "layers": {
 "BACK": {
@@ -3111,6 +3113,47 @@
 "en": "Exit",
 "fr": "Sortie"
 }
+}
+],
+"instances": [
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 440,
+"y": 1044,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
 }
 ]
 },

@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 52,
-"x": 476,
-"y": 391,
+"x": 548,
+"y": 414,
 "boxes": [
 {
 "type": 257,
@@ -2294,10 +2294,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 5,
-"x": -337,
-"y": 141
+"zoom": 45,
+"nextID": 6,
+"x": -404,
+"y": 83
 },
 "layers": {
 "BACK": {
@@ -2449,8 +2449,8 @@
 "",
 ""
 ],
-"x": 854,
-"y": 618,
+"x": 517,
+"y": 1021,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,

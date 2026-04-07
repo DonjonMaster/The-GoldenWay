@@ -213,14 +213,14 @@
 }
 },
 "meta": {
-"nextAssetID": 46
+"nextAssetID": 48
 }
 },
 "puzzle": {
 "board": {
 "nextid": 52,
-"x": 548,
-"y": 414,
+"x": 632,
+"y": 389,
 "boxes": [
 {
 "type": 257,
@@ -451,7 +451,54 @@
 "uid": "L_LOCOMOTIVE",
 "graph": {
 "board": {
-"nextid": 3
+"nextid": 11,
+"boxes": [
+{
+"type": 1287,
+"id": 5,
+"x": 431,
+"y": 274,
+"plugs": [
+{
+"id": 6,
+"type": 3,
+"trgs": [
+8
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_LOCOMOTIVE",
+"instance": "BACK"
+},
+{
+"type": 775,
+"id": 7,
+"x": 602,
+"y": 279,
+"plugs": [
+{
+"id": 8,
+"type": 2
+},
+{
+"id": 9,
+"type": 3
+}
+],
+"scene": "S_WAGON_PASSAGER"
+},
+{
+"type": 256,
+"id": 10,
+"resize": true,
+"width": 465,
+"height": 185,
+"x": 351,
+"y": 202,
+"name": "BACK"
+}
+]
 }
 }
 },
@@ -460,7 +507,7 @@
 "uid": "L_WAGON_RESTAURANT",
 "graph": {
 "board": {
-"nextid": 36,
+"nextid": 42,
 "boxes": [
 {
 "type": 256,
@@ -506,6 +553,51 @@
 }
 ],
 "scene": "S_WAGON_VIP"
+},
+{
+"type": 1287,
+"id": 36,
+"x": 495,
+"y": 413,
+"plugs": [
+{
+"id": 37,
+"type": 3,
+"trgs": [
+39
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_RESTAURANT",
+"instance": "BACK"
+},
+{
+"type": 775,
+"id": 38,
+"x": 666,
+"y": 418,
+"plugs": [
+{
+"id": 39,
+"type": 2
+},
+{
+"id": 40,
+"type": 3
+}
+],
+"scene": "S_WAGON_PASSAGER"
+},
+{
+"type": 256,
+"id": 41,
+"resize": true,
+"width": 465,
+"height": 185,
+"x": 415,
+"y": 341,
+"name": "BACK"
 }
 ]
 }
@@ -516,7 +608,7 @@
 "uid": "L_WAGON_VIP",
 "graph": {
 "board": {
-"nextid": 31,
+"nextid": 37,
 "boxes": [
 {
 "type": 1285,
@@ -591,8 +683,8 @@
 {
 "type": 1285,
 "id": 14,
-"x": 489,
-"y": 364,
+"x": 480,
+"y": 384,
 "plugs": [
 {
 "id": 15,
@@ -609,8 +701,8 @@
 {
 "type": 775,
 "id": 16,
-"x": 688,
-"y": 375,
+"x": 697,
+"y": 388,
 "plugs": [
 {
 "id": 17,
@@ -632,6 +724,51 @@
 "x": 421,
 "y": 182,
 "name": "CABINE VIP"
+},
+{
+"type": 1287,
+"id": 31,
+"x": 491,
+"y": 579,
+"plugs": [
+{
+"id": 32,
+"type": 3,
+"trgs": [
+34
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_VIP",
+"instance": "BACK"
+},
+{
+"type": 775,
+"id": 33,
+"x": 662,
+"y": 584,
+"plugs": [
+{
+"id": 34,
+"type": 2
+},
+{
+"id": 35,
+"type": 3
+}
+],
+"scene": "S_WAGON_RESTAURANT"
+},
+{
+"type": 256,
+"id": 36,
+"resize": true,
+"width": 465,
+"height": 185,
+"x": 411,
+"y": 507,
+"name": "BACK"
 }
 ]
 }
@@ -642,7 +779,7 @@
 "uid": "L_WAGON_PASSAGER",
 "graph": {
 "board": {
-"nextid": 46,
+"nextid": 57,
 "boxes": [
 {
 "type": 1285,
@@ -701,7 +838,7 @@
 "type": 775,
 "id": 22,
 "x": 488,
-"y": 327,
+"y": 311,
 "plugs": [
 {
 "id": 23,
@@ -736,7 +873,7 @@
 "type": 775,
 "id": 27,
 "x": 479,
-"y": 406,
+"y": 385,
 "plugs": [
 {
 "id": 28,
@@ -770,7 +907,7 @@
 {
 "type": 775,
 "id": 32,
-"x": 481,
+"x": 468,
 "y": 479,
 "plugs": [
 {
@@ -863,6 +1000,86 @@
 }
 ],
 "scene": "S_WAGON_RESTAURANT"
+},
+{
+"type": 1287,
+"id": 46,
+"x": 757,
+"y": 223,
+"plugs": [
+{
+"id": 47,
+"type": 3,
+"trgs": [
+49
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_PASSAGER",
+"instance": "BACK"
+},
+{
+"type": 775,
+"id": 48,
+"x": 946,
+"y": 228,
+"plugs": [
+{
+"id": 49,
+"type": 2
+},
+{
+"id": 50,
+"type": 3
+}
+],
+"scene": "S_LOCOMOTIVE"
+},
+{
+"type": 256,
+"id": 51,
+"resize": true,
+"width": 475,
+"height": 229,
+"x": 695,
+"y": 151,
+"name": "BACK"
+},
+{
+"type": 1287,
+"id": 52,
+"x": 755,
+"y": 307,
+"plugs": [
+{
+"id": 53,
+"type": 3,
+"trgs": [
+55
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_PASSAGER",
+"instance": "TOILETTE"
+},
+{
+"type": 775,
+"id": 54,
+"x": 944,
+"y": 312,
+"plugs": [
+{
+"id": 55,
+"type": 2
+},
+{
+"id": 56,
+"type": 3
+}
+],
+"scene": "S_TOILETTES"
 }
 ]
 }
@@ -1382,10 +1599,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 20,
-"nextID": 2,
-"x": -342,
-"y": -48
+"zoom": 50,
+"nextID": 6,
+"x": -325,
+"y": -42
 },
 "layers": {
 "BACK": {
@@ -1487,8 +1704,112 @@
 "",
 ""
 ],
-"x": -418,
-"y": 226,
+"x": -272,
+"y": 218,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 100,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+]
+},
+{
+"name": "BACK",
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+],
+"uid": "O_BACK",
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 100,
+"y": 900,
+"parallax": 100,
+"title": {
+"en": "Back",
+"fr": "Retour"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 456,
+"y": 1003,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -1525,9 +1846,9 @@
 "light_ambient": -1,
 "light_blur": -1,
 "zoom": 50,
-"nextID": 4,
-"x": -359,
-"y": 71
+"nextID": 8,
+"x": -366,
+"y": 31
 },
 "layers": {
 "BACK": {
@@ -1640,8 +1961,8 @@
 "",
 ""
 ],
-"x": -206,
-"y": 398,
+"x": -196,
+"y": 388,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -1690,8 +2011,8 @@
 "",
 ""
 ],
-"x": 80,
-"y": 368,
+"x": 358,
+"y": 266,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -1729,8 +2050,8 @@
 "",
 ""
 ],
-"x": -426,
-"y": 311,
+"x": -446,
+"y": 39,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -1757,6 +2078,119 @@
 {},
 {}
 ]
+},
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 456,
+"y": 1003,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"name": "BACK",
+"uid": "O_BACK",
+"id": 7,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 100,
+"y": 900,
+"parallax": 100,
+"title": {
+"en": "Back",
+"fr": "Retour"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
+}
+],
+"labels": [
+{
+"name": "SORTIE",
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 546,
+"y": 358,
+"width": 102,
+"height": 204,
+"title": {
+"en": "VIP Wagon",
+"fr": "Wagon VIP"
+}
 }
 ]
 },
@@ -1767,7 +2201,9 @@
 "light_ambient": -1,
 "light_blur": -1,
 "zoom": 50,
-"nextID": 5
+"nextID": 8,
+"x": -353,
+"y": 101
 },
 "layers": {
 "BACK": {
@@ -1913,6 +2349,101 @@
 "fr": "Cabine de Zieg"
 }
 }
+],
+"instances": [
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 456,
+"y": 1003,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"name": "BACK",
+"uid": "O_BACK",
+"id": 7,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 100,
+"y": 900,
+"parallax": 100,
+"title": {
+"en": "Back",
+"fr": "Retour"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
+}
 ]
 },
 {
@@ -1922,9 +2453,9 @@
 "light_ambient": -1,
 "light_blur": -1,
 "zoom": 50,
-"nextID": 10,
-"x": -188,
-"y": 7
+"nextID": 15,
+"x": -340,
+"y": 17
 },
 "layers": {
 "BACK": {
@@ -2025,10 +2556,10 @@
 "",
 ""
 ],
-"x": 112,
-"y": 154,
-"width": 180,
-"height": 866,
+"x": 128,
+"y": 148,
+"width": 152,
+"height": 686,
 "title": {
 "en": "Kissel's cabin",
 "fr": "Cabine de Kissel"
@@ -2099,8 +2630,8 @@
 ],
 "x": 820,
 "y": 249,
-"width": 113,
-"height": 757,
+"width": 97,
+"height": 581,
 "title": {
 "en": "Your cabin",
 "fr": "Ta cabine"
@@ -2129,17 +2660,126 @@
 {
 "name": "HERO",
 "uid": "O_HERO",
-"id": 9,
+"id": 11,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"x": 556,
-"y": 798,
+"x": 456,
+"y": 1003,
 "parallax": 100,
 "opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"name": "BACK",
+"uid": "O_BACK",
+"id": 12,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 100,
+"y": 900,
+"parallax": 100,
+"title": {
+"en": "Locomotive",
+"fr": "Locomotive"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
+},
+{
+"name": "TOILETTE",
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+],
+"uid": "O_TOILETTE",
+"id": 14,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 911,
+"y": 900,
+"parallax": 100,
+"title": {
+"en": "Toilet",
+"fr": "Toilette"
+},
+"opacity": 100,
+"angle": 180,
 "light_ambient": 255,
 "light_diffuse": 16777215,
 "light_angle": 30,
@@ -2173,10 +2813,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 20,
-"nextID": 2,
-"x": -442,
-"y": -230
+"zoom": 45,
+"nextID": 3,
+"x": -343,
+"y": 66
 },
 "layers": {
 "BACK": {
@@ -2286,6 +2926,47 @@
 "fr": "Sortie"
 }
 }
+],
+"instances": [
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 456,
+"y": 1003,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
 ]
 },
 {
@@ -2294,10 +2975,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 6,
-"x": -274,
-"y": 168
+"zoom": 40,
+"nextID": 7,
+"x": -305,
+"y": 8
 },
 "layers": {
 "BACK": {
@@ -2430,27 +3111,16 @@
 },
 {
 "name": "HERO",
-"depths": [
-{
-"a": 100,
-"b": 100
-},
-{
-"y": 1024,
-"a": 100,
-"b": 100
-}
-],
 "uid": "O_HERO",
-"id": 3,
+"id": 6,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"x": 671,
-"y": 1073,
+"x": 456,
+"y": 1003,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -2506,8 +3176,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 20,
-"nextID": 3,
+"zoom": 50,
+"nextID": 4,
 "x": -363,
 "y": 71
 },
@@ -2639,6 +3309,45 @@
 {},
 {}
 ]
+},
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 456,
+"y": 1003,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
 }
 ],
 "labels": [
@@ -2668,10 +3377,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 20,
-"nextID": 3,
-"x": -378,
-"y": 145
+"zoom": 50,
+"nextID": 4,
+"x": -342,
+"y": 61
 },
 "layers": {
 "BACK": {
@@ -2812,6 +3521,45 @@
 {},
 {}
 ]
+},
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 456,
+"y": 1003,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
 }
 ],
 "labels": [
@@ -2841,8 +3589,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 20,
-"nextID": 3
+"zoom": 40,
+"nextID": 4,
+"x": -324,
+"y": 9
 },
 "layers": {
 "BACK": {
@@ -2972,6 +3722,45 @@
 {},
 {}
 ]
+},
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 456,
+"y": 1003,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
 }
 ],
 "labels": [
@@ -3001,10 +3790,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 40,
-"nextID": 4,
-"x": -325,
-"y": 139
+"zoom": 50,
+"nextID": 5,
+"x": -305,
+"y": -22
 },
 "layers": {
 "BACK": {
@@ -3119,15 +3908,15 @@
 {
 "name": "HERO",
 "uid": "O_HERO",
-"id": 3,
+"id": 4,
 "tags": [
 "",
 "",
 "",
 ""
 ],
-"x": 440,
-"y": 1044,
+"x": 456,
+"y": 1003,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -3163,8 +3952,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 2
+"zoom": 45,
+"nextID": 3,
+"x": -335,
+"y": 62
 },
 "layers": {
 "BACK": {
@@ -3274,6 +4065,47 @@
 "fr": "Sortie"
 }
 }
+],
+"instances": [
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 456,
+"y": 1003,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
 ]
 },
 {
@@ -3282,8 +4114,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 20,
-"nextID": 2
+"zoom": 45,
+"nextID": 3,
+"x": -344,
+"y": 39
 },
 "layers": {
 "BACK": {
@@ -3393,6 +4227,47 @@
 "fr": "Sortie"
 }
 }
+],
+"instances": [
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 456,
+"y": 1003,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
 ]
 },
 {
@@ -3401,8 +4276,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 20,
-"nextID": 2
+"zoom": 40,
+"nextID": 3,
+"x": -354,
+"y": -3
 },
 "layers": {
 "BACK": {
@@ -3511,6 +4388,47 @@
 "en": "Exit",
 "fr": "Sortie"
 }
+}
+],
+"instances": [
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 456,
+"y": 1003,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
 }
 ]
 }
@@ -5387,6 +6305,318 @@
 "loop_count": -1
 }
 ]
+},
+{
+"sid": 46,
+"uid": "O_BACK",
+"content": {
+"bbox": true,
+"title": {
+"en": "Back",
+"fr": "Retour"
+},
+"width": 720,
+"height": 720,
+"x": 362,
+"y": 359
+},
+"icons": [
+{},
+{},
+{},
+{}
+],
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "800922df41fdf90f"
+},
+"lo": {
+"aid": "9fa8016a579d05b8"
+}
+},
+"x": 6,
+"y": 8,
+"w": 706,
+"h": 706
+}
+]
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+}
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 706,
+"h": 706
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "bc844b31feed0099"
+},
+"texture": {
+"aid": "916449c7c8b3a565"
+}
+}
+]
+}
+},
+{
+"sid": 47,
+"uid": "O_TOILETTE",
+"content": {
+"bbox": true,
+"width": 720,
+"height": 720,
+"x": 381,
+"y": 349
+},
+"icons": [
+{},
+{},
+{},
+{}
+],
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "2fad13744eaa9a64"
+},
+"lo": {
+"aid": "7354e7054bf96cfe"
+}
+},
+"x": 6,
+"y": 8,
+"w": 706,
+"h": 706
+}
+]
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+}
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 706,
+"h": 706
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "1d7a675907f36f63"
+},
+"texture": {
+"aid": "73627a8846c023f9"
+}
+}
+]
+}
 }
 ],
 "players": [
@@ -5792,9 +7022,37 @@
 "text": {
 "fr": "Ah Inspecteur ! Vous me devez une explication !"
 },
-"speaker": "O_DIO_SCESE"
-}
+"speaker": "O_DIO_SCESE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 2
 }

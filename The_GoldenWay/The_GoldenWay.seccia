@@ -213,7 +213,7 @@
 }
 },
 "meta": {
-"nextAssetID": 47
+"nextAssetID": 49
 }
 },
 "puzzle": {
@@ -5994,6 +5994,160 @@
 }
 ],
 "speaker": "O_ETHAN_AULE"
+},
+{
+"id": 8,
+"text": {
+"fr": "Alors, vous avez les ingrédient ?"
+},
+"sentences": [
+{
+"id": 9,
+"choice": true,
+"text": {
+"fr": "Voilà !"
+},
+"sentences": [
+{
+"id": 11,
+"text": {
+"fr": "Parfait, je m'y met de suite."
+},
+"speaker": "O_REX_LAMER"
+}
+]
+},
+{
+"id": 10,
+"choice": true,
+"sentences": [
+{
+"id": 13,
+"text": {
+"fr": "Et bien, qu'attendez vous ?"
+},
+"speaker": "O_REX_LAMER"
+}
+],
+"text": {
+"fr": "Non, pas encore"
+}
+}
+],
+"speaker": "O_REX_LAMER"
+},
+{
+"id": 12,
+"text": {
+"fr": "Vous voyez, les VIP sont sortis, je vous l'avais bien dit."
+},
+"speaker": "O_REX_LAMER"
+}
+]
+},
+"nextID": 14
+}
+},
+{
+"sid": 47,
+"uid": "D_REX_LAMER",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Inspecteur ! Si vous voulez accéder au wagon VIP, sachez qu'ils ne vous ouvriront que si le repas est prêt."
+},
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "D'ailleurs, il me manque des ingrédients. Trois pour être exact."
+},
+"sentences": [
+{
+"id": 3,
+"text": {
+"fr": "Il me manque un avocat, des carottes, et des champigons."
+},
+"sentences": [
+{
+"id": 4,
+"text": {
+"fr": "Si vous me les apportez, nulle doute que les VIP ouvriront leur wagon"
+},
+"speaker": "O_REX_LAMER"
+}
+],
+"speaker": "O_REX_LAMER"
+}
+],
+"speaker": "O_REX_LAMER"
+}
+],
+"speaker": "O_REX_LAMER"
+}
+]
+},
+"nextID": 5
+}
+},
+{
+"sid": 48,
+"uid": "D_ESAA_PRISTI",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Inspecteur ! J'aurais une requête à vous demandez."
+},
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "Vous pouvez donner cette lettre à Tauro ? NE L'OUVREZ SURTOUT PAS !"
+},
+"speaker": "O_ESAA_PRISTI"
+}
+],
+"speaker": "O_ESAA_PRISTI"
+},
+{
+"id": 3,
+"text": {
+"fr": "Merçi pour avoir donné la lettre."
+},
+"sentences": [
+{
+"id": 4,
+"text": {
+"fr": "Au passage, vous voyez Zieg ARRETE ? Un des VIP ?"
+},
+"sentences": [
+{
+"id": 5,
+"text": {
+"fr": "Et bien, d'après les rumeurs, il aurait été à la tête d'un gang - les cigares écarlates il me semble."
+},
+"sentences": [
+{
+"id": 6,
+"text": {
+"fr": "D'après les légendes, il aurait tué plus d'une personne quand il été à leur tête."
+},
+"speaker": "O_ESAA_PRISTI"
+}
+],
+"speaker": "O_ESAA_PRISTI"
+}
+],
+"speaker": "O_ESAA_PRISTI"
+}
+],
+"speaker": "O_ESAA_PRISTI"
 }
 ]
 },

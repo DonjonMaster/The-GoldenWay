@@ -213,7 +213,7 @@
 }
 },
 "meta": {
-"nextAssetID": 46
+"nextAssetID": 47
 }
 },
 "puzzle": {
@@ -5935,6 +5935,69 @@
 ]
 },
 "nextID": 23
+}
+},
+{
+"sid": 46,
+"uid": "D_ETHAN_AULE",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Inspecteur, c'est horrible !"
+},
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "Quelqu'un est mort !"
+},
+"sentences": [
+{
+"id": 3,
+"text": {
+"fr": "Vous devez trouver le coupable, vous le DEVEZ !"
+},
+"sentences": [
+{
+"id": 4,
+"text": {
+"fr": "Je suis sûr que c'est un de ces salopards de riches qui a fait le coup !"
+},
+"sentences": [
+{
+"id": 5,
+"text": {
+"fr": "Mais pour accéder au wagon VIP, il faut d'abord passer par le wagon restaurant."
+},
+"sentences": [
+{
+"id": 6,
+"text": {
+"fr": "Le wagon restaurant est fermé : le conducteur du train - Rhale BAULE - possède la clé."
+},
+"speaker": "O_ETHAN_AULE"
+}
+],
+"speaker": "O_ETHAN_AULE"
+}
+],
+"speaker": "O_ETHAN_AULE"
+}
+],
+"speaker": "O_ETHAN_AULE"
+}
+],
+"speaker": "O_ETHAN_AULE"
+}
+],
+"speaker": "O_ETHAN_AULE"
+}
+]
+},
+"nextID": 7
 }
 }
 ]

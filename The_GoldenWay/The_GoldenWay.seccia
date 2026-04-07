@@ -451,19 +451,7 @@
 "uid": "L_LOCOMOTIVE",
 "graph": {
 "board": {
-"nextid": 3,
-"boxes": [
-{
-"type": 257,
-"id": 1,
-"plugs": [
-{
-"id": 2,
-"type": 3
-}
-]
-}
-]
+"nextid": 3
 }
 }
 },
@@ -472,17 +460,52 @@
 "uid": "L_WAGON_RESTAURANT",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 36,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 256,
+"id": 30,
+"resize": true,
+"width": 377,
+"height": 160,
+"x": 419,
+"y": 142,
+"name": "RESTAU"
+},
+{
+"type": 1285,
+"id": 31,
+"x": 450,
+"y": 221,
 "plugs": [
 {
-"id": 2,
+"id": 32,
+"type": 3,
+"trgs": [
+34
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_RESTAURANT",
+"label": "SORTIE"
+},
+{
+"type": 775,
+"id": 33,
+"x": 649,
+"y": 230,
+"plugs": [
+{
+"id": 34,
+"type": 2
+},
+{
+"id": 35,
 "type": 3
 }
-]
+],
+"scene": "S_WAGON_VIP"
 }
 ]
 }
@@ -493,17 +516,122 @@
 "uid": "L_WAGON_VIP",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 31,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 1285,
+"id": 4,
+"x": 485,
+"y": 222,
 "plugs": [
 {
-"id": 2,
+"id": 5,
+"type": 3,
+"trgs": [
+7
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_VIP",
+"label": "VIPCABIN1"
+},
+{
+"type": 775,
+"id": 6,
+"x": 681,
+"y": 224,
+"plugs": [
+{
+"id": 7,
+"type": 2
+},
+{
+"id": 8,
 "type": 3
 }
+],
+"scene": "S_CABINE_ANNIE"
+},
+{
+"type": 1285,
+"id": 9,
+"x": 486,
+"y": 289,
+"plugs": [
+{
+"id": 10,
+"type": 3,
+"trgs": [
+12
 ]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_VIP",
+"label": "VIPCABIN2"
+},
+{
+"type": 775,
+"id": 11,
+"x": 697,
+"y": 296,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3
+}
+],
+"scene": "S_CABINE_REMI"
+},
+{
+"type": 1285,
+"id": 14,
+"x": 489,
+"y": 364,
+"plugs": [
+{
+"id": 15,
+"type": 3,
+"trgs": [
+17
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_VIP",
+"label": "VIPCABIN3"
+},
+{
+"type": 775,
+"id": 16,
+"x": 688,
+"y": 375,
+"plugs": [
+{
+"id": 17,
+"type": 2
+},
+{
+"id": 18,
+"type": 3
+}
+],
+"scene": "S_CABINE_ZIEG"
+},
+{
+"type": 256,
+"id": 30,
+"resize": true,
+"width": 416,
+"height": 268,
+"x": 421,
+"y": 182,
+"name": "CABINE VIP"
 }
 ]
 }
@@ -514,17 +642,227 @@
 "uid": "L_WAGON_PASSAGER",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 46,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 1285,
+"id": 15,
+"x": 276,
+"y": 241,
 "plugs": [
 {
-"id": 2,
+"id": 16,
+"type": 3,
+"trgs": [
+18
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_PASSAGER",
+"label": "CABINE1"
+},
+{
+"type": 775,
+"id": 17,
+"x": 472,
+"y": 255,
+"plugs": [
+{
+"id": 18,
+"type": 2
+},
+{
+"id": 19,
 "type": 3
 }
+],
+"scene": "S_CABINE_KISEL"
+},
+{
+"type": 1285,
+"id": 20,
+"x": 273,
+"y": 313,
+"plugs": [
+{
+"id": 21,
+"type": 3,
+"trgs": [
+23
 ]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_PASSAGER",
+"label": "CABINE2"
+},
+{
+"type": 775,
+"id": 22,
+"x": 488,
+"y": 327,
+"plugs": [
+{
+"id": 23,
+"type": 2
+},
+{
+"id": 24,
+"type": 3
+}
+],
+"scene": "S_CABINE_DIO"
+},
+{
+"type": 1285,
+"id": 25,
+"x": 277,
+"y": 392,
+"plugs": [
+{
+"id": 26,
+"type": 3,
+"trgs": [
+28
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_PASSAGER",
+"label": "CABINE3"
+},
+{
+"type": 775,
+"id": 27,
+"x": 479,
+"y": 406,
+"plugs": [
+{
+"id": 28,
+"type": 2
+},
+{
+"id": 29,
+"type": 3
+}
+],
+"scene": "S_CABINE_ETHAN"
+},
+{
+"type": 1285,
+"id": 30,
+"x": 271,
+"y": 475,
+"plugs": [
+{
+"id": 31,
+"type": 3,
+"trgs": [
+33
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_PASSAGER",
+"label": "CABINE4"
+},
+{
+"type": 775,
+"id": 32,
+"x": 481,
+"y": 479,
+"plugs": [
+{
+"id": 33,
+"type": 2
+},
+{
+"id": 34,
+"type": 3
+}
+],
+"scene": "S_CABINE_LI_SHEI"
+},
+{
+"type": 1285,
+"id": 35,
+"x": 269,
+"y": 558,
+"plugs": [
+{
+"id": 36,
+"type": 3,
+"trgs": [
+38
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_PASSAGER",
+"label": "CABINE5"
+},
+{
+"type": 775,
+"id": 37,
+"x": 491,
+"y": 571,
+"plugs": [
+{
+"id": 38,
+"type": 2
+},
+{
+"id": 39,
+"type": 3
+}
+],
+"scene": "S_CABINE_HERO"
+},
+{
+"type": 256,
+"id": 40,
+"resize": true,
+"width": 380,
+"height": 548,
+"x": 252,
+"y": 116,
+"name": "CABINE PASSAGER"
+},
+{
+"type": 1285,
+"id": 41,
+"x": 273,
+"y": 161,
+"plugs": [
+{
+"id": 42,
+"type": 3,
+"trgs": [
+44
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_WAGON_PASSAGER",
+"label": "SORTIE"
+},
+{
+"type": 775,
+"id": 43,
+"x": 464,
+"y": 158,
+"plugs": [
+{
+"id": 44,
+"type": 2
+},
+{
+"id": 45,
+"type": 3
+}
+],
+"scene": "S_WAGON_RESTAURANT"
 }
 ]
 }
@@ -535,17 +873,52 @@
 "uid": "L_CABINE_ANNIE",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 9,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 1285,
+"id": 3,
+"x": 469,
+"y": 399,
 "plugs": [
 {
-"id": 2,
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_ANNIE",
+"label": "SORTIE"
+},
+{
+"type": 775,
+"id": 5,
+"x": 666,
+"y": 408,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
 "type": 3
 }
-]
+],
+"scene": "S_WAGON_VIP"
+},
+{
+"type": 256,
+"id": 8,
+"resize": true,
+"width": 433,
+"height": 130,
+"x": 393,
+"y": 351,
+"name": "EXIT CABINE"
 }
 ]
 }
@@ -556,17 +929,52 @@
 "uid": "L_CABINE_DIO",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 9,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 1285,
+"id": 3,
+"x": 205,
+"y": 126,
 "plugs": [
 {
-"id": 2,
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_DIO",
+"label": "SORTIE"
+},
+{
+"type": 775,
+"id": 5,
+"x": 402,
+"y": 135,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
 "type": 3
 }
-]
+],
+"scene": "S_WAGON_PASSAGER"
+},
+{
+"type": 256,
+"id": 8,
+"resize": true,
+"width": 433,
+"height": 130,
+"x": 129,
+"y": 78,
+"name": "EXIT CABINE"
 }
 ]
 }
@@ -577,17 +985,52 @@
 "uid": "L_CABINE_ETHAN",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 9,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 1285,
+"id": 3,
+"x": 469,
+"y": 399,
 "plugs": [
 {
-"id": 2,
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_ETHAN",
+"label": "SORTIE"
+},
+{
+"type": 775,
+"id": 5,
+"x": 666,
+"y": 408,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
 "type": 3
 }
-]
+],
+"scene": "S_WAGON_PASSAGER"
+},
+{
+"type": 256,
+"id": 8,
+"resize": true,
+"width": 433,
+"height": 130,
+"x": 393,
+"y": 351,
+"name": "EXIT CABINE"
 }
 ]
 }
@@ -598,17 +1041,54 @@
 "uid": "L_CABINE_KISEL",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 9,
+"x": 32,
+"y": 32,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 1285,
+"id": 3,
+"x": 437,
+"y": 367,
 "plugs": [
 {
-"id": 2,
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_KISEL",
+"label": "SORTIE"
+},
+{
+"type": 775,
+"id": 5,
+"x": 634,
+"y": 376,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
 "type": 3
 }
-]
+],
+"scene": "S_WAGON_PASSAGER"
+},
+{
+"type": 256,
+"id": 8,
+"resize": true,
+"width": 433,
+"height": 130,
+"x": 361,
+"y": 319,
+"name": "EXIT CABINE"
 }
 ]
 }
@@ -619,17 +1099,52 @@
 "uid": "L_CABINE_LI_SHEI",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 9,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 1285,
+"id": 3,
+"x": 469,
+"y": 399,
 "plugs": [
 {
-"id": 2,
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_LI_SHEI",
+"label": "SORTIE"
+},
+{
+"type": 775,
+"id": 5,
+"x": 666,
+"y": 408,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
 "type": 3
 }
-]
+],
+"scene": "S_WAGON_PASSAGER"
+},
+{
+"type": 256,
+"id": 8,
+"resize": true,
+"width": 433,
+"height": 130,
+"x": 393,
+"y": 351,
+"name": "EXIT CABINE"
 }
 ]
 }
@@ -640,17 +1155,52 @@
 "uid": "L_CABINE_HERO",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 9,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 1285,
+"id": 3,
+"x": 469,
+"y": 399,
 "plugs": [
 {
-"id": 2,
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_HERO",
+"label": "SORTIE"
+},
+{
+"type": 775,
+"id": 5,
+"x": 666,
+"y": 408,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
 "type": 3
 }
-]
+],
+"scene": "S_WAGON_PASSAGER"
+},
+{
+"type": 256,
+"id": 8,
+"resize": true,
+"width": 433,
+"height": 130,
+"x": 393,
+"y": 351,
+"name": "EXIT CABINE"
 }
 ]
 }
@@ -661,17 +1211,52 @@
 "uid": "L_CABINE_REMI",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 9,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 1285,
+"id": 3,
+"x": 469,
+"y": 399,
 "plugs": [
 {
-"id": 2,
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_REMI",
+"label": "SORTIE"
+},
+{
+"type": 775,
+"id": 5,
+"x": 666,
+"y": 408,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
 "type": 3
 }
-]
+],
+"scene": "S_WAGON_VIP"
+},
+{
+"type": 256,
+"id": 8,
+"resize": true,
+"width": 433,
+"height": 130,
+"x": 393,
+"y": 351,
+"name": "EXIT CABINE"
 }
 ]
 }
@@ -682,17 +1267,52 @@
 "uid": "L_CABINE_ZIEG",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 9,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 1285,
+"id": 3,
+"x": 469,
+"y": 400,
 "plugs": [
 {
-"id": 2,
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_ZIEG",
+"label": "SORTIE"
+},
+{
+"type": 775,
+"id": 5,
+"x": 666,
+"y": 408,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
 "type": 3
 }
-]
+],
+"scene": "S_WAGON_VIP"
+},
+{
+"type": 256,
+"id": 8,
+"resize": true,
+"width": 433,
+"height": 130,
+"x": 393,
+"y": 351,
+"name": "EXIT CABINE"
 }
 ]
 }
@@ -703,17 +1323,52 @@
 "uid": "L_TOILETTES",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 9,
 "boxes": [
 {
-"type": 257,
-"id": 1,
+"type": 1285,
+"id": 3,
+"x": 469,
+"y": 399,
 "plugs": [
 {
-"id": 2,
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_TOILETTES",
+"label": "SORTIE"
+},
+{
+"type": 775,
+"id": 5,
+"x": 666,
+"y": 408,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
 "type": 3
 }
-]
+],
+"scene": "S_WAGON_PASSAGER"
+},
+{
+"type": 256,
+"id": 8,
+"resize": true,
+"width": 433,
+"height": 130,
+"x": 393,
+"y": 351,
+"name": "EXIT CABINE"
 }
 ]
 }
@@ -727,7 +1382,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 20,
 "nextID": 2,
 "x": -342,
 "y": -48
@@ -1267,7 +1922,9 @@
 "light_ambient": -1,
 "light_blur": -1,
 "zoom": 50,
-"nextID": 9
+"nextID": 10,
+"x": -188,
+"y": 7
 },
 "layers": {
 "BACK": {
@@ -1467,6 +2124,47 @@
 "fr": "Wagon restaurant"
 }
 }
+],
+"instances": [
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 9,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 556,
+"y": 798,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
 ]
 },
 {
@@ -1475,7 +2173,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 20,
 "nextID": 2,
 "x": -442,
 "y": -230
@@ -1808,7 +2506,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 20,
 "nextID": 3,
 "x": -363,
 "y": 71
@@ -1970,7 +2668,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 20,
 "nextID": 3,
 "x": -378,
 "y": 145
@@ -2143,7 +2841,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 20,
 "nextID": 3
 },
 "layers": {
@@ -2303,7 +3001,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 20,
 "nextID": 3
 },
 "layers": {
@@ -2541,7 +3239,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 20,
 "nextID": 2
 },
 "layers": {
@@ -2660,7 +3358,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 20,
 "nextID": 2
 },
 "layers": {

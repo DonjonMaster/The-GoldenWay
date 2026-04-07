@@ -5792,11 +5792,149 @@
 "text": {
 "fr": "Ah Inspecteur ! Vous me devez une explication !"
 },
+"speaker": "O_DIO_SCESE",
+"sentences": [
+{
+"id": 2,
+"choice": true,
+"text": {
+"fr": "Comment ça ?"
+},
+"sentences": [
+{
+"id": 3,
+"sentences": [
+{
+"id": 5,
+"choice": true,
+"sentences": [
+{
+"id": 9,
+"sentences": [
+{
+"id": 10,
+"choice": true,
+"sentences": [
+{
+"id": 12,
+"sentences": [
+{
+"id": 13,
+"sentences": [
+{
+"id": 14,
+"sentences": [
+{
+"id": 16,
+"text": {
+"fr": "J'ai des information qui pourrait vous interessez pour votre enquête..."
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Vous savez quoi ? Si m'apporter une preuve qu'il est une âme damné, venez me voir."
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Mais j'en suis persuadé !"
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Et bien... Non."
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Et, vous avez une preuve de ce que vous dites ?"
+}
+},
+{
+"id": 11,
+"choice": true,
+"text": {
+"fr": "Oui, vous avez sans doute raison [CHOIX DE COUPABLE]"
+}
+}
+],
+"text": {
+"fr": "Je parle de Kisel Patron, évidemment. Si vous chercher un coupable, le voilà !"
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "De quoi est ce que vous parlez ?"
+}
+}
+],
+"text": {
+"fr": "Vous passez à côté d'un sataniste, un défiant de Dieu, et vous ne l'arrêter même pas."
+},
+"speaker": "O_DIO_SCESE"
+}
+]
+}
+]
+},
+{
+"id": 17,
+"sentences": [
+{
+"id": 18,
+"choice": true,
+"text": {
+"fr": "Non, pas encore..."
+}
+},
+{
+"id": 19,
+"choice": true,
+"sentences": [
+{
+"id": 20,
+"sentences": [
+{
+"id": 21,
+"sentences": [
+{
+"id": 22,
+"text": {
+"fr": "L'arme du crime, est un rouleau patissier ! C'est Dieu qui me l'a dit !"
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Je vais donc vous révelez ce que je sais."
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Fantastique ! Je le savais depuis le début !"
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Oui, voici !"
+}
+}
+],
+"text": {
+"fr": "Alors... Vous avez trouver une preuve ?"
+},
 "speaker": "O_DIO_SCESE"
 }
 ]
 },
-"nextID": 2
+"nextID": 23
 }
 }
 ]

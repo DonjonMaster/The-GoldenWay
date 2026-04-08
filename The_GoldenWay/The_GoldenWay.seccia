@@ -7822,20 +7822,6 @@
 "fr": "Ah Inspecteur ! Vous me devez une explication !"
 },
 "speaker": "O_DIO_SCESE",
-<<<<<<< HEAD
-"voice": {
-"en": [
-{},
-{},
-{},
-{}
-],
-"fr": [
-{},
-{},
-{},
-{}
-=======
 "sentences": [
 {
 "id": 2,
@@ -8579,25 +8565,7 @@
 },
 "speaker": "O_ZIEG_ARRETE"
 }
->>>>>>> dialogue
 ]
-}
-}
-],
-"voice": {
-"en": [
-{},
-{},
-{},
-{}
-],
-"fr": [
-{},
-{},
-{},
-{}
-]
-}
 },
 "nextID": 2
 }

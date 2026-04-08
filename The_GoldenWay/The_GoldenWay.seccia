@@ -213,12 +213,12 @@
 }
 },
 "meta": {
-"nextAssetID": 56
+"nextAssetID": 46
 }
 },
 "puzzle": {
 "board": {
-"nextid": 58,
+"nextid": 52,
 "x": 548,
 "y": 414,
 "boxes": [

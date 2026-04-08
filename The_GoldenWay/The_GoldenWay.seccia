@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 144,
-"x": 1766,
-"y": 655,
+"x": 1490,
+"y": 532,
 "boxes": [
 {
 "type": 257,
@@ -429,7 +429,7 @@
 {
 "type": 256,
 "id": 61,
-"name": "#Lettre_culpabilite_recuperer",
+"name": "#Cannabis_recuperer",
 "x": -1033,
 "y": 274,
 "plugs": [
@@ -8044,11 +8044,11 @@
 },
 {
 "sid": 59,
-"uid": "I_LETTRE_CULPABILITE",
+"uid": "I_CANNABIS",
 "content": {
 "title": {
-"en": "Culpability letter",
-"fr": "Lettre de culpabilité"
+"en": "Cannabis joint",
+"fr": "Joint de cannabis"
 }
 },
 "icons": [

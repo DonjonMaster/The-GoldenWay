@@ -218,9 +218,9 @@
 },
 "puzzle": {
 "board": {
-"nextid": 137,
-"x": 2260,
-"y": 607,
+"nextid": 143,
+"x": 1343,
+"y": 584,
 "boxes": [
 {
 "type": 257,
@@ -549,8 +549,8 @@
 {
 "type": 256,
 "id": 98,
-"name": "#Donner_emprunte_Remi",
-"x": 69,
+"name": "#Donner_empreinte_Remi",
+"x": 71,
 "y": 220,
 "plugs": [
 {
@@ -561,7 +561,7 @@
 "id": 100,
 "type": 3,
 "trgs": [
-50
+138
 ]
 }
 ]
@@ -602,7 +602,7 @@
 {
 "type": 256,
 "id": 119,
-"name": "#Ingredients_recuperer",
+"name": "#Donner_ingredients_au_chef",
 "x": -599,
 "y": -275,
 "plugs": [
@@ -622,7 +622,7 @@
 {
 "type": 256,
 "id": 122,
-"name": "#Emprunte_recuperer",
+"name": "#Empreinte_recuperer",
 "x": -160,
 "y": 219,
 "plugs": [
@@ -643,7 +643,7 @@
 {
 "type": 256,
 "id": 125,
-"name": "#Donner_emprunte_Lishei",
+"name": "#Donner_empreinte_Lishei",
 "x": 67,
 "y": 287,
 "plugs": [
@@ -655,7 +655,7 @@
 "id": 127,
 "type": 3,
 "trgs": [
-50
+139
 ]
 }
 ]
@@ -722,6 +722,38 @@
 "height": 211,
 "x": -343,
 "y": 136
+},
+{
+"type": 261,
+"id": 137,
+"name": "or",
+"x": 263,
+"y": 255,
+"plugs": [
+{
+"id": 138,
+"type": 2
+},
+{
+"id": 139,
+"type": 2
+},
+{
+"id": 140,
+"type": 3,
+"trgs": [
+50
+]
+},
+{
+"id": 141,
+"type": 3
+},
+{
+"id": 142,
+"type": 3
+}
+]
 }
 ]
 }

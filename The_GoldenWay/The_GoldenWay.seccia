@@ -7822,6 +7822,7 @@
 "fr": "Ah Inspecteur ! Vous me devez une explication !"
 },
 "speaker": "O_DIO_SCESE",
+<<<<<<< HEAD
 "voice": {
 "en": [
 {},
@@ -7834,6 +7835,751 @@
 {},
 {},
 {}
+=======
+"sentences": [
+{
+"id": 2,
+"choice": true,
+"text": {
+"fr": "Comment ça ?"
+},
+"sentences": [
+{
+"id": 3,
+"sentences": [
+{
+"id": 5,
+"choice": true,
+"sentences": [
+{
+"id": 9,
+"sentences": [
+{
+"id": 10,
+"choice": true,
+"sentences": [
+{
+"id": 12,
+"sentences": [
+{
+"id": 13,
+"sentences": [
+{
+"id": 14,
+"sentences": [
+{
+"id": 16,
+"text": {
+"fr": "J'ai des information qui pourrait vous interessez pour votre enquête..."
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Vous savez quoi ? Si m'apporter une preuve qu'il est une âme damné, venez me voir."
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Mais j'en suis persuadé !"
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Et bien... Non."
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Et, vous avez une preuve de ce que vous dites ?"
+}
+},
+{
+"id": 11,
+"choice": true,
+"text": {
+"fr": "Oui, vous avez sans doute raison [CHOIX DE COUPABLE]"
+}
+}
+],
+"text": {
+"fr": "Je parle de Kisel Patron, évidemment. Si vous chercher un coupable, le voilà !"
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "De quoi est ce que vous parlez ?"
+}
+}
+],
+"text": {
+"fr": "Vous passez à côté d'un sataniste, un défiant de Dieu, et vous ne l'arrêter même pas."
+},
+"speaker": "O_DIO_SCESE"
+}
+]
+}
+]
+},
+{
+"id": 17,
+"sentences": [
+{
+"id": 18,
+"choice": true,
+"text": {
+"fr": "Non, pas encore..."
+}
+},
+{
+"id": 19,
+"choice": true,
+"sentences": [
+{
+"id": 20,
+"sentences": [
+{
+"id": 21,
+"sentences": [
+{
+"id": 22,
+"text": {
+"fr": "L'arme du crime, est une cuillère ! C'est Dieu qui me l'a dit !"
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Je vais donc vous révelez ce que je sais."
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Fantastique ! Je le savais depuis le début !"
+},
+"speaker": "O_DIO_SCESE"
+}
+],
+"text": {
+"fr": "Oui, voici !"
+}
+}
+],
+"text": {
+"fr": "Alors... Vous avez trouver une preuve ?"
+},
+"speaker": "O_DIO_SCESE"
+}
+]
+},
+"nextID": 23
+}
+},
+{
+"sid": 46,
+"uid": "D_ETHAN_AULE",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Inspecteur, c'est horrible !"
+},
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "Quelqu'un est mort !"
+},
+"sentences": [
+{
+"id": 3,
+"text": {
+"fr": "Vous devez trouver le coupable, vous le DEVEZ !"
+},
+"sentences": [
+{
+"id": 4,
+"text": {
+"fr": "Je suis sûr que c'est un de ces salopards de riches qui a fait le coup !"
+},
+"sentences": [
+{
+"id": 5,
+"text": {
+"fr": "Mais pour accéder au wagon VIP, il faut d'abord passer par le wagon restaurant."
+},
+"sentences": [
+{
+"id": 6,
+"text": {
+"fr": "Le wagon restaurant est fermé : le conducteur du train - Rhale BAULE - possède la clé."
+},
+"speaker": "O_ETHAN_AULE"
+}
+],
+"speaker": "O_ETHAN_AULE"
+}
+],
+"speaker": "O_ETHAN_AULE"
+}
+],
+"speaker": "O_ETHAN_AULE"
+}
+],
+"speaker": "O_ETHAN_AULE"
+}
+],
+"speaker": "O_ETHAN_AULE"
+},
+{
+"id": 8,
+"text": {
+"fr": "Alors, vous avez les ingrédient ?"
+},
+"sentences": [
+{
+"id": 9,
+"choice": true,
+"text": {
+"fr": "Voilà !"
+},
+"sentences": [
+{
+"id": 11,
+"text": {
+"fr": "Parfait, je m'y met de suite."
+},
+"speaker": "O_REX_LAMER"
+}
+]
+},
+{
+"id": 10,
+"choice": true,
+"sentences": [
+{
+"id": 13,
+"text": {
+"fr": "Et bien, qu'attendez vous ?"
+},
+"speaker": "O_REX_LAMER"
+}
+],
+"text": {
+"fr": "Non, pas encore"
+}
+}
+],
+"speaker": "O_REX_LAMER"
+},
+{
+"id": 12,
+"text": {
+"fr": "Vous voyez, les VIP sont sortis, je vous l'avais bien dit."
+},
+"speaker": "O_REX_LAMER"
+}
+]
+},
+"nextID": 14
+}
+},
+{
+"sid": 47,
+"uid": "D_REX_LAMER",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Inspecteur ! Si vous voulez accéder au wagon VIP, sachez qu'ils ne vous ouvriront que si le repas est prêt."
+},
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "D'ailleurs, il me manque des ingrédients. Trois pour être exact."
+},
+"sentences": [
+{
+"id": 3,
+"text": {
+"fr": "Il me manque un avocat, des carottes, et des champigons."
+},
+"sentences": [
+{
+"id": 4,
+"text": {
+"fr": "Si vous me les apportez, nulle doute que les VIP ouvriront leur wagon"
+},
+"speaker": "O_REX_LAMER"
+}
+],
+"speaker": "O_REX_LAMER"
+}
+],
+"speaker": "O_REX_LAMER"
+}
+],
+"speaker": "O_REX_LAMER"
+}
+]
+},
+"nextID": 5
+}
+},
+{
+"sid": 48,
+"uid": "D_ESAA_PRISTI",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Inspecteur ! J'aurais une requête à vous demandez."
+},
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "Vous pouvez donner cette lettre à Tauro ? NE L'OUVREZ SURTOUT PAS !"
+},
+"speaker": "O_ESAA_PRISTI"
+}
+],
+"speaker": "O_ESAA_PRISTI"
+},
+{
+"id": 3,
+"text": {
+"fr": "Merçi pour avoir donné la lettre."
+},
+"sentences": [
+{
+"id": 4,
+"text": {
+"fr": "Au passage, vous voyez Zieg ARRETE ? Un des VIP ?"
+},
+"sentences": [
+{
+"id": 5,
+"text": {
+"fr": "Et bien, d'après les rumeurs, il aurait été à la tête d'un gang - les cigares écarlates il me semble."
+},
+"sentences": [
+{
+"id": 6,
+"text": {
+"fr": "D'après les légendes, il aurait tué plus d'une personne quand il été à leur tête."
+},
+"speaker": "O_ESAA_PRISTI",
+"sentences": [
+{
+"id": 9,
+"text": {
+"fr": "Après, moi je dis ça, je dis rien..."
+},
+"speaker": "O_ESAA_PRISTI"
+}
+]
+}
+],
+"speaker": "O_ESAA_PRISTI"
+}
+],
+"speaker": "O_ESAA_PRISTI"
+}
+],
+"speaker": "O_ESAA_PRISTI"
+}
+]
+},
+"nextID": 10
+}
+},
+{
+"sid": 49,
+"uid": "D_THAURO_RELOUT",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "Inspecteur ! J'aurais une requête à vous demandez."
+},
+"sentences": [
+{
+"id": 3,
+"text": {
+"fr": "Vous pouvez donner cette lettre à Esaa ? NE L'OUVREZ SURTOUT PAS !"
+},
+"speaker": "O_TAURO_RELOUT"
+}
+],
+"speaker": "O_TAURO_RELOUT"
+},
+{
+"id": 4,
+"text": {
+"fr": "Merçi pour avoir donné la lettre."
+},
+"speaker": "O_TAURO_RELOUT"
+}
+]
+},
+"nextID": 9
+}
+},
+{
+"sid": 50,
+"uid": "D_KISEL_PATRON",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Alors le poulet, ça roule ?"
+},
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "En fait, je veux pas savoir. Hors de ma vue sale chien."
+},
+"speaker": "O_KISEL_PATRON"
+}
+],
+"speaker": "O_KISEL_PATRON"
+},
+{
+"id": 3,
+"text": {
+"fr": "Je t'avais dit de me lâcher."
+},
+"speaker": "O_KISEL_PATRON"
+},
+{
+"id": 4,
+"text": {
+"fr": "Dégage enfoiré !"
+},
+"speaker": "O_KISEL_PATRON"
+},
+{
+"id": 5,
+"text": {
+"fr": "LÂCHE MOI !"
+},
+"speaker": "O_KISEL_PATRON"
+},
+{
+"id": 6,
+"text": {
+"fr": "OK, qu'est ce que tu veux ?"
+},
+"sentences": [
+{
+"id": 8,
+"choice": true,
+"text": {
+"fr": "Qu'est ce que tu sais du crime ?"
+},
+"sentences": [
+{
+"id": 9,
+"sentences": [
+{
+"id": 12,
+"choice": true,
+"sentences": [
+{
+"id": 13,
+"sentences": [
+{
+"id": 14,
+"sentences": [
+{
+"id": 15,
+"sentences": [
+{
+"id": 16,
+"choice": true,
+"text": {
+"fr": "Pas encore, tout du moins."
+}
+}
+],
+"text": {
+"fr": "Tu vas m'arrêter maitenant ?"
+},
+"speaker": "O_KISEL_PATRON"
+}
+],
+"text": {
+"fr": "J'était en train de fumer si ça t'intéresse tant que ça. Regarde, un joint de canabis."
+},
+"speaker": "O_KISEL_PATRON"
+}
+],
+"text": {
+"fr": "Ouais poulet, ça te pose un problème ?"
+},
+"speaker": "O_KISEL_PATRON"
+}
+],
+"text": {
+"fr": "Et, tu vas vraiment me faire croire que tu était dans ta cabine, tout seul, durant tout ce temps ?"
+}
+}
+],
+"text": {
+"fr": "Rien. J'était dans ma cabine. Si vous étiez pas venu me cassez les burnes, j'aurais même pas su que quelqu'un était mort."
+},
+"speaker": "O_KISEL_PATRON"
+}
+]
+}
+],
+"speaker": "O_KISEL_PATRON"
+}
+]
+},
+"nextID": 17
+}
+},
+{
+"sid": 51,
+"uid": "D_LI_SHEI_TAN",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "Inspecteur ! Que voulez-vous ?"
+},
+"sentences": [
+{
+"id": 3,
+"choice": true,
+"text": {
+"fr": "Vous pouvez attribuer ces empreintes digitales ?"
+},
+"sentences": [
+{
+"id": 4,
+"text": {
+"fr": "Revenez dans 30 minutes, je vous donnerais le résultat."
+},
+"speaker": "O_LI_SHEIN_TAN"
+}
+]
+},
+{
+"id": 5,
+"choice": true,
+"text": {
+"fr": "Rien..."
+}
+}
+],
+"speaker": "O_LI_SHEIN_TAN"
+}
+]
+},
+"nextID": 6
+}
+},
+{
+"sid": 52,
+"uid": "D_VOY_YAGER",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "..."
+},
+"speaker": "O_VOY_YAGER"
+}
+]
+},
+"nextID": 2
+}
+},
+{
+"sid": 53,
+"uid": "D_REMI_PLEGIE",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Inspecteur ! Que voulez-vous ?"
+},
+"sentences": [
+{
+"id": 2,
+"choice": true,
+"text": {
+"fr": "Vous pouvez attribuer ces empreintes digitales ?"
+},
+"sentences": [
+{
+"id": 5,
+"text": {
+"fr": "Revenez dans 30 minutes, je vous donnerais le résultat."
+},
+"speaker": "O_REMI_PLEGIE"
+}
+]
+},
+{
+"id": 7,
+"choice": true,
+"sentences": [
+{
+"id": 8,
+"text": {
+"fr": "J'était dans ma cabine, je prenais le thé avec Annie MATION."
+},
+"speaker": "O_REMI_PLEGIE"
+}
+],
+"text": {
+"fr": "Que faisiez-vous au moment du meutre ?"
+}
+},
+{
+"id": 3,
+"choice": true,
+"text": {
+"fr": "Rien..."
+}
+}
+],
+"speaker": "O_REMI_PLEGIE"
+}
+]
+},
+"nextID": 9
+}
+},
+{
+"sid": 54,
+"uid": "D_ANNIE_MATION",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Oh, inspecteur ! "
+},
+"speaker": "O_ANNIE_MATION",
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "Vous voulez quelque chose ?"
+},
+"sentences": [
+{
+"id": 3,
+"choice": true,
+"text": {
+"fr": "Qu'est ce que vous savez du meurtre ?"
+},
+"sentences": [
+{
+"id": 5,
+"sentences": [
+{
+"id": 9,
+"text": {
+"fr": "C'est Zieg qui m'a mis au courant : j'étais avec Rémi dans sa cabine tout du long."
+},
+"speaker": "O_ANNIE_MATION"
+}
+],
+"text": {
+"fr": "Rien que vous ne savez déjà je présume."
+},
+"speaker": "O_ANNIE_MATION"
+}
+]
+},
+{
+"id": 4,
+"choice": true,
+"sentences": [
+{
+"id": 6,
+"sentences": [
+{
+"id": 7,
+"sentences": [
+{
+"id": 8,
+"choice": true,
+"text": {
+"fr": "Ca ira, merci."
+}
+}
+],
+"text": {
+"fr": "Vous voulez un autographe ?"
+},
+"speaker": "O_ANNIE_MATION"
+}
+],
+"text": {
+"fr": "Je suis Annie MATION. Une artiste reconnu, je vous ferais savoir."
+},
+"speaker": "O_ANNIE_MATION"
+}
+],
+"text": {
+"fr": "Parlez moi de vous."
+}
+}
+],
+"speaker": "O_ANNIE_MATION"
+}
+]
+}
+]
+},
+"nextID": 10
+}
+},
+{
+"sid": 55,
+"uid": "D_ZIEG_ARRETE",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Annie MATION ?"
+},
+"speaker": "O_ZIEG_ARRETE"
+}
+>>>>>>> dialogue
 ]
 }
 }

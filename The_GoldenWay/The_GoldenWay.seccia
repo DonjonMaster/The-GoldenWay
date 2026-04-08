@@ -213,14 +213,14 @@
 }
 },
 "meta": {
-"nextAssetID": 48
+"nextAssetID": 61
 }
 },
 "puzzle": {
 "board": {
 "nextid": 144,
-"x": 1229,
-"y": 573,
+"x": 1766,
+"y": 655,
 "boxes": [
 {
 "type": 257,
@@ -7855,6 +7855,238 @@
 },
 "nextID": 2
 }
+}
+],
+"items": [
+{
+"sid": 51,
+"uid": "I_CAROTTE",
+"content": {
+"title": {
+"en": "Carrot",
+"fr": "Carotte"
+}
+},
+"icons": [
+{
+"image": {
+"aid": "f38893853b53633d"
+},
+"texture": {
+"aid": "4e39858cc95e6fc3"
+}
+},
+{},
+{},
+{}
+]
+},
+{
+"sid": 52,
+"uid": "I_CHAMPIGNON",
+"content": {
+"title": {
+"en": "Mushrooms",
+"fr": "Champignons"
+}
+},
+"icons": [
+{
+"image": {
+"aid": "7b1ff7435543e586"
+},
+"texture": {
+"aid": "8727f1e4ea3fc8c3"
+}
+},
+{},
+{},
+{}
+]
+},
+{
+"sid": 53,
+"uid": "I_AVOCAT",
+"content": {
+"title": {
+"en": "Avocado",
+"fr": "Avocat"
+}
+},
+"icons": [
+{
+"image": {
+"aid": "302765f28ce5b146"
+},
+"texture": {
+"aid": "a1dced6b83fca4fa"
+}
+},
+{},
+{},
+{}
+]
+},
+{
+"sid": 54,
+"uid": "I_EAU",
+"content": {
+"title": {
+"en": "Water",
+"fr": "Eau"
+}
+},
+"icons": [
+{
+"image": {
+"aid": "42041660a7ca5341"
+},
+"texture": {
+"aid": "cd80ef5f60e3a08e"
+}
+},
+{},
+{},
+{}
+]
+},
+{
+"sid": 55,
+"uid": "I_CLEF",
+"content": {
+"title": {
+"en": "Key",
+"fr": "Clé"
+}
+},
+"icons": [
+{
+"image": {
+"aid": "73ca350b781fbdde"
+},
+"texture": {
+"aid": "98c2f1cf52c5e15f"
+}
+},
+{},
+{},
+{}
+]
+},
+{
+"sid": 56,
+"uid": "I_FARINE",
+"content": {
+"title": {
+"en": "Flour",
+"fr": "Farine"
+}
+},
+"icons": [
+{
+"image": {
+"aid": "5c1f79c0ecdcbfba"
+},
+"texture": {
+"aid": "e60164b7f3ab4eee"
+}
+},
+{},
+{},
+{}
+]
+},
+{
+"sid": 57,
+"uid": "I_CUILLERE",
+"content": {
+"title": {
+"en": "Murder weapon",
+"fr": "Arme du crime"
+}
+},
+"icons": [
+{
+"image": {
+"aid": "34a3534392175737"
+},
+"texture": {
+"aid": "8facf42e419aa8e6"
+}
+},
+{},
+{},
+{}
+]
+},
+{
+"sid": 58,
+"uid": "I_LETTRE_AMOUR",
+"content": {
+"title": {
+"en": "Love letter",
+"fr": "Lettre d'amour"
+}
+},
+"icons": [
+{
+"image": {
+"aid": "20cfb7e0c2784e7b"
+},
+"texture": {
+"aid": "83ac6a31d6087f97"
+}
+},
+{},
+{},
+{}
+]
+},
+{
+"sid": 59,
+"uid": "I_LETTRE_CULPABILITE",
+"content": {
+"title": {
+"en": "Culpability letter",
+"fr": "Lettre de culpabilité"
+}
+},
+"icons": [
+{
+"image": {
+"aid": "dc5578087ae30550"
+},
+"texture": {
+"aid": "0ee70f3112531e20"
+}
+},
+{},
+{},
+{}
+]
+},
+{
+"sid": 60,
+"uid": "I_EMPREINTE",
+"content": {
+"title": {
+"en": "Handprint",
+"fr": "Empreinte"
+}
+},
+"icons": [
+{
+"image": {
+"aid": "c533b072c7e91755"
+},
+"texture": {
+"aid": "8f71f52ffa2ac610"
+}
+},
+{},
+{},
+{}
+]
 }
 ]
 }

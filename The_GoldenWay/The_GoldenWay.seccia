@@ -213,7 +213,7 @@
 }
 },
 "meta": {
-"nextAssetID": 55
+"nextAssetID": 56
 }
 },
 "puzzle": {
@@ -6331,7 +6331,7 @@
 "id": 3,
 "choice": true,
 "text": {
-"fr": "Vous pouvez attribuez ces empreintes digitales ?"
+"fr": "Vous pouvez attribuer ces empreintes digitales ?"
 },
 "sentences": [
 {
@@ -6392,7 +6392,7 @@
 "id": 2,
 "choice": true,
 "text": {
-"fr": "Vous pouvez attribuez ces empreintes digitales ?"
+"fr": "Vous pouvez attribuer ces empreintes digitales ?"
 },
 "sentences": [
 {
@@ -6403,6 +6403,22 @@
 "speaker": "O_REMI_PLEGIE"
 }
 ]
+},
+{
+"id": 7,
+"choice": true,
+"sentences": [
+{
+"id": 8,
+"text": {
+"fr": "J'était dans ma cabine, je prenais le thé avec Annie MATION."
+},
+"speaker": "O_REMI_PLEGIE"
+}
+],
+"text": {
+"fr": "Que faisiez-vous au moment du meutre ?"
+}
 },
 {
 "id": 3,
@@ -6416,7 +6432,7 @@
 }
 ]
 },
-"nextID": 6
+"nextID": 9
 }
 },
 {
@@ -6430,7 +6446,95 @@
 "text": {
 "fr": "Oh, inspecteur ! "
 },
+"speaker": "O_ANNIE_MATION",
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "Vous voulez quelque chose ?"
+},
+"sentences": [
+{
+"id": 3,
+"choice": true,
+"text": {
+"fr": "Qu'est ce que vous savez du meurtre ?"
+},
+"sentences": [
+{
+"id": 5,
+"sentences": [
+{
+"id": 9,
+"text": {
+"fr": "C'est Zieg qui m'a mis au courant : j'étais avec Rémi dans sa cabine tout du long."
+},
 "speaker": "O_ANNIE_MATION"
+}
+],
+"text": {
+"fr": "Rien que vous ne savez déjà je présume."
+},
+"speaker": "O_ANNIE_MATION"
+}
+]
+},
+{
+"id": 4,
+"choice": true,
+"sentences": [
+{
+"id": 6,
+"sentences": [
+{
+"id": 7,
+"sentences": [
+{
+"id": 8,
+"choice": true,
+"text": {
+"fr": "Ca ira, merci."
+}
+}
+],
+"text": {
+"fr": "Vous voulez un autographe ?"
+},
+"speaker": "O_ANNIE_MATION"
+}
+],
+"text": {
+"fr": "Je suis Annie MATION. Une artiste reconnu, je vous ferais savoir."
+},
+"speaker": "O_ANNIE_MATION"
+}
+],
+"text": {
+"fr": "Parlez moi de vous."
+}
+}
+],
+"speaker": "O_ANNIE_MATION"
+}
+]
+}
+]
+},
+"nextID": 10
+}
+},
+{
+"sid": 55,
+"uid": "D_ZIEG_ARRETE",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Annie MATION ?"
+},
+"speaker": "O_ZIEG_ARRETE"
 }
 ]
 },

@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 144,
-"x": 1490,
-"y": 532,
+"x": 1693,
+"y": 534,
 "boxes": [
 {
 "type": 257,
@@ -246,8 +246,8 @@
 "type": 256,
 "id": 11,
 "name": "#acces_restaurant",
-"x": -602,
-"y": 47,
+"x": -638,
+"y": 57,
 "plugs": [
 {
 "id": 12,
@@ -368,26 +368,6 @@
 },
 {
 "type": 256,
-"id": 52,
-"name": "#Clef_recuperer",
-"x": -747,
-"y": 45,
-"plugs": [
-{
-"id": 53,
-"type": 2
-},
-{
-"id": 54,
-"type": 3,
-"trgs": [
-12
-]
-}
-]
-},
-{
-"type": 256,
 "id": 55,
 "name": "#Eau_recuperer",
 "x": -1063,
@@ -410,8 +390,8 @@
 "type": 256,
 "id": 58,
 "name": "#Donner_eau_Rhale",
-"x": -918,
-"y": 46,
+"x": -859,
+"y": 55,
 "plugs": [
 {
 "id": 59,
@@ -421,7 +401,7 @@
 "id": 60,
 "type": 3,
 "trgs": [
-53
+12
 ]
 }
 ]
@@ -844,7 +824,9 @@
 "uid": "L_LOCOMOTIVE",
 "graph": {
 "board": {
-"nextid": 11,
+"nextid": 42,
+"x": 17,
+"y": -416,
 "boxes": [
 {
 "type": 1287,
@@ -890,6 +872,142 @@
 "x": 351,
 "y": 202,
 "name": "BACK"
+},
+{
+"type": 1287,
+"id": 11,
+"x": 362,
+"y": 561,
+"plugs": [
+{
+"id": 12,
+"type": 3,
+"trgs": [
+14
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_LOCOMOTIVE",
+"instance": "RHALE_BAULE"
+},
+{
+"type": 781,
+"id": 13,
+"x": 535,
+"y": 567,
+"plugs": [
+{
+"id": 14,
+"type": 2
+},
+{
+"id": 15,
+"type": 3
+}
+],
+"dialog": "D_RHALE_BAULE"
+},
+{
+"type": 1290,
+"id": 18,
+"x": 314,
+"y": 814,
+"plugs": [
+{
+"id": 19,
+"type": 3,
+"trgs": [
+24
+]
+}
+],
+"resolved": "#Eau_recuperer",
+"var_cmp": "==",
+"scene": "S_LOCOMOTIVE",
+"item": "I_EAU",
+"instance": "RHALE_BAULE"
+},
+{
+"type": 788,
+"id": 23,
+"x": 488,
+"y": 832,
+"plugs": [
+{
+"id": 24,
+"type": 2
+},
+{
+"id": 25,
+"type": 3,
+"trgs": [
+40
+]
+}
+],
+"player": "DUMP",
+"item": "I_EAU",
+"silent": "False"
+},
+{
+"type": 788,
+"id": 31,
+"x": 784,
+"y": 831,
+"plugs": [
+{
+"id": 32,
+"type": 2
+},
+{
+"id": 33,
+"type": 3
+}
+],
+"player": "P_HERO",
+"item": "I_CLEF",
+"silent": "False"
+},
+{
+"type": 256,
+"id": 37,
+"resize": true,
+"width": 638,
+"height": 181,
+"x": 260,
+"y": 777,
+"name": "PUZZLE SUCCESS"
+},
+{
+"type": 256,
+"id": 38,
+"resize": true,
+"width": 385,
+"height": 99,
+"x": 301,
+"y": 538,
+"name": "DIALOGUE"
+},
+{
+"type": 780,
+"id": 39,
+"x": 601,
+"y": 832,
+"plugs": [
+{
+"id": 40,
+"type": 2
+},
+{
+"id": 41,
+"type": 3,
+"trgs": [
+32
+]
+}
+],
+"puzzle": "#Donner_eau_Rhale"
 }
 ]
 }
@@ -970,8 +1088,8 @@
 {
 "type": 775,
 "id": 38,
-"x": 666,
-"y": 418,
+"x": 693,
+"y": 415,
 "plugs": [
 {
 "id": 39,
@@ -1003,7 +1121,9 @@
 "uid": "L_WAGON_VIP",
 "graph": {
 "board": {
-"nextid": 37,
+"nextid": 39,
+"x": 23,
+"y": -157,
 "boxes": [
 {
 "type": 1285,
@@ -1174,13 +1294,15 @@
 "uid": "L_WAGON_PASSAGER",
 "graph": {
 "board": {
-"nextid": 57,
+"nextid": 63,
+"x": -107,
+"y": -88,
 "boxes": [
 {
 "type": 1285,
 "id": 15,
-"x": 276,
-"y": 241,
+"x": 279,
+"y": 266,
 "plugs": [
 {
 "id": 16,
@@ -1197,8 +1319,8 @@
 {
 "type": 775,
 "id": 17,
-"x": 472,
-"y": 255,
+"x": 481,
+"y": 270,
 "plugs": [
 {
 "id": 18,
@@ -1214,8 +1336,8 @@
 {
 "type": 1285,
 "id": 20,
-"x": 273,
-"y": 313,
+"x": 288,
+"y": 334,
 "plugs": [
 {
 "id": 21,
@@ -1233,7 +1355,7 @@
 "type": 775,
 "id": 22,
 "x": 488,
-"y": 311,
+"y": 342,
 "plugs": [
 {
 "id": 23,
@@ -1249,8 +1371,8 @@
 {
 "type": 1285,
 "id": 25,
-"x": 277,
-"y": 392,
+"x": 279,
+"y": 410,
 "plugs": [
 {
 "id": 26,
@@ -1267,8 +1389,8 @@
 {
 "type": 775,
 "id": 27,
-"x": 479,
-"y": 385,
+"x": 487,
+"y": 407,
 "plugs": [
 {
 "id": 28,
@@ -1284,8 +1406,8 @@
 {
 "type": 1285,
 "id": 30,
-"x": 271,
-"y": 475,
+"x": 274,
+"y": 487,
 "plugs": [
 {
 "id": 31,
@@ -1302,8 +1424,8 @@
 {
 "type": 775,
 "id": 32,
-"x": 468,
-"y": 479,
+"x": 475,
+"y": 502,
 "plugs": [
 {
 "id": 33,
@@ -1319,8 +1441,8 @@
 {
 "type": 1285,
 "id": 35,
-"x": 269,
-"y": 558,
+"x": 281,
+"y": 582,
 "plugs": [
 {
 "id": 36,
@@ -1337,8 +1459,8 @@
 {
 "type": 775,
 "id": 37,
-"x": 491,
-"y": 571,
+"x": 493,
+"y": 579,
 "plugs": [
 {
 "id": 38,
@@ -1364,8 +1486,8 @@
 {
 "type": 1285,
 "id": 41,
-"x": 273,
-"y": 161,
+"x": 277,
+"y": 148,
 "plugs": [
 {
 "id": 42,
@@ -1375,6 +1497,7 @@
 ]
 }
 ],
+"resolved": "#acces_restaurant",
 "var_cmp": "==",
 "scene": "S_WAGON_PASSAGER",
 "label": "SORTIE"
@@ -1382,8 +1505,8 @@
 {
 "type": 775,
 "id": 43,
-"x": 464,
-"y": 158,
+"x": 452,
+"y": 170,
 "plugs": [
 {
 "id": 44,
@@ -1475,6 +1598,53 @@
 }
 ],
 "scene": "S_TOILETTES"
+},
+{
+"type": 1291,
+"id": 57,
+"x": 847,
+"y": 593,
+"plugs": [
+{
+"id": 58,
+"type": 3,
+"trgs": [
+60
+]
+}
+],
+"resolved": "#Donner_eau_Rhale",
+"var_cmp": "==",
+"scene": "S_WAGON_PASSAGER",
+"item": "I_CLEF",
+"label": "SORTIE"
+},
+{
+"type": 780,
+"id": 59,
+"x": 1020,
+"y": 593,
+"plugs": [
+{
+"id": 60,
+"type": 2
+},
+{
+"id": 61,
+"type": 3
+}
+],
+"puzzle": "#acces_restaurant"
+},
+{
+"type": 256,
+"id": 62,
+"resize": true,
+"width": 441,
+"height": 239,
+"x": 774,
+"y": 505,
+"name": "UTILISER LA CLÉ SUR LA PORTE DU RESTAU"
 }
 ]
 }
@@ -1485,7 +1655,9 @@
 "uid": "L_CABINE_ANNIE",
 "graph": {
 "board": {
-"nextid": 9,
+"nextid": 11,
+"x": 32,
+"y": -72,
 "boxes": [
 {
 "type": 1285,
@@ -1541,7 +1713,9 @@
 "uid": "L_CABINE_DIO",
 "graph": {
 "board": {
-"nextid": 9,
+"nextid": 24,
+"x": -1,
+"y": -22,
 "boxes": [
 {
 "type": 1285,
@@ -1587,6 +1761,118 @@
 "x": 129,
 "y": 78,
 "name": "EXIT CABINE"
+},
+{
+"type": 1285,
+"id": 9,
+"x": 267,
+"y": 335,
+"plugs": [
+{
+"id": 10,
+"type": 3,
+"trgs": [
+12
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_DIO",
+"label": "VALISE1_DIO"
+},
+{
+"type": 788,
+"id": 11,
+"x": 414,
+"y": 336,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3,
+"trgs": [
+20
+]
+}
+],
+"player": "P_HERO",
+"item": "I_EAU",
+"silent": "False"
+},
+{
+"type": 1287,
+"id": 14,
+"x": 261,
+"y": 473,
+"plugs": [
+{
+"id": 15,
+"type": 3,
+"trgs": [
+17
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_DIO",
+"instance": "DIO_SCESE"
+},
+{
+"type": 781,
+"id": 16,
+"x": 427,
+"y": 476,
+"plugs": [
+{
+"id": 17,
+"type": 2
+},
+{
+"id": 18,
+"type": 3
+}
+],
+"dialog": "D_DIO_SCESE"
+},
+{
+"type": 780,
+"id": 19,
+"x": 535,
+"y": 338,
+"plugs": [
+{
+"id": 20,
+"type": 2
+},
+{
+"id": 21,
+"type": 3
+}
+],
+"puzzle": "#Eau_recuperer"
+},
+{
+"type": 256,
+"id": 22,
+"resize": true,
+"width": 368,
+"height": 122,
+"x": 214,
+"y": 437,
+"name": "DIALOGUE"
+},
+{
+"type": 256,
+"id": 23,
+"resize": true,
+"width": 555,
+"height": 109,
+"x": 187,
+"y": 295,
+"name": "PUZZLE SUCCESS"
 }
 ]
 }
@@ -1597,7 +1883,9 @@
 "uid": "L_CABINE_ETHAN",
 "graph": {
 "board": {
-"nextid": 9,
+"nextid": 24,
+"x": 32,
+"y": -242,
 "boxes": [
 {
 "type": 1285,
@@ -1643,6 +1931,118 @@
 "x": 393,
 "y": 351,
 "name": "EXIT CABINE"
+},
+{
+"type": 1285,
+"id": 9,
+"x": 459,
+"y": 548,
+"plugs": [
+{
+"id": 10,
+"type": 3,
+"trgs": [
+12
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_ETHAN",
+"label": "VALISE2_ETHAN"
+},
+{
+"type": 788,
+"id": 11,
+"x": 606,
+"y": 549,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3,
+"trgs": [
+20
+]
+}
+],
+"player": "P_HERO",
+"item": "I_CAROTTE",
+"silent": "False"
+},
+{
+"type": 1287,
+"id": 14,
+"x": 439,
+"y": 718,
+"plugs": [
+{
+"id": 15,
+"type": 3,
+"trgs": [
+17
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_ETHAN",
+"instance": "ETHAN_AULE"
+},
+{
+"type": 781,
+"id": 16,
+"x": 613,
+"y": 737,
+"plugs": [
+{
+"id": 17,
+"type": 2
+},
+{
+"id": 18,
+"type": 3
+}
+],
+"dialog": "D_ETHAN_AULE"
+},
+{
+"type": 780,
+"id": 19,
+"x": 744,
+"y": 551,
+"plugs": [
+{
+"id": 20,
+"type": 2
+},
+{
+"id": 21,
+"type": 3
+}
+],
+"puzzle": "#Carottes_recuperer"
+},
+{
+"type": 256,
+"id": 22,
+"resize": true,
+"width": 368,
+"height": 122,
+"x": 389,
+"y": 675,
+"name": "DIALOGUE"
+},
+{
+"type": 256,
+"id": 23,
+"resize": true,
+"width": 555,
+"height": 109,
+"x": 389,
+"y": 513,
+"name": "PUZZLE SUCCESS"
 }
 ]
 }
@@ -1653,9 +2053,9 @@
 "uid": "L_CABINE_KISEL",
 "graph": {
 "board": {
-"nextid": 9,
-"x": 32,
-"y": 32,
+"nextid": 15,
+"x": -67,
+"y": -115,
 "boxes": [
 {
 "type": 1285,
@@ -1701,6 +2101,51 @@
 "x": 361,
 "y": 319,
 "name": "EXIT CABINE"
+},
+{
+"type": 1287,
+"id": 9,
+"x": 395,
+"y": 521,
+"plugs": [
+{
+"id": 10,
+"type": 3,
+"trgs": [
+12
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_KISEL",
+"instance": "KISEL_PATRON"
+},
+{
+"type": 781,
+"id": 11,
+"x": 565,
+"y": 528,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3
+}
+],
+"dialog": "D_KISEL_PATRON"
+},
+{
+"type": 256,
+"id": 14,
+"resize": true,
+"width": 368,
+"height": 122,
+"x": 343,
+"y": 491,
+"name": "DIALOGUE"
 }
 ]
 }
@@ -1711,7 +2156,9 @@
 "uid": "L_CABINE_LI_SHEI",
 "graph": {
 "board": {
-"nextid": 9,
+"nextid": 24,
+"x": -75,
+"y": -227,
 "boxes": [
 {
 "type": 1285,
@@ -1757,6 +2204,118 @@
 "x": 393,
 "y": 351,
 "name": "EXIT CABINE"
+},
+{
+"type": 1285,
+"id": 9,
+"x": 481,
+"y": 570,
+"plugs": [
+{
+"id": 10,
+"type": 3,
+"trgs": [
+12
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_LI_SHEI",
+"label": "SAC_LISHEI"
+},
+{
+"type": 788,
+"id": 11,
+"x": 628,
+"y": 571,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3,
+"trgs": [
+20
+]
+}
+],
+"player": "P_HERO",
+"item": "I_CHAMPIGNON",
+"silent": "False"
+},
+{
+"type": 1287,
+"id": 14,
+"x": 489,
+"y": 771,
+"plugs": [
+{
+"id": 15,
+"type": 3,
+"trgs": [
+17
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_LI_SHEI",
+"instance": "LI_SHEIN_TAN"
+},
+{
+"type": 781,
+"id": 16,
+"x": 655,
+"y": 774,
+"plugs": [
+{
+"id": 17,
+"type": 2
+},
+{
+"id": 18,
+"type": 3
+}
+],
+"dialog": "D_LI_SHEI_TAN"
+},
+{
+"type": 780,
+"id": 19,
+"x": 779,
+"y": 575,
+"plugs": [
+{
+"id": 20,
+"type": 2
+},
+{
+"id": 21,
+"type": 3
+}
+],
+"puzzle": "#Champignon_recuperer"
+},
+{
+"type": 256,
+"id": 22,
+"resize": true,
+"width": 368,
+"height": 122,
+"x": 468,
+"y": 731,
+"name": "DIALOGUE"
+},
+{
+"type": 256,
+"id": 23,
+"resize": true,
+"width": 555,
+"height": 109,
+"x": 426,
+"y": 544,
+"name": "PUZZLE SUCCESS"
 }
 ]
 }
@@ -1767,7 +2326,9 @@
 "uid": "L_CABINE_HERO",
 "graph": {
 "board": {
-"nextid": 9,
+"nextid": 18,
+"x": 61,
+"y": -159,
 "boxes": [
 {
 "type": 1285,
@@ -1813,6 +2374,73 @@
 "x": 393,
 "y": 351,
 "name": "EXIT CABINE"
+},
+{
+"type": 1285,
+"id": 9,
+"x": 448,
+"y": 551,
+"plugs": [
+{
+"id": 10,
+"type": 3,
+"trgs": [
+12
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_HERO",
+"label": "VALISE2_HERO"
+},
+{
+"type": 788,
+"id": 11,
+"x": 636,
+"y": 563,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3,
+"trgs": [
+15
+]
+}
+],
+"player": "P_HERO",
+"item": "I_AVOCAT",
+"silent": "False"
+},
+{
+"type": 780,
+"id": 14,
+"x": 765,
+"y": 574,
+"plugs": [
+{
+"id": 15,
+"type": 2
+},
+{
+"id": 16,
+"type": 3
+}
+],
+"puzzle": "#Avocat_recuperer"
+},
+{
+"type": 256,
+"id": 17,
+"resize": true,
+"width": 555,
+"height": 109,
+"x": 383,
+"y": 528,
+"name": "PUZZLE SUCCESS"
 }
 ]
 }
@@ -1935,7 +2563,9 @@
 "uid": "L_TOILETTES",
 "graph": {
 "board": {
-"nextid": 9,
+"nextid": 24,
+"x": 377,
+"y": 607,
 "boxes": [
 {
 "type": 1285,
@@ -1981,6 +2611,127 @@
 "x": 393,
 "y": 351,
 "name": "EXIT CABINE"
+},
+{
+"type": 1287,
+"id": 9,
+"x": 410,
+"y": 79,
+"plugs": [
+{
+"id": 10,
+"type": 3,
+"trgs": [
+12
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_TOILETTES",
+"instance": "VOY_YAGER"
+},
+{
+"type": 784,
+"id": 11,
+"x": 581,
+"y": 77,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3,
+"trgs": [
+15
+]
+}
+],
+"scene": "S_TOILETTES",
+"shot2": "ZOOM_VOY",
+"dx": "0",
+"dy": "0",
+"fade_out": "True",
+"fade_in": "True",
+"fade_color": "010000",
+"duration": "1000",
+"endless": "False"
+},
+{
+"type": 781,
+"id": 14,
+"x": 754,
+"y": 77,
+"plugs": [
+{
+"id": 15,
+"type": 2
+},
+{
+"id": 16,
+"type": 3,
+"trgs": [
+18
+]
+}
+],
+"dialog": "D_VOY_YAGER"
+},
+{
+"type": 771,
+"id": 17,
+"x": 904,
+"y": 79,
+"plugs": [
+{
+"id": 18,
+"type": 2
+},
+{
+"id": 19,
+"type": 3,
+"trgs": [
+21
+]
+}
+],
+"duration": "1000"
+},
+{
+"type": 784,
+"id": 20,
+"x": 1031,
+"y": 79,
+"plugs": [
+{
+"id": 21,
+"type": 2
+},
+{
+"id": 22,
+"type": 3
+}
+],
+"scene": "S_TOILETTES",
+"shot": "ZOOM_VOY",
+"dx": "0",
+"dy": "0",
+"fade_out": "True",
+"fade_in": "True",
+"fade_color": "010000",
+"duration": "1000",
+"endless": "False"
+},
+{
+"type": 256,
+"id": 23,
+"resize": true,
+"width": 848,
+"height": 255,
+"x": 377,
+"y": 5,
+"name": "ZOOM SUR VOY AU CONTACT "
 }
 ]
 }
@@ -1994,7 +2745,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 79,
 "nextID": 6,
 "x": -325,
 "y": -42
@@ -2244,7 +2995,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 79,
 "nextID": 8,
 "x": -366,
 "y": 31
@@ -2622,7 +3373,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 79,
 "nextID": 8,
 "x": -353,
 "y": 101
@@ -2874,7 +3625,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 79,
 "nextID": 15,
 "x": -340,
 "y": 17
@@ -3235,7 +3986,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 79,
 "nextID": 4,
 "x": -343,
 "y": 66
@@ -3440,8 +4191,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 7,
+"zoom": 79,
+"nextID": 9,
 "x": -305,
 "y": 8
 },
@@ -3636,6 +4387,41 @@
 "en": "Exit",
 "fr": "Sortie"
 }
+},
+{
+"name": "VALISE1_DIO",
+"id": 7,
+"tags": [
+"",
+"",
+"",
+""
+],
+"y": 21,
+"width": 217,
+"height": 179,
+"title": {
+"en": "Suitcase",
+"fr": "Valise"
+}
+},
+{
+"name": "VALISE2_DIO",
+"id": 8,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 805,
+"y": 91,
+"width": 202,
+"height": 159,
+"text": {
+"en": "Suitcase",
+"fr": "Valise"
+}
 }
 ]
 },
@@ -3645,8 +4431,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 4,
+"zoom": 79,
+"nextID": 7,
 "x": -363,
 "y": 71
 },
@@ -3841,6 +4627,41 @@
 "en": "Exit",
 "fr": "Sortie"
 }
+},
+{
+"name": "VALISE1_ETHAN",
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"y": 21,
+"width": 217,
+"height": 179,
+"title": {
+"en": "Suitcase",
+"fr": "Valise"
+}
+},
+{
+"name": "VALISE2_ETHAN",
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 805,
+"y": 91,
+"width": 202,
+"height": 159,
+"title": {
+"en": "Suitcase",
+"fr": "Valise"
+}
 }
 ]
 },
@@ -3850,8 +4671,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 4,
+"zoom": 79,
+"nextID": 7,
 "x": -342,
 "y": 61
 },
@@ -4057,6 +4878,59 @@
 "en": "Exit",
 "fr": "Sortie"
 }
+},
+{
+"name": "VALISE1_KISEL",
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"y": 21,
+"width": 217,
+"height": 179,
+"title": {
+"en": "Suitcase",
+"fr": "Valise"
+}
+},
+{
+"name": "VALISE2_KISEL",
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 805,
+"y": 91,
+"width": 202,
+"height": 159,
+"title": {
+"en": "Suitcase",
+"fr": "Valise"
+}
+},
+{
+"name": "SAC_KISEL",
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 8,
+"y": 632,
+"width": 143,
+"height": 151,
+"title": {
+"en": "Bag",
+"fr": "Sac"
+}
 }
 ]
 },
@@ -4066,8 +4940,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 4,
+"zoom": 79,
+"nextID": 7,
 "x": -324,
 "y": 9
 },
@@ -4262,6 +5136,59 @@
 "en": "Exit",
 "fr": "Sortie"
 }
+},
+{
+"name": "VALISE1_LISHEI",
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"y": 21,
+"width": 217,
+"height": 179,
+"title": {
+"en": "Suitcase",
+"fr": "Valise"
+}
+},
+{
+"name": "VALISE2_LISHEI",
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 805,
+"y": 91,
+"width": 202,
+"height": 159,
+"title": {
+"en": "Suitcase",
+"fr": "Valise"
+}
+},
+{
+"name": "SAC_LISHEI",
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 8,
+"y": 632,
+"width": 143,
+"height": 151,
+"title": {
+"en": "Bag",
+"fr": "Sac"
+}
 }
 ]
 },
@@ -4271,10 +5198,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 5,
+"zoom": 64,
+"nextID": 8,
 "x": -305,
-"y": -22
+"y": -135
 },
 "layers": {
 "BACK": {
@@ -4383,6 +5310,41 @@
 "en": "Exit",
 "fr": "Sortie"
 }
+},
+{
+"name": "VALISE1_HERO",
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"y": 21,
+"width": 217,
+"height": 179,
+"title": {
+"en": "Suitcase",
+"fr": "Valise"
+}
+},
+{
+"name": "VALISE2_HERO",
+"id": 7,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 815,
+"y": 92,
+"width": 200,
+"height": 157,
+"title": {
+"en": "Suitcase",
+"fr": "Valise"
+}
 }
 ],
 "instances": [
@@ -4433,7 +5395,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 79,
 "nextID": 4,
 "x": -335,
 "y": 62
@@ -4638,7 +5600,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 79,
 "nextID": 4,
 "x": -344,
 "y": 39
@@ -4843,10 +5805,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 4,
-"x": -354,
-"y": -3
+"zoom": 79,
+"nextID": 6,
+"x": -605,
+"y": -762
 },
 "layers": {
 "BACK": {
@@ -5050,6 +6012,22 @@
 {},
 {}
 ]
+}
+],
+"shots": [
+{
+"name": "ZOOM_VOY",
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 323,
+"y": 898,
+"width": 507,
+"height": 100
 }
 ]
 }
@@ -7858,29 +8836,99 @@
 "text": {
 "fr": "J'ai des information qui pourrait vous interessez pour votre enquête..."
 },
-"speaker": "O_DIO_SCESE"
+"speaker": "O_DIO_SCESE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Vous savez quoi ? Si m'apporter une preuve qu'il est une âme damné, venez me voir."
 },
-"speaker": "O_DIO_SCESE"
+"speaker": "O_DIO_SCESE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Mais j'en suis persuadé !"
 },
-"speaker": "O_DIO_SCESE"
+"speaker": "O_DIO_SCESE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Et bien... Non."
 },
-"speaker": "O_DIO_SCESE"
+"speaker": "O_DIO_SCESE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Et, vous avez une preuve de ce que vous dites ?"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 },
 {
@@ -7888,28 +8936,112 @@
 "choice": true,
 "text": {
 "fr": "Oui, vous avez sans doute raison [CHOIX DE COUPABLE]"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 }
 ],
 "text": {
 "fr": "Je parle de Kisel Patron, évidemment. Si vous chercher un coupable, le voilà !"
 },
-"speaker": "O_DIO_SCESE"
+"speaker": "O_DIO_SCESE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "De quoi est ce que vous parlez ?"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 }
 ],
 "text": {
 "fr": "Vous passez à côté d'un sataniste, un défiant de Dieu, et vous ne l'arrêter même pas."
 },
-"speaker": "O_DIO_SCESE"
-}
+"speaker": "O_DIO_SCESE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
 }
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 17,
@@ -7919,6 +9051,20 @@
 "choice": true,
 "text": {
 "fr": "Non, pas encore..."
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 },
 {
@@ -7936,32 +9082,116 @@
 "text": {
 "fr": "L'arme du crime, est une cuillère ! C'est Dieu qui me l'a dit !"
 },
-"speaker": "O_DIO_SCESE"
+"speaker": "O_DIO_SCESE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Je vais donc vous révelez ce que je sais."
 },
-"speaker": "O_DIO_SCESE"
+"speaker": "O_DIO_SCESE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Fantastique ! Je le savais depuis le début !"
 },
-"speaker": "O_DIO_SCESE"
+"speaker": "O_DIO_SCESE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Oui, voici !"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 }
 ],
 "text": {
 "fr": "Alors... Vous avez trouver une preuve ?"
 },
-"speaker": "O_DIO_SCESE"
-}
+"speaker": "O_DIO_SCESE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 23
 }
@@ -8007,22 +9237,106 @@
 "text": {
 "fr": "Le wagon restaurant est fermé : le conducteur du train - Rhale BAULE - possède la clé."
 },
-"speaker": "O_ETHAN_AULE"
+"speaker": "O_ETHAN_AULE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
-"speaker": "O_ETHAN_AULE"
+"speaker": "O_ETHAN_AULE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
-"speaker": "O_ETHAN_AULE"
+"speaker": "O_ETHAN_AULE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
-"speaker": "O_ETHAN_AULE"
+"speaker": "O_ETHAN_AULE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
-"speaker": "O_ETHAN_AULE"
+"speaker": "O_ETHAN_AULE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
-"speaker": "O_ETHAN_AULE"
+"speaker": "O_ETHAN_AULE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 8,
@@ -8042,9 +9356,37 @@
 "text": {
 "fr": "Parfait, je m'y met de suite."
 },
-"speaker": "O_REX_LAMER"
-}
+"speaker": "O_REX_LAMER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 10,
@@ -8055,24 +9397,94 @@
 "text": {
 "fr": "Et bien, qu'attendez vous ?"
 },
-"speaker": "O_REX_LAMER"
+"speaker": "O_REX_LAMER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Non, pas encore"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 }
 ],
-"speaker": "O_REX_LAMER"
+"speaker": "O_REX_LAMER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 12,
 "text": {
 "fr": "Vous voyez, les VIP sont sortis, je vous l'avais bien dit."
 },
-"speaker": "O_REX_LAMER"
-}
+"speaker": "O_REX_LAMER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 14
 }
@@ -8106,18 +9518,88 @@
 "text": {
 "fr": "Si vous me les apportez, nulle doute que les VIP ouvriront leur wagon"
 },
-"speaker": "O_REX_LAMER"
-}
+"speaker": "O_REX_LAMER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
 ],
-"speaker": "O_REX_LAMER"
-}
-],
-"speaker": "O_REX_LAMER"
-}
-],
-"speaker": "O_REX_LAMER"
-}
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"speaker": "O_REX_LAMER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
+}
+],
+"speaker": "O_REX_LAMER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
+}
+],
+"speaker": "O_REX_LAMER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 5
 }
@@ -8139,10 +9621,38 @@
 "text": {
 "fr": "Vous pouvez donner cette lettre à Tauro ? NE L'OUVREZ SURTOUT PAS !"
 },
-"speaker": "O_ESAA_PRISTI"
+"speaker": "O_ESAA_PRISTI",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
-"speaker": "O_ESAA_PRISTI"
+"speaker": "O_ESAA_PRISTI",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 3,
@@ -8174,20 +9684,104 @@
 "text": {
 "fr": "Après, moi je dis ça, je dis rien..."
 },
-"speaker": "O_ESAA_PRISTI"
-}
+"speaker": "O_ESAA_PRISTI",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
 }
-],
-"speaker": "O_ESAA_PRISTI"
 }
 ],
-"speaker": "O_ESAA_PRISTI"
-}
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
 ],
-"speaker": "O_ESAA_PRISTI"
-}
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"speaker": "O_ESAA_PRISTI",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
+}
+],
+"speaker": "O_ESAA_PRISTI",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
+}
+],
+"speaker": "O_ESAA_PRISTI",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 10
 }
@@ -8209,19 +9803,75 @@
 "text": {
 "fr": "Vous pouvez donner cette lettre à Esaa ? NE L'OUVREZ SURTOUT PAS !"
 },
-"speaker": "O_TAURO_RELOUT"
+"speaker": "O_TAURO_RELOUT",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
-"speaker": "O_TAURO_RELOUT"
+"speaker": "O_TAURO_RELOUT",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 4,
 "text": {
 "fr": "Merçi pour avoir donné la lettre."
 },
-"speaker": "O_TAURO_RELOUT"
-}
+"speaker": "O_TAURO_RELOUT",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 9
 }
@@ -8243,31 +9893,101 @@
 "text": {
 "fr": "En fait, je veux pas savoir. Hors de ma vue sale chien."
 },
-"speaker": "O_KISEL_PATRON"
+"speaker": "O_KISEL_PATRON",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
-"speaker": "O_KISEL_PATRON"
+"speaker": "O_KISEL_PATRON",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 3,
 "text": {
 "fr": "Je t'avais dit de me lâcher."
 },
-"speaker": "O_KISEL_PATRON"
+"speaker": "O_KISEL_PATRON",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 4,
 "text": {
 "fr": "Dégage enfoiré !"
 },
-"speaker": "O_KISEL_PATRON"
+"speaker": "O_KISEL_PATRON",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 5,
 "text": {
 "fr": "LÂCHE MOI !"
 },
-"speaker": "O_KISEL_PATRON"
+"speaker": "O_KISEL_PATRON",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 6,
@@ -8303,43 +10023,169 @@
 "choice": true,
 "text": {
 "fr": "Pas encore, tout du moins."
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 }
 ],
 "text": {
 "fr": "Tu vas m'arrêter maitenant ?"
 },
-"speaker": "O_KISEL_PATRON"
+"speaker": "O_KISEL_PATRON",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "J'était en train de fumer si ça t'intéresse tant que ça. Regarde, un joint de canabis."
 },
-"speaker": "O_KISEL_PATRON"
+"speaker": "O_KISEL_PATRON",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Ouais poulet, ça te pose un problème ?"
 },
-"speaker": "O_KISEL_PATRON"
+"speaker": "O_KISEL_PATRON",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Et, tu vas vraiment me faire croire que tu était dans ta cabine, tout seul, durant tout ce temps ?"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 }
 ],
 "text": {
 "fr": "Rien. J'était dans ma cabine. Si vous étiez pas venu me cassez les burnes, j'aurais même pas su que quelqu'un était mort."
 },
-"speaker": "O_KISEL_PATRON"
-}
+"speaker": "O_KISEL_PATRON",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
 }
 ],
-"speaker": "O_KISEL_PATRON"
-}
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"speaker": "O_KISEL_PATRON",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 17
 }
@@ -8368,21 +10214,91 @@
 "text": {
 "fr": "Revenez dans 30 minutes, je vous donnerais le résultat."
 },
-"speaker": "O_LI_SHEIN_TAN"
-}
+"speaker": "O_LI_SHEIN_TAN",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 5,
 "choice": true,
 "text": {
 "fr": "Rien..."
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 }
 ],
-"speaker": "O_LI_SHEIN_TAN"
-}
+"speaker": "O_LI_SHEIN_TAN",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 6
 }
@@ -8398,9 +10314,37 @@
 "text": {
 "fr": "..."
 },
-"speaker": "O_VOY_YAGER"
-}
+"speaker": "O_VOY_YAGER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 2
 }
@@ -8429,9 +10373,37 @@
 "text": {
 "fr": "Revenez dans 30 minutes, je vous donnerais le résultat."
 },
-"speaker": "O_REMI_PLEGIE"
-}
+"speaker": "O_REMI_PLEGIE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 7,
@@ -8442,11 +10414,39 @@
 "text": {
 "fr": "J'était dans ma cabine, je prenais le thé avec Annie MATION."
 },
-"speaker": "O_REMI_PLEGIE"
+"speaker": "O_REMI_PLEGIE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Que faisiez-vous au moment du meutre ?"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 },
 {
@@ -8454,12 +10454,54 @@
 "choice": true,
 "text": {
 "fr": "Rien..."
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 }
 ],
-"speaker": "O_REMI_PLEGIE"
-}
+"speaker": "O_REMI_PLEGIE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 9
 }
@@ -8498,15 +10540,57 @@
 "text": {
 "fr": "C'est Zieg qui m'a mis au courant : j'étais avec Rémi dans sa cabine tout du long."
 },
-"speaker": "O_ANNIE_MATION"
+"speaker": "O_ANNIE_MATION",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Rien que vous ne savez déjà je présume."
 },
-"speaker": "O_ANNIE_MATION"
-}
+"speaker": "O_ANNIE_MATION",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
 "id": 4,
@@ -8523,31 +10607,129 @@
 "choice": true,
 "text": {
 "fr": "Ca ira, merci."
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 }
 ],
 "text": {
 "fr": "Vous voulez un autographe ?"
 },
-"speaker": "O_ANNIE_MATION"
+"speaker": "O_ANNIE_MATION",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Je suis Annie MATION. Une artiste reconnu, je vous ferais savoir."
 },
-"speaker": "O_ANNIE_MATION"
+"speaker": "O_ANNIE_MATION",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "text": {
 "fr": "Parlez moi de vous."
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
 }
 }
 ],
-"speaker": "O_ANNIE_MATION"
-}
+"speaker": "O_ANNIE_MATION",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
 }
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 10
 }
@@ -8563,9 +10745,37 @@
 "text": {
 "fr": "Annie MATION ?"
 },
-"speaker": "O_ZIEG_ARRETE"
-}
+"speaker": "O_ZIEG_ARRETE",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
 ]
+}
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 },
 "nextID": 2
 }

@@ -213,7 +213,7 @@
 }
 },
 "meta": {
-"nextAssetID": 53
+"nextAssetID": 55
 }
 },
 "puzzle": {
@@ -6322,12 +6322,40 @@
 "sentence": {
 "sentences": [
 {
-"id": 1,
+"id": 2,
+"text": {
+"fr": "Inspecteur ! Que voulez-vous ?"
+},
+"sentences": [
+{
+"id": 3,
+"choice": true,
+"text": {
+"fr": "Vous pouvez attribuez ces empreintes digitales ?"
+},
+"sentences": [
+{
+"id": 4,
+"text": {
+"fr": "Revenez dans 30 minutes, je vous donnerais le résultat."
+},
 "speaker": "O_LI_SHEIN_TAN"
 }
 ]
 },
-"nextID": 2
+{
+"id": 5,
+"choice": true,
+"text": {
+"fr": "Rien..."
+}
+}
+],
+"speaker": "O_LI_SHEIN_TAN"
+}
+]
+},
+"nextID": 6
 }
 },
 {
@@ -6342,6 +6370,67 @@
 "fr": "..."
 },
 "speaker": "O_VOY_YAGER"
+}
+]
+},
+"nextID": 2
+}
+},
+{
+"sid": 53,
+"uid": "D_REMI_PLEGIE",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Inspecteur ! Que voulez-vous ?"
+},
+"sentences": [
+{
+"id": 2,
+"choice": true,
+"text": {
+"fr": "Vous pouvez attribuez ces empreintes digitales ?"
+},
+"sentences": [
+{
+"id": 5,
+"text": {
+"fr": "Revenez dans 30 minutes, je vous donnerais le résultat."
+},
+"speaker": "O_REMI_PLEGIE"
+}
+]
+},
+{
+"id": 3,
+"choice": true,
+"text": {
+"fr": "Rien..."
+}
+}
+],
+"speaker": "O_REMI_PLEGIE"
+}
+]
+},
+"nextID": 6
+}
+},
+{
+"sid": 54,
+"uid": "D_ANNIE_MATION",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Oh, inspecteur ! "
+},
+"speaker": "O_ANNIE_MATION"
 }
 ]
 },

@@ -213,12 +213,12 @@
 }
 },
 "meta": {
-"nextAssetID": 49
+"nextAssetID": 53
 }
 },
 "puzzle": {
 "board": {
-"nextid": 52,
+"nextid": 58,
 "x": 548,
 "y": 414,
 "boxes": [
@@ -5905,7 +5905,7 @@
 {
 "id": 22,
 "text": {
-"fr": "L'arme du crime, est un rouleau patissier ! C'est Dieu qui me l'a dit !"
+"fr": "L'arme du crime, est une cuillère ! C'est Dieu qui me l'a dit !"
 },
 "speaker": "O_DIO_SCESE"
 }
@@ -6138,7 +6138,16 @@
 "text": {
 "fr": "D'après les légendes, il aurait tué plus d'une personne quand il été à leur tête."
 },
+"speaker": "O_ESAA_PRISTI",
+"sentences": [
+{
+"id": 9,
+"text": {
+"fr": "Après, moi je dis ça, je dis rien..."
+},
 "speaker": "O_ESAA_PRISTI"
+}
+]
 }
 ],
 "speaker": "O_ESAA_PRISTI"
@@ -6151,7 +6160,192 @@
 }
 ]
 },
-"nextID": 7
+"nextID": 10
+}
+},
+{
+"sid": 49,
+"uid": "D_THAURO_RELOUT",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "Inspecteur ! J'aurais une requête à vous demandez."
+},
+"sentences": [
+{
+"id": 3,
+"text": {
+"fr": "Vous pouvez donner cette lettre à Esaa ? NE L'OUVREZ SURTOUT PAS !"
+},
+"speaker": "O_TAURO_RELOUT"
+}
+],
+"speaker": "O_TAURO_RELOUT"
+},
+{
+"id": 4,
+"text": {
+"fr": "Merçi pour avoir donné la lettre."
+},
+"speaker": "O_TAURO_RELOUT"
+}
+]
+},
+"nextID": 9
+}
+},
+{
+"sid": 50,
+"uid": "D_KISEL_PATRON",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Alors le poulet, ça roule ?"
+},
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "En fait, je veux pas savoir. Hors de ma vue sale chien."
+},
+"speaker": "O_KISEL_PATRON"
+}
+],
+"speaker": "O_KISEL_PATRON"
+},
+{
+"id": 3,
+"text": {
+"fr": "Je t'avais dit de me lâcher."
+},
+"speaker": "O_KISEL_PATRON"
+},
+{
+"id": 4,
+"text": {
+"fr": "Dégage enfoiré !"
+},
+"speaker": "O_KISEL_PATRON"
+},
+{
+"id": 5,
+"text": {
+"fr": "LÂCHE MOI !"
+},
+"speaker": "O_KISEL_PATRON"
+},
+{
+"id": 6,
+"text": {
+"fr": "OK, qu'est ce que tu veux ?"
+},
+"sentences": [
+{
+"id": 8,
+"choice": true,
+"text": {
+"fr": "Qu'est ce que tu sais du crime ?"
+},
+"sentences": [
+{
+"id": 9,
+"sentences": [
+{
+"id": 12,
+"choice": true,
+"sentences": [
+{
+"id": 13,
+"sentences": [
+{
+"id": 14,
+"sentences": [
+{
+"id": 15,
+"sentences": [
+{
+"id": 16,
+"choice": true,
+"text": {
+"fr": "Pas encore, tout du moins."
+}
+}
+],
+"text": {
+"fr": "Tu vas m'arrêter maitenant ?"
+},
+"speaker": "O_KISEL_PATRON"
+}
+],
+"text": {
+"fr": "J'était en train de fumer si ça t'intéresse tant que ça. Regarde, un joint de canabis."
+},
+"speaker": "O_KISEL_PATRON"
+}
+],
+"text": {
+"fr": "Ouais poulet, ça te pose un problème ?"
+},
+"speaker": "O_KISEL_PATRON"
+}
+],
+"text": {
+"fr": "Et, tu vas vraiment me faire croire que tu était dans ta cabine, tout seul, durant tout ce temps ?"
+}
+}
+],
+"text": {
+"fr": "Rien. J'était dans ma cabine. Si vous étiez pas venu me cassez les burnes, j'aurais même pas su que quelqu'un était mort."
+},
+"speaker": "O_KISEL_PATRON"
+}
+]
+}
+],
+"speaker": "O_KISEL_PATRON"
+}
+]
+},
+"nextID": 17
+}
+},
+{
+"sid": 51,
+"uid": "D_LI_SHEI_TAN",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"speaker": "O_LI_SHEIN_TAN"
+}
+]
+},
+"nextID": 2
+}
+},
+{
+"sid": 52,
+"uid": "D_VOY_YAGER",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "..."
+},
+"speaker": "O_VOY_YAGER"
+}
+]
+},
+"nextID": 2
 }
 }
 ]

@@ -17,15 +17,15 @@ flowchart TD
     B --> C[Toilette]
     B --> D[Wagon restaurant]
     
-    B --> E(Cabine 1)
-    B --> F(Cabine 2)
-    B --> G(Cabine 3)
-    B --> H(Cabine 4)
-    B --> I(Cabine 5)
+    B --> E(Cabine de Kissel)
+    B --> F(Cabine de Dio)
+    B --> G(Cabine d'Ethan)
+    B --> H(Cabine de Li Shei)
+    B --> I(Cabine du joueur)
 
     D --> V[Wagon VIP]
-    V --> J(Cabine 6)
-    V --> K(Cabine 7)
-    V --> L(Cabine 8)
+    V --> J(Cabine d'Annie)
+    V --> K(Cabine de Remi)
+    V --> L(Cabine de Zieg)
 
     V --> O[Arrière train]

@@ -213,7 +213,7 @@
 }
 },
 "meta": {
-"nextAssetID": 61
+"nextAssetID": 62
 }
 },
 "puzzle": {
@@ -3375,8 +3375,8 @@
 "light_blur": -1,
 "zoom": 79,
 "nextID": 8,
-"x": -353,
-"y": 101
+"x": -349,
+"y": -3
 },
 "layers": {
 "BACK": {
@@ -3627,8 +3627,8 @@
 "light_blur": -1,
 "zoom": 79,
 "nextID": 15,
-"x": -340,
-"y": 17
+"x": -299,
+"y": -4
 },
 "layers": {
 "BACK": {
@@ -10778,6 +10778,31 @@
 }
 },
 "nextID": 2
+}
+},
+{
+"sid": 61,
+"uid": "D_GENERIC",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Impossible d'entrer."
+},
+"speaker": "O_HERO"
+},
+{
+"id": 2,
+"text": {
+"fr": "Je ne comprend pas."
+},
+"speaker": "O_HERO"
+}
+]
+},
+"nextID": 3
 }
 }
 ],

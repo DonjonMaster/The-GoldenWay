@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 150,
-"x": 1119,
-"y": 611,
+"x": 1159,
+"y": 644,
 "boxes": [
 {
 "type": 257,
@@ -891,9 +891,9 @@
 "uid": "L_LOCOMOTIVE",
 "graph": {
 "board": {
-"nextid": 42,
-"x": 17,
-"y": -416,
+"nextid": 47,
+"x": -147,
+"y": -103,
 "boxes": [
 {
 "type": 1287,
@@ -978,14 +978,14 @@
 {
 "type": 1290,
 "id": 18,
-"x": 314,
-"y": 814,
+"x": 296,
+"y": 822,
 "plugs": [
 {
 "id": 19,
 "type": 3,
 "trgs": [
-24
+43
 ]
 }
 ],
@@ -998,8 +998,8 @@
 {
 "type": 788,
 "id": 23,
-"x": 488,
-"y": 832,
+"x": 997,
+"y": 840,
 "plugs": [
 {
 "id": 24,
@@ -1020,8 +1020,8 @@
 {
 "type": 788,
 "id": 31,
-"x": 784,
-"y": 831,
+"x": 1293,
+"y": 839,
 "plugs": [
 {
 "id": 32,
@@ -1040,8 +1040,8 @@
 "type": 256,
 "id": 37,
 "resize": true,
-"width": 638,
-"height": 181,
+"width": 1121,
+"height": 231,
 "x": 260,
 "y": 777,
 "name": "PUZZLE SUCCESS"
@@ -1059,8 +1059,8 @@
 {
 "type": 780,
 "id": 39,
-"x": 601,
-"y": 832,
+"x": 1110,
+"y": 840,
 "plugs": [
 {
 "id": 40,
@@ -1075,6 +1075,42 @@
 }
 ],
 "puzzle": "#Donner_eau_Rhale"
+},
+{
+"type": 781,
+"id": 42,
+"x": 416,
+"y": 825,
+"plugs": [
+{
+"id": 43,
+"type": 2
+},
+{
+"id": 44,
+"type": 3
+}
+],
+"dialog": "D_RHALE_BAULE",
+"sentence": "9"
+},
+{
+"type": 1286,
+"id": 45,
+"x": 742,
+"y": 846,
+"plugs": [
+{
+"id": 46,
+"type": 3,
+"trgs": [
+24
+]
+}
+],
+"var_cmp": "==",
+"dialog": "D_RHALE_BAULE",
+"sentence": "13"
 }
 ]
 }
@@ -8912,7 +8948,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "text": {
@@ -8949,7 +8986,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 }
 ],
 "voice": {
@@ -8994,7 +9032,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "text": {
@@ -9014,7 +9053,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 },
 {
 "id": 11,
@@ -9040,7 +9080,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "text": {
@@ -9060,7 +9101,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 }
 ],
 "text": {
@@ -9164,7 +9206,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "text": {
@@ -9243,7 +9286,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 },
 {
 "id": 11,
@@ -9264,7 +9308,9 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true,
+"exit": true
 }
 ],
 "text": {
@@ -9303,7 +9349,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 }
 ],
 "text": {
@@ -9339,7 +9386,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 }
 ],
 "voice": {
@@ -9379,7 +9427,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 },
 {
 "id": 19,
@@ -9410,7 +9459,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "text": {
@@ -9469,7 +9519,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 }
 ],
 "text": {
@@ -9565,7 +9616,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "speaker": "O_ETHAN_AULE",
@@ -9637,117 +9689,6 @@
 }
 ],
 "speaker": "O_ETHAN_AULE",
-"voice": {
-"en": [
-{},
-{},
-{},
-{}
-],
-"fr": [
-{},
-{},
-{},
-{}
-]
-}
-},
-{
-"id": 8,
-"text": {
-"fr": "Alors, vous avez les ingrédient ?"
-},
-"sentences": [
-{
-"id": 9,
-"choice": true,
-"text": {
-"fr": "Voilà !"
-},
-"sentences": [
-{
-"id": 11,
-"text": {
-"fr": "Parfait, je m'y met de suite."
-},
-"speaker": "O_REX_LAMER",
-"voice": {
-"en": [
-{},
-{},
-{},
-{}
-],
-"fr": [
-{},
-{},
-{},
-{}
-]
-}
-}
-],
-"voice": {
-"en": [
-{},
-{},
-{},
-{}
-],
-"fr": [
-{},
-{},
-{},
-{}
-]
-}
-},
-{
-"id": 10,
-"choice": true,
-"sentences": [
-{
-"id": 13,
-"text": {
-"fr": "Et bien, qu'attendez vous ?"
-},
-"speaker": "O_REX_LAMER",
-"voice": {
-"en": [
-{},
-{},
-{},
-{}
-],
-"fr": [
-{},
-{},
-{},
-{}
-]
-}
-}
-],
-"text": {
-"fr": "Non, pas encore"
-},
-"voice": {
-"en": [
-{},
-{},
-{},
-{}
-],
-"fr": [
-{},
-{},
-{},
-{}
-]
-}
-}
-],
-"speaker": "O_REX_LAMER",
 "voice": {
 "en": [
 {},
@@ -9782,7 +9723,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "voice": {
@@ -9919,6 +9861,121 @@
 ]
 },
 "speaker": "O_REX_LAMER"
+},
+{
+"id": 6,
+"text": {
+"fr": "Alors, vous avez les ingrédient ?"
+},
+"sentences": [
+{
+"id": 7,
+"choice": true,
+"text": {
+"fr": "Voilà !"
+},
+"sentences": [
+{
+"id": 8,
+"text": {
+"fr": "Parfait, je m'y met de suite."
+},
+"speaker": "O_REX_LAMER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+},
+"exit": true
+}
+],
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+},
+"never_hide": true
+},
+{
+"id": 9,
+"choice": true,
+"sentences": [
+{
+"id": 10,
+"text": {
+"fr": "Et bien, qu'attendez vous ?"
+},
+"speaker": "O_REX_LAMER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+},
+"exit": true
+}
+],
+"text": {
+"fr": "Non, pas encore"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+},
+"never_hide": true
+}
+],
+"speaker": "O_REX_LAMER",
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+],
+"fr": [
+{},
+{},
+{},
+{}
+]
+}
 }
 ],
 "voice": {
@@ -9936,7 +9993,7 @@
 ]
 }
 },
-"nextID": 6
+"nextID": 11
 }
 },
 {
@@ -9970,7 +10027,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "speaker": "O_ESAA_PRISTI",
@@ -10033,7 +10091,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "voice": {
@@ -10152,7 +10211,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "speaker": "O_TAURO_RELOUT",
@@ -10190,7 +10250,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "voice": {
@@ -10242,7 +10303,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "speaker": "O_KISEL_PATRON",
@@ -10280,7 +10342,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 },
 {
 "id": 4,
@@ -10301,7 +10364,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 },
 {
 "id": 5,
@@ -10322,7 +10386,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 },
 {
 "id": 6,
@@ -10372,7 +10437,9 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true,
+"exit": true
 }
 ],
 "text": {
@@ -10451,7 +10518,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 }
 ],
 "text": {
@@ -10487,7 +10555,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 }
 ],
 "speaker": "O_KISEL_PATRON",
@@ -10563,7 +10632,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "voice": {
@@ -10579,7 +10649,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 },
 {
 "id": 5,
@@ -10600,7 +10671,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 }
 ],
 "speaker": "O_LI_SHEIN_TAN",
@@ -10722,7 +10794,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "voice": {
@@ -10738,7 +10811,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 },
 {
 "id": 7,
@@ -10763,7 +10837,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "text": {
@@ -10782,7 +10857,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 },
 {
 "id": 3,
@@ -10803,7 +10879,9 @@
 {},
 {}
 ]
-}
+},
+"exit": true,
+"never_hide": true
 }
 ],
 "speaker": "O_REMI_PLEGIE",
@@ -10889,7 +10967,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "text": {
@@ -10925,7 +11004,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 },
 {
 "id": 4,
@@ -10956,7 +11036,9 @@
 {},
 {}
 ]
-}
+},
+"exit": true,
+"never_hide": true
 }
 ],
 "text": {
@@ -11015,7 +11097,8 @@
 {},
 {}
 ]
-}
+},
+"never_hide": true
 }
 ],
 "speaker": "O_ANNIE_MATION",
@@ -11140,7 +11223,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 },
 {
 "id": 2,
@@ -11161,7 +11245,8 @@
 {},
 {}
 ]
-}
+},
+"exit": true
 }
 ],
 "voice": {

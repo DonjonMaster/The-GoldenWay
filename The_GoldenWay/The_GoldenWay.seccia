@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 179,
-"x": 1330,
-"y": 541,
+"x": 1786,
+"y": 695,
 "boxes": [
 {
 "type": 257,
@@ -928,15 +928,15 @@
 },
 "graph": {
 "board": {
-"nextid": 122,
-"x": 562,
-"y": -40,
+"nextid": 128,
+"x": 702,
+"y": 274,
 "boxes": [
 {
 "type": 1309,
 "id": 3,
-"x": 118,
-"y": 142,
+"x": 268,
+"y": 140,
 "plugs": [
 {
 "id": 4,
@@ -951,8 +951,8 @@
 {
 "type": 789,
 "id": 5,
-"x": 278,
-"y": 140,
+"x": 428,
+"y": 138,
 "plugs": [
 {
 "id": 6,
@@ -972,8 +972,8 @@
 {
 "type": 775,
 "id": 11,
-"x": 436,
-"y": 153,
+"x": 586,
+"y": 151,
 "plugs": [
 {
 "id": 12,
@@ -984,7 +984,7 @@
 "type": 3
 }
 ],
-"scene": "S_CABINE_ZIEG"
+"scene": "S_CABINE_ETHAN"
 },
 {
 "type": 1303,
@@ -1107,16 +1107,16 @@
 "resize": true,
 "width": 564,
 "height": 123,
-"x": 87,
-"y": 104,
+"x": 237,
+"y": 102,
 "name": "GAME START"
 },
 {
 "type": 256,
 "id": 30,
 "resize": true,
-"width": 775,
-"height": 219,
+"width": 920,
+"height": 227,
 "x": -773,
 "y": 86,
 "name": "ACCES PUZZLE"
@@ -1633,7 +1633,10 @@
 },
 {
 "id": 110,
-"type": 3
+"type": 3,
+"trgs": [
+126
+]
 }
 ],
 "player": "P_HERO",
@@ -1720,6 +1723,26 @@
 "visible": "True",
 "scene": "S_WAGON_VIP",
 "instance": "ZIEG_ARRETE"
+},
+{
+"type": 788,
+"id": 125,
+"x": 18,
+"y": 195,
+"plugs": [
+{
+"id": 126,
+"type": 2
+},
+{
+"id": 127,
+"type": 3
+}
+],
+"player": "DUMP",
+"item": "I_CUILLERE",
+"item2": "I_FARINE",
+"silent": "False"
 }
 ]
 }
@@ -2309,15 +2332,15 @@
 "uid": "L_WAGON_VIP",
 "graph": {
 "board": {
-"nextid": 42,
-"x": -116,
-"y": 18,
+"nextid": 47,
+"x": -187,
+"y": -27,
 "boxes": [
 {
 "type": 1285,
 "id": 4,
-"x": 485,
-"y": 222,
+"x": 477,
+"y": 72,
 "plugs": [
 {
 "id": 5,
@@ -2334,8 +2357,8 @@
 {
 "type": 775,
 "id": 6,
-"x": 681,
-"y": 224,
+"x": 673,
+"y": 74,
 "plugs": [
 {
 "id": 7,
@@ -2351,8 +2374,8 @@
 {
 "type": 1285,
 "id": 9,
-"x": 486,
-"y": 289,
+"x": 478,
+"y": 139,
 "plugs": [
 {
 "id": 10,
@@ -2369,8 +2392,8 @@
 {
 "type": 775,
 "id": 11,
-"x": 697,
-"y": 296,
+"x": 689,
+"y": 146,
 "plugs": [
 {
 "id": 12,
@@ -2386,8 +2409,8 @@
 {
 "type": 1285,
 "id": 14,
-"x": 480,
-"y": 384,
+"x": 463,
+"y": 343,
 "plugs": [
 {
 "id": 15,
@@ -2405,8 +2428,8 @@
 {
 "type": 775,
 "id": 16,
-"x": 684,
-"y": 397,
+"x": 667,
+"y": 356,
 "plugs": [
 {
 "id": 17,
@@ -2423,10 +2446,10 @@
 "type": 256,
 "id": 30,
 "resize": true,
-"width": 400,
-"height": 291,
-"x": 421,
-"y": 182,
+"width": 441,
+"height": 422,
+"x": 413,
+"y": 32,
 "name": "CABINE VIP"
 },
 {
@@ -2473,6 +2496,43 @@
 "x": 411,
 "y": 507,
 "name": "BACK"
+},
+{
+"type": 1285,
+"id": 42,
+"x": 466,
+"y": 221,
+"plugs": [
+{
+"id": 43,
+"type": 3,
+"trgs": [
+45
+]
+}
+],
+"unresolved": "#Donner_lettre_Zieg",
+"var_cmp": "==",
+"scene": "S_WAGON_VIP",
+"label": "VIPCABIN3"
+},
+{
+"type": 781,
+"id": 44,
+"x": 661,
+"y": 225,
+"plugs": [
+{
+"id": 45,
+"type": 2
+},
+{
+"id": 46,
+"type": 3
+}
+],
+"dialog": "D_ZIEG_ARRETE",
+"sentence": "1"
 }
 ]
 }
@@ -2961,9 +3021,9 @@
 "uid": "L_CABINE_DIO",
 "graph": {
 "board": {
-"nextid": 43,
-"x": -77,
-"y": -40,
+"nextid": 48,
+"x": 278,
+"y": -302,
 "boxes": [
 {
 "type": 1285,
@@ -3107,8 +3167,8 @@
 "type": 256,
 "id": 22,
 "resize": true,
-"width": 368,
-"height": 122,
+"width": 408,
+"height": 255,
 "x": 129,
 "y": 622,
 "name": "DIALOGUE"
@@ -3224,6 +3284,41 @@
 }
 ],
 "puzzle": "#Cuillere_recuperer"
+},
+{
+"type": 1286,
+"id": 43,
+"x": 140,
+"y": 744,
+"plugs": [
+{
+"id": 44,
+"type": 3,
+"trgs": [
+46
+]
+}
+],
+"var_cmp": "==",
+"dialog": "D_DIO_SCESE",
+"sentence": "11"
+},
+{
+"type": 775,
+"id": 45,
+"x": 394,
+"y": 747,
+"plugs": [
+{
+"id": 46,
+"type": 2
+},
+{
+"id": 47,
+"type": 3
+}
+],
+"scene": "S_BACK"
 }
 ]
 }
@@ -3953,8 +4048,8 @@
 "graph": {
 "board": {
 "nextid": 21,
-"x": -89,
-"y": -68,
+"x": -452,
+"y": -77,
 "boxes": [
 {
 "type": 1285,
@@ -6881,7 +6976,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 79,
+"zoom": 50,
 "nextID": 13,
 "x": -260,
 "y": 65
@@ -23057,7 +23152,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 79,
+"zoom": 50,
 "x": -246,
 "y": 22,
 "nextID": 13
@@ -28786,7 +28881,7 @@
 {
 "id": 4,
 "text": {
-"fr": "Revenez dans 30 minutes, je vous donnerais le résultat."
+"fr": "Deux secondes..."
 },
 "speaker": "O_LI_SHEIN_TAN",
 "voice": {
@@ -28803,7 +28898,30 @@
 {}
 ]
 },
+"sentences": [
+{
+"id": 6,
+"text": {
+"fr": "Ces empreintes appartiennent à Rex LAMER."
+},
+"voice": {
+"fr": [
+{},
+{},
+{},
+{}
+],
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"speaker": "O_LI_SHEIN_TAN",
 "exit": true
+}
+]
 }
 ],
 "voice": {
@@ -28879,7 +28997,7 @@
 ]
 }
 },
-"nextID": 6
+"nextID": 7
 }
 },
 {
@@ -28950,7 +29068,7 @@
 {
 "id": 5,
 "text": {
-"fr": "Revenez dans 30 minutes, je vous donnerais le résultat."
+"fr": "Deux secondes..."
 },
 "speaker": "O_REMI_PLEGIE",
 "voice": {
@@ -28967,7 +29085,30 @@
 {}
 ]
 },
+"sentences": [
+{
+"id": 9,
+"text": {
+"fr": "Ces empreintes sont celles de Rex LAMER."
+},
+"voice": {
+"fr": [
+{},
+{},
+{},
+{}
+],
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"speaker": "O_REMI_PLEGIE",
 "exit": true
+}
+]
 }
 ],
 "voice": {
@@ -29089,7 +29230,7 @@
 ]
 }
 },
-"nextID": 9
+"nextID": 10
 }
 },
 {

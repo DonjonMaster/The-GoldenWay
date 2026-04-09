@@ -213,14 +213,14 @@
 }
 },
 "meta": {
-"nextAssetID": 62
+"nextAssetID": 67
 }
 },
 "puzzle": {
 "board": {
 "nextid": 150,
-"x": 1355,
-"y": 465,
+"x": 1086,
+"y": 634,
 "boxes": [
 {
 "type": 257,
@@ -689,7 +689,7 @@
 {
 "type": 263,
 "id": 136,
-"name": "EMPRUNTE",
+"name": "EMPREINTE",
 "resize": true,
 "width": 339,
 "height": 211,
@@ -790,9 +790,9 @@
 },
 "graph": {
 "board": {
-"nextid": 92,
-"x": 825,
-"y": 810,
+"nextid": 97,
+"x": 591,
+"y": 583,
 "boxes": [
 {
 "type": 1309,
@@ -846,7 +846,7 @@
 "type": 3
 }
 ],
-"scene": "S_CABINE_HERO"
+"scene": "S_CABINE_ETHAN"
 },
 {
 "type": 1303,
@@ -1369,6 +1369,41 @@
 ],
 "dialog": "D_REX_LAMER",
 "sentence": "5"
+},
+{
+"type": 1307,
+"id": 92,
+"x": 546,
+"y": -331,
+"plugs": [
+{
+"id": 93,
+"type": 3,
+"trgs": [
+95
+]
+}
+],
+"var_cmp": "==",
+"item": "I_CUILLERE",
+"item2": "I_FARINE"
+},
+{
+"type": 775,
+"id": 94,
+"x": 691,
+"y": -323,
+"plugs": [
+{
+"id": 95,
+"type": 2
+},
+{
+"id": 96,
+"type": 3
+}
+],
+"scene": "S_REVELATION_DES_EMPREINTES"
 }
 ]
 }
@@ -1380,8 +1415,8 @@
 "graph": {
 "board": {
 "nextid": 47,
-"x": -117,
-"y": -143,
+"x": -178,
+"y": -227,
 "boxes": [
 {
 "type": 1287,
@@ -1610,8 +1645,8 @@
 "graph": {
 "board": {
 "nextid": 102,
-"x": -301,
-"y": 354,
+"x": -731,
+"y": 200,
 "boxes": [
 {
 "type": 256,
@@ -1901,7 +1936,8 @@
 "graph": {
 "board": {
 "nextid": 42,
-"y": 16,
+"x": -116,
+"y": 18,
 "boxes": [
 {
 "type": 1285,
@@ -2074,8 +2110,8 @@
 "graph": {
 "board": {
 "nextid": 73,
-"x": 56,
-"y": 11,
+"x": -166,
+"y": -50,
 "boxes": [
 {
 "type": 1285,
@@ -2422,8 +2458,8 @@
 "type": 256,
 "id": 62,
 "resize": true,
-"width": 488,
-"height": 523,
+"width": 482,
+"height": 391,
 "x": 774,
 "y": 505,
 "name": "UTILISER LA CLÉ SUR LA PORTE DU RESTAU"
@@ -2551,9 +2587,9 @@
 "uid": "L_CABINE_DIO",
 "graph": {
 "board": {
-"nextid": 34,
-"x": 101,
-"y": 79,
+"nextid": 40,
+"x": -77,
+"y": -46,
 "boxes": [
 {
 "type": 1285,
@@ -2614,6 +2650,7 @@
 ]
 }
 ],
+"unresolved": "#Eau_recuperer",
 "var_cmp": "==",
 "scene": "S_CABINE_DIO",
 "label": "VALISE1_DIO"
@@ -2643,8 +2680,8 @@
 {
 "type": 1287,
 "id": 14,
-"x": 173,
-"y": 528,
+"x": 170,
+"y": 594,
 "plugs": [
 {
 "id": 15,
@@ -2661,8 +2698,8 @@
 {
 "type": 781,
 "id": 16,
-"x": 339,
-"y": 531,
+"x": 336,
+"y": 597,
 "plugs": [
 {
 "id": 17,
@@ -2698,16 +2735,16 @@
 "resize": true,
 "width": 368,
 "height": 122,
-"x": 126,
-"y": 492,
+"x": 123,
+"y": 558,
 "name": "DIALOGUE"
 },
 {
 "type": 256,
 "id": 23,
 "resize": true,
-"width": 592,
-"height": 207,
+"width": 831,
+"height": 259,
 "x": 126,
 "y": 256,
 "name": "PUZZLE SUCCESS"
@@ -2715,8 +2752,8 @@
 {
 "type": 1290,
 "id": 26,
-"x": 206,
-"y": 376,
+"x": 168,
+"y": 410,
 "plugs": [
 {
 "id": 27,
@@ -2726,6 +2763,7 @@
 ]
 }
 ],
+"unresolved": "#Cuillere_recuperer",
 "var_cmp": "==",
 "scene": "S_CABINE_DIO",
 "item": "I_CANNABIS",
@@ -2735,7 +2773,7 @@
 "type": 781,
 "id": 28,
 "x": 343,
-"y": 373,
+"y": 408,
 "plugs": [
 {
 "id": 29,
@@ -2755,8 +2793,8 @@
 {
 "type": 788,
 "id": 31,
-"x": 567,
-"y": 376,
+"x": 575,
+"y": 409,
 "plugs": [
 {
 "id": 32,
@@ -2764,12 +2802,54 @@
 },
 {
 "id": 33,
-"type": 3
+"type": 3,
+"trgs": [
+35
+]
 }
 ],
 "player": "DUMP",
 "item": "I_CANNABIS",
 "silent": "False"
+},
+{
+"type": 788,
+"id": 34,
+"x": 714,
+"y": 409,
+"plugs": [
+{
+"id": 35,
+"type": 2
+},
+{
+"id": 36,
+"type": 3,
+"trgs": [
+38
+]
+}
+],
+"player": "P_HERO",
+"item": "I_CUILLERE",
+"silent": "False"
+},
+{
+"type": 780,
+"id": 37,
+"x": 816,
+"y": 409,
+"plugs": [
+{
+"id": 38,
+"type": 2
+},
+{
+"id": 39,
+"type": 3
+}
+],
+"puzzle": "#Cuillere_recuperer"
 }
 ]
 }
@@ -2781,8 +2861,8 @@
 "graph": {
 "board": {
 "nextid": 24,
-"x": -60,
-"y": -206,
+"x": -180,
+"y": -158,
 "boxes": [
 {
 "type": 1285,
@@ -2951,9 +3031,9 @@
 "uid": "L_CABINE_KISEL",
 "graph": {
 "board": {
-"nextid": 20,
-"x": 62,
-"y": -127,
+"nextid": 25,
+"x": -28,
+"y": -109,
 "boxes": [
 {
 "type": 1285,
@@ -3014,6 +3094,7 @@
 ]
 }
 ],
+"unresolved": "#Cannabis_recuperer",
 "var_cmp": "==",
 "scene": "S_CABINE_KISEL",
 "instance": "KISEL_PATRON"
@@ -3030,10 +3111,7 @@
 },
 {
 "id": 13,
-"type": 3,
-"trgs": [
-18
-]
+"type": 3
 }
 ],
 "dialog": "D_KISEL_PATRON"
@@ -3042,24 +3120,42 @@
 "type": 256,
 "id": 14,
 "resize": true,
-"width": 552,
-"height": 124,
+"width": 368,
+"height": 215,
 "x": 343,
 "y": 491,
 "name": "DIALOGUE"
 },
 {
-"type": 788,
-"id": 17,
-"x": 748,
-"y": 526,
+"type": 1286,
+"id": 20,
+"x": 375,
+"y": 626,
 "plugs": [
 {
-"id": 18,
+"id": 21,
+"type": 3,
+"trgs": [
+23
+]
+}
+],
+"var_cmp": "==",
+"dialog": "D_KISEL_PATRON",
+"sentence": "33"
+},
+{
+"type": 788,
+"id": 22,
+"x": 592,
+"y": 626,
+"plugs": [
+{
+"id": 23,
 "type": 2
 },
 {
-"id": 19,
+"id": 24,
 "type": 3
 }
 ],
@@ -3077,8 +3173,8 @@
 "graph": {
 "board": {
 "nextid": 24,
-"x": -124,
-"y": -225,
+"x": -108,
+"y": -139,
 "boxes": [
 {
 "type": 1285,
@@ -3128,8 +3224,8 @@
 {
 "type": 1285,
 "id": 9,
-"x": 481,
-"y": 570,
+"x": 459,
+"y": 578,
 "plugs": [
 {
 "id": 10,
@@ -3147,8 +3243,8 @@
 {
 "type": 788,
 "id": 11,
-"x": 628,
-"y": 571,
+"x": 648,
+"y": 575,
 "plugs": [
 {
 "id": 12,
@@ -3204,8 +3300,8 @@
 {
 "type": 780,
 "id": 19,
-"x": 779,
-"y": 575,
+"x": 802,
+"y": 584,
 "plugs": [
 {
 "id": 20,
@@ -3222,8 +3318,8 @@
 "type": 256,
 "id": 22,
 "resize": true,
-"width": 368,
-"height": 122,
+"width": 311,
+"height": 110,
 "x": 468,
 "y": 731,
 "name": "DIALOGUE"
@@ -3232,8 +3328,8 @@
 "type": 256,
 "id": 23,
 "resize": true,
-"width": 555,
-"height": 109,
+"width": 549,
+"height": 138,
 "x": 426,
 "y": 544,
 "name": "PUZZLE SUCCESS"
@@ -3658,6 +3754,235 @@
 ]
 }
 }
+},
+{
+"sid": 65,
+"uid": "L_REVELATION_DES_EMPREINTES",
+"graph": {
+"board": {
+"nextid": 45,
+"x": 167,
+"y": 23,
+"boxes": [
+{
+"type": 786,
+"id": 15,
+"x": 271,
+"y": 88,
+"plugs": [
+{
+"id": 16,
+"type": 2
+},
+{
+"id": 17,
+"type": 3
+}
+],
+"visible": "True",
+"instance": "EMRPEINTES"
+},
+{
+"type": 1287,
+"id": 18,
+"x": 1,
+"y": 93,
+"plugs": [
+{
+"id": 19,
+"type": 3,
+"trgs": [
+16
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_REVELATION_DES_EMPREINTES",
+"instance": "EMRPEINTES"
+},
+{
+"type": 786,
+"id": 20,
+"x": 256,
+"y": 175,
+"plugs": [
+{
+"id": 21,
+"type": 2
+},
+{
+"id": 22,
+"type": 3
+}
+],
+"visible": "True",
+"instance": "EMRPEINTES2"
+},
+{
+"type": 1287,
+"id": 23,
+"x": -14,
+"y": 180,
+"plugs": [
+{
+"id": 24,
+"type": 3,
+"trgs": [
+21
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_REVELATION_DES_EMPREINTES",
+"instance": "EMRPEINTES2"
+},
+{
+"type": 786,
+"id": 25,
+"x": 264,
+"y": 277,
+"plugs": [
+{
+"id": 26,
+"type": 2
+},
+{
+"id": 27,
+"type": 3
+}
+],
+"visible": "True",
+"instance": "EMRPEINTES3"
+},
+{
+"type": 1287,
+"id": 28,
+"x": -12,
+"y": 269,
+"plugs": [
+{
+"id": 29,
+"type": 3,
+"trgs": [
+26
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_REVELATION_DES_EMPREINTES",
+"instance": "EMRPEINTES3"
+},
+{
+"type": 786,
+"id": 30,
+"x": 263,
+"y": 378,
+"plugs": [
+{
+"id": 31,
+"type": 2
+},
+{
+"id": 32,
+"type": 3
+}
+],
+"visible": "True",
+"instance": "EMRPEINTES3"
+},
+{
+"type": 1287,
+"id": 33,
+"x": -20,
+"y": 375,
+"plugs": [
+{
+"id": 34,
+"type": 3,
+"trgs": [
+31
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_REVELATION_DES_EMPREINTES",
+"instance": "EMRPEINTES3"
+},
+{
+"type": 786,
+"id": 35,
+"x": 251,
+"y": 466,
+"plugs": [
+{
+"id": 36,
+"type": 2
+},
+{
+"id": 37,
+"type": 3
+}
+],
+"visible": "True",
+"instance": "EMRPEINTES4"
+},
+{
+"type": 1287,
+"id": 38,
+"x": -19,
+"y": 471,
+"plugs": [
+{
+"id": 39,
+"type": 3,
+"trgs": [
+36
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_REVELATION_DES_EMPREINTES",
+"instance": "EMRPEINTES4"
+},
+{
+"type": 786,
+"id": 40,
+"x": 239,
+"y": 561,
+"plugs": [
+{
+"id": 41,
+"type": 2
+},
+{
+"id": 42,
+"type": 3
+}
+],
+"visible": "True",
+"instance": "EMRPEINTES5"
+},
+{
+"type": 1287,
+"id": 43,
+"x": -31,
+"y": 566,
+"plugs": [
+{
+"id": 44,
+"type": 3,
+"trgs": [
+41
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_REVELATION_DES_EMPREINTES",
+"instance": "EMRPEINTES5"
+}
+]
+}
+}
 }
 ],
 "scenes": [
@@ -3667,7 +3992,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 35,
+"zoom": 50,
 "nextID": 7,
 "x": -292,
 "y": 42
@@ -5122,7 +5447,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 60,
+"zoom": 50,
 "nextID": 9,
 "x": -260,
 "y": 65
@@ -5511,7 +5836,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 25,
+"zoom": 50,
 "nextID": 9,
 "x": -349,
 "y": -3
@@ -7282,7 +7607,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 25,
+"zoom": 50,
 "nextID": 16,
 "x": -444,
 "y": 15
@@ -10079,7 +10404,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 25,
+"zoom": 50,
 "nextID": 10,
 "x": -535,
 "y": 32
@@ -11420,7 +11745,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 35,
+"zoom": 60,
 "nextID": 8,
 "x": -363,
 "y": 71
@@ -15880,7 +16205,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 30,
+"zoom": 50,
 "nextID": 8,
 "x": -383,
 "y": 169
@@ -18391,7 +18716,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 40,
+"zoom": 50,
 "nextID": 6,
 "x": -335,
 "y": 159
@@ -19607,7 +19932,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 15,
+"zoom": 50,
 "nextID": 7,
 "x": -446,
 "y": -7
@@ -20542,6 +20867,370 @@
 "y": 898,
 "width": 507,
 "height": 100
+}
+]
+},
+{
+"sid": 64,
+"uid": "S_REVELATION_DES_EMPREINTES",
+"content": {
+"light_ambient": -1,
+"light_blur": -1,
+"zoom": 95,
+"x": -175,
+"y": 99,
+"nextID": 6
+},
+"layers": {
+"BACK": {
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100,
+"image": {
+"aid": "cc114056d066b9d8"
+},
+"texture": {
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "6eab893db3c3df74"
+}
+]
+}
+},
+"MA": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"MB": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"MC": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"MD": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FA": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FB": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FC": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FD": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+}
+},
+"instances": [
+{
+"name": "EMRPEINTES",
+"depths": [
+{
+"a": 10,
+"b": 100
+},
+{
+"y": 1024,
+"a": 10,
+"b": 100
+}
+],
+"uid": "O_EMRPEINTES",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 495,
+"y": 545,
+"parallax": 100,
+"opacity": 100,
+"angle": 135,
+"ide_hidden": true,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 16,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"name": "EMRPEINTES2",
+"uid": "O_EMRPEINTES",
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 568,
+"y": 492,
+"elevator_sca": true,
+"parallax": 100,
+"opacity": 100,
+"angle": 135,
+"ide_hidden": true,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 16,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 10,
+"b": 100
+},
+{
+"y": 1024,
+"a": 10,
+"b": 100
+}
+]
+},
+{
+"name": "EMRPEINTES3",
+"uid": "O_EMRPEINTES",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 645,
+"y": 440,
+"parallax": 100,
+"opacity": 100,
+"angle": 135,
+"ide_hidden": true,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 16,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 10,
+"b": 100
+},
+{
+"y": 1024,
+"a": 10,
+"b": 100
+}
+]
+},
+{
+"name": "EMRPEINTES4",
+"uid": "O_EMRPEINTES",
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 719,
+"y": 376,
+"parallax": 100,
+"opacity": 100,
+"angle": 135,
+"ide_hidden": true,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 16,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 10,
+"b": 100
+},
+{
+"y": 1024,
+"a": 10,
+"b": 100
+}
+]
+},
+{
+"name": "EMRPEINTES5",
+"uid": "O_EMRPEINTES",
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 796,
+"y": 307,
+"parallax": 100,
+"opacity": 100,
+"angle": 135,
+"ide_hidden": true,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 16,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 10,
+"b": 100
+},
+{
+"y": 1024,
+"a": 10,
+"b": 100
+}
+]
 }
 ]
 }
@@ -22906,6 +23595,157 @@
 },
 "texture": {
 "aid": "73627a8846c023f9"
+}
+}
+]
+}
+},
+{
+"sid": 66,
+"uid": "O_EMRPEINTES",
+"content": {
+"bbox": true,
+"width": 500,
+"height": 500
+},
+"icons": [
+{},
+{},
+{},
+{}
+],
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "a2647979656736fc"
+},
+"lo": {
+"aid": "2d08515a13ac3c0a"
+}
+},
+"x": 62,
+"w": 376,
+"h": 500
+}
+]
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+}
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 376,
+"h": 500
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "fa8a7a167ca1830c"
+},
+"texture": {
+"aid": "b1bd0f3231d66ed7"
 }
 }
 ]

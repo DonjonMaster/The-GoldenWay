@@ -213,14 +213,14 @@
 }
 },
 "meta": {
-"nextAssetID": 68
+"nextAssetID": 72
 }
 },
 "puzzle": {
 "board": {
 "nextid": 174,
-"x": 1358,
-"y": 514,
+"x": 1251,
+"y": 595,
 "boxes": [
 {
 "type": 257,
@@ -894,9 +894,9 @@
 },
 "graph": {
 "board": {
-"nextid": 111,
-"x": 783,
-"y": 254,
+"nextid": 117,
+"x": 1002,
+"y": -113,
 "boxes": [
 {
 "type": 1309,
@@ -1605,6 +1605,50 @@
 "player": "P_HERO",
 "item": "I_MURDER_PRINTS",
 "silent": "False"
+},
+{
+"type": 1287,
+"id": 111,
+"x": -670,
+"y": 432,
+"plugs": [
+{
+"id": 112,
+"type": 3,
+"trgs": [
+114
+]
+}
+],
+"var_cmp": "==",
+"instance": "VOTE"
+},
+{
+"type": 775,
+"id": 113,
+"x": -518,
+"y": 428,
+"plugs": [
+{
+"id": 114,
+"type": 2
+},
+{
+"id": 115,
+"type": 3
+}
+],
+"scene": "S_BACK"
+},
+{
+"type": 256,
+"id": 116,
+"resize": true,
+"width": 372,
+"height": 128,
+"x": -735,
+"y": 377,
+"name": "VOTER"
 }
 ]
 }
@@ -1616,8 +1660,8 @@
 "graph": {
 "board": {
 "nextid": 47,
-"x": -479,
-"y": -116,
+"x": -143,
+"y": -76,
 "boxes": [
 {
 "type": 1287,
@@ -2789,8 +2833,8 @@
 "graph": {
 "board": {
 "nextid": 11,
-"x": 32,
-"y": -72,
+"x": 226,
+"y": -6,
 "boxes": [
 {
 "type": 1285,
@@ -3451,9 +3495,9 @@
 "uid": "L_CABINE_LI_SHEI",
 "graph": {
 "board": {
-"nextid": 24,
-"x": -108,
-"y": -139,
+"nextid": 36,
+"x": -160,
+"y": -421,
 "boxes": [
 {
 "type": 1285,
@@ -3544,8 +3588,8 @@
 {
 "type": 1287,
 "id": 14,
-"x": 489,
-"y": 771,
+"x": 506,
+"y": 776,
 "plugs": [
 {
 "id": 15,
@@ -3562,8 +3606,8 @@
 {
 "type": 781,
 "id": 16,
-"x": 655,
-"y": 774,
+"x": 652,
+"y": 782,
 "plugs": [
 {
 "id": 17,
@@ -3612,6 +3656,95 @@
 "x": 426,
 "y": 544,
 "name": "PUZZLE SUCCESS"
+},
+{
+"type": 1290,
+"id": 24,
+"x": 374,
+"y": 921,
+"plugs": [
+{
+"id": 25,
+"type": 3,
+"trgs": [
+27
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_LI_SHEI",
+"item": "I_MURDER_PRINTS",
+"instance": "LI_SHEIN_TAN"
+},
+{
+"type": 781,
+"id": 26,
+"x": 549,
+"y": 924,
+"plugs": [
+{
+"id": 27,
+"type": 2
+},
+{
+"id": 28,
+"type": 3,
+"trgs": [
+30
+]
+}
+],
+"dialog": "D_LI_SHEI_TAN",
+"sentence": "3"
+},
+{
+"type": 788,
+"id": 29,
+"x": 826,
+"y": 933,
+"plugs": [
+{
+"id": 30,
+"type": 2
+},
+{
+"id": 31,
+"type": 3,
+"trgs": [
+33
+]
+}
+],
+"player": "DUMP",
+"item": "I_MURDER_PRINTS",
+"silent": "False"
+},
+{
+"type": 780,
+"id": 32,
+"x": 1020,
+"y": 939,
+"plugs": [
+{
+"id": 33,
+"type": 2
+},
+{
+"id": 34,
+"type": 3
+}
+],
+"puzzle": "#Donner_empreinte_Lishei"
+},
+{
+"type": 256,
+"id": 35,
+"resize": true,
+"width": 895,
+"height": 180,
+"x": 326,
+"y": 867,
+"name": "EMPREINTE"
 }
 ]
 }
@@ -3748,7 +3881,9 @@
 "uid": "L_CABINE_REMI",
 "graph": {
 "board": {
-"nextid": 9,
+"nextid": 21,
+"x": -89,
+"y": -68,
 "boxes": [
 {
 "type": 1285,
@@ -3794,6 +3929,95 @@
 "x": 393,
 "y": 351,
 "name": "EXIT CABINE"
+},
+{
+"type": 1290,
+"id": 9,
+"x": 483,
+"y": 579,
+"plugs": [
+{
+"id": 10,
+"type": 3,
+"trgs": [
+12
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_REMI",
+"item": "I_MURDER_PRINTS",
+"instance": "REMI_PLEGIE"
+},
+{
+"type": 781,
+"id": 11,
+"x": 658,
+"y": 582,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3,
+"trgs": [
+15
+]
+}
+],
+"dialog": "D_REMI_PLEGIE",
+"sentence": "2"
+},
+{
+"type": 788,
+"id": 14,
+"x": 935,
+"y": 591,
+"plugs": [
+{
+"id": 15,
+"type": 2
+},
+{
+"id": 16,
+"type": 3,
+"trgs": [
+18
+]
+}
+],
+"player": "DUMP",
+"item": "I_MURDER_PRINTS",
+"silent": "False"
+},
+{
+"type": 780,
+"id": 17,
+"x": 1129,
+"y": 597,
+"plugs": [
+{
+"id": 18,
+"type": 2
+},
+{
+"id": 19,
+"type": 3
+}
+],
+"puzzle": "#Donner_empreinte_Remi"
+},
+{
+"type": 256,
+"id": 20,
+"resize": true,
+"width": 905,
+"height": 204,
+"x": 435,
+"y": 525,
+"name": "EMPREINTE"
 }
 ]
 }
@@ -4326,6 +4550,746 @@
 ]
 }
 }
+},
+{
+"sid": 69,
+"uid": "L_BACK",
+"graph": {
+"board": {
+"nextid": 109,
+"x": 493,
+"y": 791,
+"boxes": [
+{
+"type": 1287,
+"id": 3,
+"x": -270,
+"y": -46,
+"plugs": [
+{
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"instance": "BACK"
+},
+{
+"type": 775,
+"id": 5,
+"x": -99,
+"y": -41,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
+"type": 3
+}
+],
+"scene": "S_CABINE_HERO"
+},
+{
+"type": 256,
+"id": 8,
+"resize": true,
+"width": 465,
+"height": 185,
+"x": -350,
+"y": -118,
+"name": "BACK"
+},
+{
+"type": 1285,
+"id": 9,
+"x": 754,
+"y": -434,
+"plugs": [
+{
+"id": 10,
+"type": 3,
+"trgs": [
+15
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "ESAA"
+},
+{
+"type": 781,
+"id": 14,
+"x": 863,
+"y": -433,
+"plugs": [
+{
+"id": 15,
+"type": 2
+},
+{
+"id": 16,
+"type": 3,
+"trgs": [
+18
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "3"
+},
+{
+"type": 780,
+"id": 17,
+"x": 1104,
+"y": -436,
+"plugs": [
+{
+"id": 18,
+"type": 2
+},
+{
+"id": 19,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 1285,
+"id": 20,
+"x": 747,
+"y": -300,
+"plugs": [
+{
+"id": 21,
+"type": 3,
+"trgs": [
+23
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "ETHAN"
+},
+{
+"type": 781,
+"id": 22,
+"x": 845,
+"y": -293,
+"plugs": [
+{
+"id": 23,
+"type": 2
+},
+{
+"id": 24,
+"type": 3,
+"trgs": [
+26
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "3"
+},
+{
+"type": 780,
+"id": 25,
+"x": 1095,
+"y": -293,
+"plugs": [
+{
+"id": 26,
+"type": 2
+},
+{
+"id": 27,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 1285,
+"id": 28,
+"x": 211,
+"y": -122,
+"plugs": [
+{
+"id": 29,
+"type": 3,
+"trgs": [
+31
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "HERO"
+},
+{
+"type": 781,
+"id": 30,
+"x": 350,
+"y": -121,
+"plugs": [
+{
+"id": 31,
+"type": 2
+},
+{
+"id": 32,
+"type": 3,
+"trgs": [
+34
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "3"
+},
+{
+"type": 780,
+"id": 33,
+"x": 599,
+"y": -121,
+"plugs": [
+{
+"id": 34,
+"type": 2
+},
+{
+"id": 35,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 1285,
+"id": 36,
+"x": 766,
+"y": -129,
+"plugs": [
+{
+"id": 37,
+"type": 3,
+"trgs": [
+39
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "KISEL"
+},
+{
+"type": 781,
+"id": 38,
+"x": 880,
+"y": -126,
+"plugs": [
+{
+"id": 39,
+"type": 2
+},
+{
+"id": 40,
+"type": 3,
+"trgs": [
+42
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "3"
+},
+{
+"type": 780,
+"id": 41,
+"x": 1141,
+"y": -128,
+"plugs": [
+{
+"id": 42,
+"type": 2
+},
+{
+"id": 43,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 1285,
+"id": 44,
+"x": 234,
+"y": -286,
+"plugs": [
+{
+"id": 45,
+"type": 3,
+"trgs": [
+47
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "DIO"
+},
+{
+"type": 781,
+"id": 46,
+"x": 336,
+"y": -284,
+"plugs": [
+{
+"id": 47,
+"type": 2
+},
+{
+"id": 48,
+"type": 3,
+"trgs": [
+50
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "3"
+},
+{
+"type": 780,
+"id": 49,
+"x": 587,
+"y": -286,
+"plugs": [
+{
+"id": 50,
+"type": 2
+},
+{
+"id": 51,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 1285,
+"id": 52,
+"x": 204,
+"y": 65,
+"plugs": [
+{
+"id": 53,
+"type": 3,
+"trgs": [
+55
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "LISHEI"
+},
+{
+"type": 781,
+"id": 54,
+"x": 308,
+"y": 64,
+"plugs": [
+{
+"id": 55,
+"type": 2
+},
+{
+"id": 56,
+"type": 3,
+"trgs": [
+58
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "3"
+},
+{
+"type": 780,
+"id": 57,
+"x": 558,
+"y": 64,
+"plugs": [
+{
+"id": 58,
+"type": 2
+},
+{
+"id": 59,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 1285,
+"id": 60,
+"x": 797,
+"y": 417,
+"plugs": [
+{
+"id": 61,
+"type": 3,
+"trgs": [
+63
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "ZIEG"
+},
+{
+"type": 781,
+"id": 62,
+"x": 939,
+"y": 417,
+"plugs": [
+{
+"id": 63,
+"type": 2
+},
+{
+"id": 64,
+"type": 3,
+"trgs": [
+66
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "1"
+},
+{
+"type": 780,
+"id": 65,
+"x": 1124,
+"y": 416,
+"plugs": [
+{
+"id": 66,
+"type": 2
+},
+{
+"id": 67,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 1285,
+"id": 68,
+"x": 243,
+"y": -432,
+"plugs": [
+{
+"id": 69,
+"type": 3,
+"trgs": [
+71
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "ANNIE"
+},
+{
+"type": 781,
+"id": 70,
+"x": 345,
+"y": -430,
+"plugs": [
+{
+"id": 71,
+"type": 2
+},
+{
+"id": 72,
+"type": 3,
+"trgs": [
+74
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "3"
+},
+{
+"type": 780,
+"id": 73,
+"x": 575,
+"y": -431,
+"plugs": [
+{
+"id": 74,
+"type": 2
+},
+{
+"id": 75,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 1285,
+"id": 76,
+"x": 764,
+"y": 44,
+"plugs": [
+{
+"id": 77,
+"type": 3,
+"trgs": [
+79
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "REMI"
+},
+{
+"type": 781,
+"id": 78,
+"x": 888,
+"y": 43,
+"plugs": [
+{
+"id": 79,
+"type": 2
+},
+{
+"id": 80,
+"type": 3,
+"trgs": [
+82
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "3"
+},
+{
+"type": 780,
+"id": 81,
+"x": 1132,
+"y": 45,
+"plugs": [
+{
+"id": 82,
+"type": 2
+},
+{
+"id": 83,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 1285,
+"id": 84,
+"x": 203,
+"y": 236,
+"plugs": [
+{
+"id": 85,
+"type": 3,
+"trgs": [
+87
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "REX"
+},
+{
+"type": 781,
+"id": 86,
+"x": 329,
+"y": 241,
+"plugs": [
+{
+"id": 87,
+"type": 2
+},
+{
+"id": 88,
+"type": 3,
+"trgs": [
+90
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "1"
+},
+{
+"type": 780,
+"id": 89,
+"x": 524,
+"y": 253,
+"plugs": [
+{
+"id": 90,
+"type": 2
+},
+{
+"id": 91,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 1285,
+"id": 92,
+"x": 741,
+"y": 251,
+"plugs": [
+{
+"id": 93,
+"type": 3,
+"trgs": [
+95
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "RHALE"
+},
+{
+"type": 781,
+"id": 94,
+"x": 881,
+"y": 252,
+"plugs": [
+{
+"id": 95,
+"type": 2
+},
+{
+"id": 96,
+"type": 3,
+"trgs": [
+98
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "3"
+},
+{
+"type": 780,
+"id": 97,
+"x": 1140,
+"y": 253,
+"plugs": [
+{
+"id": 98,
+"type": 2
+},
+{
+"id": 99,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 1285,
+"id": 100,
+"x": 208,
+"y": 393,
+"plugs": [
+{
+"id": 101,
+"type": 3,
+"trgs": [
+103
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_BACK",
+"label": "TAUROT"
+},
+{
+"type": 781,
+"id": 102,
+"x": 326,
+"y": 390,
+"plugs": [
+{
+"id": 103,
+"type": 2
+},
+{
+"id": 104,
+"type": 3,
+"trgs": [
+106
+]
+}
+],
+"dialog": "D_HERO",
+"sentence": "3"
+},
+{
+"type": 780,
+"id": 105,
+"x": 606,
+"y": 417,
+"plugs": [
+{
+"id": 106,
+"type": 2
+},
+{
+"id": 107,
+"type": 3
+}
+],
+"puzzle": "#Quiqucestquilafait"
+},
+{
+"type": 256,
+"id": 108,
+"resize": true,
+"width": 1238,
+"height": 1002,
+"x": 127,
+"y": -487,
+"name": "ACCUSATION"
+}
+]
+}
+}
 }
 ],
 "scenes": [
@@ -4335,8 +5299,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 7,
+"zoom": 79,
+"nextID": 9,
 "x": -292,
 "y": 42
 },
@@ -5781,6 +6745,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 8,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ]
 },
@@ -5791,7 +6809,7 @@
 "light_ambient": -1,
 "light_blur": -1,
 "zoom": 79,
-"nextID": 11,
+"nextID": 13,
 "x": -260,
 "y": 65
 },
@@ -6150,6 +7168,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 12,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ],
 "labels": [
@@ -6215,8 +7287,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 9,
+"zoom": 79,
+"nextID": 10,
 "x": -349,
 "y": -3
 },
@@ -7977,6 +9049,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 9,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ]
 },
@@ -7986,8 +9112,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 16,
+"zoom": 79,
+"nextID": 18,
 "x": -444,
 "y": 15
 },
@@ -9558,6 +10684,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 17,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ]
 },
@@ -9567,8 +10747,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 5,
+"zoom": 79,
+"nextID": 7,
 "x": -181,
 "y": 47
 },
@@ -10774,6 +11954,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ]
 },
@@ -10783,8 +12017,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 10,
+"zoom": 79,
+"nextID": 13,
 "x": -535,
 "y": 32
 },
@@ -12060,6 +13294,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 12,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ],
 "labels": [
@@ -12124,8 +13412,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 60,
-"nextID": 8,
+"zoom": 79,
+"nextID": 10,
 "x": -363,
 "y": 71
 },
@@ -13401,6 +14689,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 9,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ],
 "labels": [
@@ -13465,8 +14807,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 35,
-"nextID": 8,
+"zoom": 79,
+"nextID": 10,
 "x": -357,
 "y": 64
 },
@@ -15068,6 +16410,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 9,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ],
 "labels": [
@@ -15150,8 +16546,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 30,
-"nextID": 8,
+"zoom": 79,
+"nextID": 10,
 "x": -389,
 "y": 93
 },
@@ -16502,6 +17898,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 9,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ],
 "labels": [
@@ -16584,8 +18034,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 8,
+"zoom": 79,
+"nextID": 10,
 "x": -383,
 "y": 169
 },
@@ -17870,6 +19320,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 9,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ]
 },
@@ -17879,8 +19383,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 30,
-"nextID": 5,
+"zoom": 79,
+"nextID": 7,
 "x": -335,
 "y": 62
 },
@@ -19086,6 +20590,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ]
 },
@@ -19095,8 +20653,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 6,
+"zoom": 79,
+"nextID": 8,
 "x": -335,
 "y": 159
 },
@@ -20302,6 +21860,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 7,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ]
 },
@@ -20311,8 +21923,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 7,
+"zoom": 79,
+"nextID": 9,
 "x": -446,
 "y": -7
 },
@@ -21230,6 +22842,60 @@
 "b": 100
 }
 ]
+},
+{
+"name": "VOTE",
+"uid": "O_VOTE",
+"id": 8,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 512,
+"y": 84,
+"parallax": 100,
+"title": {
+"en": "Accuse",
+"fr": "Accuser"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
 }
 ],
 "shots": [
@@ -21255,10 +22921,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 55,
+"zoom": 79,
 "x": -246,
 "y": 22,
-"nextID": 12
+"nextID": 13
 },
 "layers": {
 "BACK": {
@@ -21732,6 +23398,431 @@
 "y": 257,
 "width": 100,
 "height": 100
+}
+]
+},
+{
+"sid": 68,
+"uid": "S_BACK",
+"content": {
+"light_ambient": -1,
+"light_blur": -1,
+"zoom": 64,
+"nextID": 15,
+"x": -309,
+"y": 79
+},
+"layers": {
+"BACK": {
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100,
+"image": {
+"aid": "8d63be35853d25ac"
+},
+"texture": {
+"width": 1024,
+"height": 1024,
+"rects": [
+{
+"w": 1024,
+"h": 1024
+}
+],
+"textures": [
+{
+"aid": "117620ade7d8ee4e"
+}
+]
+}
+},
+"MA": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"MB": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"MC": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"MD": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FA": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FB": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FC": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+},
+"FD": {
+"speed_x": 100,
+"speed_y": 100,
+"parallax": 100,
+"opacity_min": 100,
+"opacity_max": 100,
+"opacity_speed": 100
+}
+},
+"instances": [
+{
+"name": "BACK",
+"uid": "O_BACK",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 100,
+"y": 900,
+"parallax": 100,
+"title": {
+"en": "Back",
+"fr": "Retour"
+},
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1024,
+"a": 20,
+"b": 100
+}
+]
+},
+{
+"name": "HERO2",
+"depths": [
+{
+"a": 25,
+"b": 100
+},
+{
+"y": 1024,
+"a": 25,
+"b": 100
+}
+],
+"uid": "O_HERO",
+"id": 14,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 520,
+"y": 1097,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+],
+"labels": [
+{
+"name": "RHALE",
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 230,
+"y": 183,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Rhale",
+"fr": "Rhale"
+}
+},
+{
+"name": "TAUROT",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 517,
+"y": 186,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Taurot",
+"fr": "Taurot"
+}
+},
+{
+"name": "ZIEG",
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 373,
+"y": 186,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Zieg",
+"fr": "Zieg"
+}
+},
+{
+"name": "REX",
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 677,
+"y": 180,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Rex",
+"fr": "Rex"
+}
+},
+{
+"name": "LISHEI",
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 380,
+"y": 330,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Li Shei",
+"fr": "Li Shei"
+}
+},
+{
+"name": "REMI",
+"id": 7,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 231,
+"y": 331,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Remi",
+"fr": "Remi"
+}
+},
+{
+"name": "ESAA",
+"id": 8,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 528,
+"y": 328,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Esaa",
+"fr": "Esaa"
+}
+},
+{
+"name": "DIO",
+"id": 9,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 679,
+"y": 331,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Dio",
+"fr": "Dio"
+}
+},
+{
+"name": "KISEL",
+"id": 10,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 237,
+"y": 472,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Kisel",
+"fr": "Kisel"
+}
+},
+{
+"name": "ANNIE",
+"id": 11,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 387,
+"y": 470,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Annie",
+"fr": "Annie"
+}
+},
+{
+"name": "HERO",
+"id": 12,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 537,
+"y": 474,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Me",
+"fr": "Moi"
+}
+},
+{
+"name": "ETHAN",
+"id": 13,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 683,
+"y": 475,
+"width": 144,
+"height": 139,
+"title": {
+"en": "Ethan",
+"fr": "Ethan"
+}
 }
 ]
 }
@@ -24251,6 +26342,163 @@
 }
 ]
 }
+},
+{
+"sid": 70,
+"uid": "O_VOTE",
+"content": {
+"bbox": true,
+"title": {
+"en": "Vote",
+"fr": "Voter"
+},
+"width": 512,
+"height": 512,
+"x": 262,
+"y": 271
+},
+"icons": [
+{},
+{},
+{},
+{}
+],
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "8f6dd5bea12e5040"
+},
+"lo": {
+"aid": "a9e8c95a3c763900"
+}
+},
+"x": 28,
+"w": 456,
+"h": 512
+}
+]
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+}
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 456,
+"h": 512
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "5fe9fa60eae539e9"
+},
+"texture": {
+"aid": "8c673d879aeb000c"
+}
+}
+]
+}
 }
 ],
 "players": [
@@ -26280,7 +28528,8 @@
 {}
 ]
 },
-"never_hide": true
+"never_hide": true,
+"locked": true
 },
 {
 "id": 5,
@@ -26443,7 +28692,8 @@
 {}
 ]
 },
-"never_hide": true
+"never_hide": true,
+"locked": true
 },
 {
 "id": 7,
@@ -26896,6 +29146,31 @@
 }
 },
 "nextID": 3
+}
+},
+{
+"sid": 71,
+"uid": "D_HERO",
+"content": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "C'est lui, j'en suis sûr !"
+},
+"speaker": "O_HERO"
+},
+{
+"id": 3,
+"text": {
+"fr": "Euhh... Je vais me fier à mon instinct, mais ça me semble... étrange."
+},
+"speaker": "O_HERO"
+}
+]
+},
+"nextID": 4
 }
 }
 ],

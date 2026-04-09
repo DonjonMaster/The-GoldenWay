@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 150,
-"x": 1465,
-"y": 523,
+"x": 1560,
+"y": 481,
 "boxes": [
 {
 "type": 257,
@@ -790,15 +790,15 @@
 },
 "graph": {
 "board": {
-"nextid": 69,
-"x": 777,
-"y": 797,
+"nextid": 78,
+"x": 835,
+"y": 915,
 "boxes": [
 {
 "type": 1309,
 "id": 3,
-"x": 538,
-"y": 287,
+"x": 118,
+"y": 142,
 "plugs": [
 {
 "id": 4,
@@ -813,8 +813,8 @@
 {
 "type": 789,
 "id": 5,
-"x": 698,
-"y": 285,
+"x": 278,
+"y": 140,
 "plugs": [
 {
 "id": 6,
@@ -834,8 +834,8 @@
 {
 "type": 775,
 "id": 11,
-"x": 818,
-"y": 289,
+"x": 398,
+"y": 144,
 "plugs": [
 {
 "id": 12,
@@ -851,8 +851,8 @@
 {
 "type": 1303,
 "id": 14,
-"x": 151,
-"y": 295,
+"x": -349,
+"y": 142,
 "plugs": [
 {
 "id": 15,
@@ -869,8 +869,8 @@
 {
 "type": 780,
 "id": 16,
-"x": 282,
-"y": 298,
+"x": -218,
+"y": 145,
 "plugs": [
 {
 "id": 17,
@@ -969,8 +969,8 @@
 "resize": true,
 "width": 459,
 "height": 133,
-"x": 507,
-"y": 249,
+"x": 87,
+"y": 104,
 "name": "GAME START"
 },
 {
@@ -979,8 +979,8 @@
 "resize": true,
 "width": 319,
 "height": 128,
-"x": 111,
-"y": 258,
+"x": -389,
+"y": 105,
 "name": "ACCES VIP PUZZLE"
 },
 {
@@ -1089,7 +1089,10 @@
 },
 {
 "id": 47,
-"type": 3
+"type": 3,
+"trgs": [
+70
+]
 }
 ],
 "dialog": "D_ESAA_PRISTI"
@@ -1144,7 +1147,10 @@
 },
 {
 "id": 55,
-"type": 3
+"type": 3,
+"trgs": [
+73
+]
 }
 ],
 "puzzle": "#Donner_lettre_Taurot"
@@ -1217,7 +1223,10 @@
 },
 {
 "id": 67,
-"type": 3
+"type": 3,
+"trgs": [
+76
+]
 }
 ],
 "puzzle": "#Donner_lettre_Zieg"
@@ -1231,6 +1240,63 @@
 "x": -476,
 "y": -728,
 "name": "PUZZLE LETTRE AMOUR"
+},
+{
+"type": 788,
+"id": 69,
+"x": -18,
+"y": -444,
+"plugs": [
+{
+"id": 70,
+"type": 2
+},
+{
+"id": 71,
+"type": 3
+}
+],
+"player": "DUMP",
+"item": "I_LETTRE_AMOUR",
+"silent": "False"
+},
+{
+"type": 788,
+"id": 72,
+"x": 178,
+"y": -360,
+"plugs": [
+{
+"id": 73,
+"type": 2
+},
+{
+"id": 74,
+"type": 3
+}
+],
+"player": "DUMP",
+"item": "I_LETTRE_AMOUR",
+"silent": "False"
+},
+{
+"type": 788,
+"id": 75,
+"x": 26,
+"y": -139,
+"plugs": [
+{
+"id": 76,
+"type": 2
+},
+{
+"id": 77,
+"type": 3
+}
+],
+"player": "DUMP",
+"item": "I_LETTRE_AMOUR",
+"silent": "False"
 }
 ]
 }
@@ -1763,8 +1829,7 @@
 "graph": {
 "board": {
 "nextid": 42,
-"x": 117,
-"y": 66,
+"y": 16,
 "boxes": [
 {
 "type": 1285,
@@ -1876,8 +1941,8 @@
 "type": 256,
 "id": 30,
 "resize": true,
-"width": 423,
-"height": 296,
+"width": 400,
+"height": 291,
 "x": 421,
 "y": 182,
 "name": "CABINE VIP"
@@ -1926,22 +1991,6 @@
 "x": 411,
 "y": 507,
 "name": "BACK"
-},
-{
-"type": 780,
-"id": 39,
-"x": 272,
-"y": 749,
-"plugs": [
-{
-"id": 40,
-"type": 2
-},
-{
-"id": 41,
-"type": 3
-}
-]
 }
 ]
 }
@@ -2430,9 +2479,9 @@
 "uid": "L_CABINE_DIO",
 "graph": {
 "board": {
-"nextid": 24,
-"x": 215,
-"y": 97,
+"nextid": 34,
+"x": 101,
+"y": 79,
 "boxes": [
 {
 "type": 1285,
@@ -2522,8 +2571,8 @@
 {
 "type": 1287,
 "id": 14,
-"x": 169,
-"y": 450,
+"x": 173,
+"y": 528,
 "plugs": [
 {
 "id": 15,
@@ -2540,8 +2589,8 @@
 {
 "type": 781,
 "id": 16,
-"x": 335,
-"y": 453,
+"x": 339,
+"y": 531,
 "plugs": [
 {
 "id": 17,
@@ -2577,19 +2626,78 @@
 "resize": true,
 "width": 368,
 "height": 122,
-"x": 122,
-"y": 414,
+"x": 126,
+"y": 492,
 "name": "DIALOGUE"
 },
 {
 "type": 256,
 "id": 23,
 "resize": true,
-"width": 555,
-"height": 109,
+"width": 592,
+"height": 207,
 "x": 126,
 "y": 256,
 "name": "PUZZLE SUCCESS"
+},
+{
+"type": 1290,
+"id": 26,
+"x": 206,
+"y": 376,
+"plugs": [
+{
+"id": 27,
+"type": 3,
+"trgs": [
+29
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_CABINE_DIO",
+"item": "I_CANNABIS",
+"instance": "DIO_SCESE"
+},
+{
+"type": 781,
+"id": 28,
+"x": 343,
+"y": 373,
+"plugs": [
+{
+"id": 29,
+"type": 2
+},
+{
+"id": 30,
+"type": 3,
+"trgs": [
+32
+]
+}
+],
+"dialog": "D_DIO_SCESE",
+"sentence": "17"
+},
+{
+"type": 788,
+"id": 31,
+"x": 567,
+"y": 376,
+"plugs": [
+{
+"id": 32,
+"type": 2
+},
+{
+"id": 33,
+"type": 3
+}
+],
+"player": "DUMP",
+"item": "I_CANNABIS",
+"silent": "False"
 }
 ]
 }
@@ -2770,14 +2878,14 @@
 "uid": "L_CABINE_KISEL",
 "graph": {
 "board": {
-"nextid": 15,
-"x": -67,
-"y": -115,
+"nextid": 20,
+"x": 62,
+"y": -127,
 "boxes": [
 {
 "type": 1285,
 "id": 3,
-"x": 437,
+"x": 423,
 "y": 367,
 "plugs": [
 {
@@ -2795,7 +2903,7 @@
 {
 "type": 775,
 "id": 5,
-"x": 634,
+"x": 620,
 "y": 376,
 "plugs": [
 {
@@ -2815,7 +2923,7 @@
 "resize": true,
 "width": 433,
 "height": 130,
-"x": 361,
+"x": 347,
 "y": 319,
 "name": "EXIT CABINE"
 },
@@ -2840,8 +2948,8 @@
 {
 "type": 781,
 "id": 11,
-"x": 565,
-"y": 528,
+"x": 573,
+"y": 525,
 "plugs": [
 {
 "id": 12,
@@ -2849,7 +2957,10 @@
 },
 {
 "id": 13,
-"type": 3
+"type": 3,
+"trgs": [
+18
+]
 }
 ],
 "dialog": "D_KISEL_PATRON"
@@ -2858,11 +2969,30 @@
 "type": 256,
 "id": 14,
 "resize": true,
-"width": 368,
-"height": 122,
+"width": 552,
+"height": 124,
 "x": 343,
 "y": 491,
 "name": "DIALOGUE"
+},
+{
+"type": 788,
+"id": 17,
+"x": 748,
+"y": 526,
+"plugs": [
+{
+"id": 18,
+"type": 2
+},
+{
+"id": 19,
+"type": 3
+}
+],
+"player": "P_HERO",
+"item": "I_CANNABIS",
+"silent": "False"
 }
 ]
 }
@@ -5915,7 +6045,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 60,
+"zoom": 79,
 "nextID": 8,
 "x": -383,
 "y": 169
@@ -11746,13 +11876,17 @@
 "sentence": {
 "sentences": [
 {
-"id": 1,
+"id": 17,
+"choice": true,
+"sentences": [
+{
+"id": 23,
 "text": {
 "fr": "Alors le poulet, ça roule ?"
 },
 "sentences": [
 {
-"id": 2,
+"id": 24,
 "text": {
 "fr": "En fait, je veux pas savoir. Hors de ma vue sale chien."
 },
@@ -11771,7 +11905,8 @@
 {}
 ]
 },
-"exit": true
+"exit": true,
+"mutual_show": "19"
 }
 ],
 "speaker": "O_KISEL_PATRON",
@@ -11789,9 +11924,32 @@
 {}
 ]
 }
+}
+],
+"text": {
+"fr": "Bonjour..\r\n"
+},
+"voice": {
+"fr": [
+{},
+{},
+{},
+{}
+],
+"en": [
+{},
+{},
+{},
+{}
+]
+}
 },
 {
-"id": 3,
+"id": 19,
+"choice": true,
+"sentences": [
+{
+"id": 25,
 "text": {
 "fr": "Je t'avais dit de me lâcher."
 },
@@ -11810,10 +11968,35 @@
 {}
 ]
 },
-"exit": true
+"exit": true,
+"mutual_show": "20"
+}
+],
+"text": {
+"fr": "...\r\n"
+},
+"voice": {
+"fr": [
+{},
+{},
+{},
+{}
+],
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"hidden": true
 },
 {
-"id": 4,
+"id": 20,
+"choice": true,
+"sentences": [
+{
+"id": 26,
 "text": {
 "fr": "Dégage enfoiré !"
 },
@@ -11832,10 +12015,35 @@
 {}
 ]
 },
-"exit": true
+"exit": true,
+"mutual_show": "21"
+}
+],
+"text": {
+"fr": "...\r\n"
+},
+"voice": {
+"fr": [
+{},
+{},
+{},
+{}
+],
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"hidden": true
 },
 {
-"id": 5,
+"id": 21,
+"choice": true,
+"sentences": [
+{
+"id": 27,
 "text": {
 "fr": "LÂCHE MOI !"
 },
@@ -11854,39 +12062,64 @@
 {}
 ]
 },
-"exit": true
+"exit": true,
+"mutual_show": "22"
+}
+],
+"text": {
+"fr": "...\r\n"
+},
+"voice": {
+"fr": [
+{},
+{},
+{},
+{}
+],
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"hidden": true
 },
 {
-"id": 6,
+"id": 22,
+"choice": true,
+"sentences": [
+{
+"id": 28,
 "text": {
 "fr": "OK, qu'est ce que tu veux ?"
 },
 "sentences": [
 {
-"id": 8,
+"id": 29,
 "choice": true,
 "text": {
 "fr": "Qu'est ce que tu sais du crime ?"
 },
 "sentences": [
 {
-"id": 9,
+"id": 30,
 "sentences": [
 {
-"id": 12,
+"id": 31,
 "choice": true,
 "sentences": [
 {
-"id": 13,
+"id": 32,
 "sentences": [
 {
-"id": 14,
+"id": 33,
 "sentences": [
 {
-"id": 15,
+"id": 34,
 "sentences": [
 {
-"id": 16,
+"id": 35,
 "choice": true,
 "text": {
 "fr": "Pas encore, tout du moins."
@@ -12043,6 +12276,26 @@
 }
 }
 ],
+"text": {
+"fr": "...\r\n"
+},
+"voice": {
+"fr": [
+{},
+{},
+{},
+{}
+],
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"hidden": true
+}
+],
 "voice": {
 "en": [
 {},
@@ -12058,7 +12311,7 @@
 ]
 }
 },
-"nextID": 17
+"nextID": 36
 }
 },
 {
@@ -12139,7 +12392,8 @@
 {}
 ]
 },
-"never_hide": true
+"never_hide": true,
+"exit": true
 }
 ],
 "speaker": "O_LI_SHEIN_TAN",
@@ -12932,10 +13186,10 @@
 "icons": [
 {
 "image": {
-"aid": "dc5578087ae30550"
+"aid": "32b5f6bf3471d9b8"
 },
 "texture": {
-"aid": "0ee70f3112531e20"
+"aid": "e0cb5cfc2281a1b3"
 }
 },
 {},

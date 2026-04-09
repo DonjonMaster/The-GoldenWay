@@ -1,1 +1,7 @@
 New Game
+success ok #61
+success ok #64
+success ok #55
+success ok #58
+success ok #11
+success ok #116

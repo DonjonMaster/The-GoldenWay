@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 150,
-"x": 1086,
-"y": 634,
+"x": 1400,
+"y": 458,
 "boxes": [
 {
 "type": 257,
@@ -412,8 +412,8 @@
 "type": 256,
 "id": 61,
 "name": "#Cannabis_recuperer",
-"x": -1025,
-"y": 272,
+"x": -1038,
+"y": 276,
 "plugs": [
 {
 "id": 62,
@@ -423,7 +423,7 @@
 "id": 63,
 "type": 3,
 "trgs": [
-68
+65
 ]
 }
 ]
@@ -444,26 +444,6 @@
 "type": 3,
 "trgs": [
 123
-]
-}
-]
-},
-{
-"type": 256,
-"id": 67,
-"name": "#Donner_Dio",
-"x": -678,
-"y": 278,
-"plugs": [
-{
-"id": 68,
-"type": 2
-},
-{
-"id": 69,
-"type": 3,
-"trgs": [
-65
 ]
 }
 ]
@@ -791,8 +771,8 @@
 "graph": {
 "board": {
 "nextid": 97,
-"x": 591,
-"y": 583,
+"x": 499,
+"y": 781,
 "boxes": [
 {
 "type": 1309,
@@ -1644,9 +1624,9 @@
 "uid": "L_WAGON_RESTAURANT",
 "graph": {
 "board": {
-"nextid": 102,
-"x": -731,
-"y": 200,
+"nextid": 112,
+"x": -688,
+"y": 33,
 "boxes": [
 {
 "type": 256,
@@ -1920,11 +1900,69 @@
 "type": 256,
 "id": 101,
 "resize": true,
-"width": 652,
-"height": 453,
+"width": 630,
+"height": 598,
 "x": 1033,
 "y": -18,
 "name": "PUZZLE SUCCESS"
+},
+{
+"type": 1285,
+"id": 104,
+"x": 1109,
+"y": 451,
+"plugs": [
+{
+"id": 105,
+"type": 3,
+"trgs": [
+110
+]
+}
+],
+"unresolved": "#Recuperer_farine",
+"var_cmp": "==",
+"scene": "S_WAGON_RESTAURANT",
+"label": "PLACARD"
+},
+{
+"type": 780,
+"id": 106,
+"x": 1451,
+"y": 471,
+"plugs": [
+{
+"id": 107,
+"type": 2
+},
+{
+"id": 108,
+"type": 3
+}
+],
+"puzzle": "#Recuperer_farine"
+},
+{
+"type": 788,
+"id": 109,
+"x": 1332,
+"y": 468,
+"plugs": [
+{
+"id": 110,
+"type": 2
+},
+{
+"id": 111,
+"type": 3,
+"trgs": [
+107
+]
+}
+],
+"player": "P_HERO",
+"item": "I_FARINE",
+"silent": "False"
 }
 ]
 }
@@ -2587,9 +2625,9 @@
 "uid": "L_CABINE_DIO",
 "graph": {
 "board": {
-"nextid": 40,
+"nextid": 43,
 "x": -77,
-"y": -46,
+"y": -40,
 "boxes": [
 {
 "type": 1285,
@@ -2680,8 +2718,8 @@
 {
 "type": 1287,
 "id": 14,
-"x": 170,
-"y": 594,
+"x": 176,
+"y": 658,
 "plugs": [
 {
 "id": 15,
@@ -2698,8 +2736,8 @@
 {
 "type": 781,
 "id": 16,
-"x": 336,
-"y": 597,
+"x": 342,
+"y": 661,
 "plugs": [
 {
 "id": 17,
@@ -2735,16 +2773,16 @@
 "resize": true,
 "width": 368,
 "height": 122,
-"x": 123,
-"y": 558,
+"x": 129,
+"y": 622,
 "name": "DIALOGUE"
 },
 {
 "type": 256,
 "id": 23,
 "resize": true,
-"width": 831,
-"height": 259,
+"width": 981,
+"height": 292,
 "x": 126,
 "y": 256,
 "name": "PUZZLE SUCCESS"
@@ -2752,8 +2790,8 @@
 {
 "type": 1290,
 "id": 26,
-"x": 168,
-"y": 410,
+"x": 187,
+"y": 411,
 "plugs": [
 {
 "id": 27,
@@ -2772,7 +2810,7 @@
 {
 "type": 781,
 "id": 28,
-"x": 343,
+"x": 371,
 "y": 408,
 "plugs": [
 {
@@ -2793,8 +2831,8 @@
 {
 "type": 788,
 "id": 31,
-"x": 575,
-"y": 409,
+"x": 599,
+"y": 410,
 "plugs": [
 {
 "id": 32,
@@ -2815,7 +2853,7 @@
 {
 "type": 788,
 "id": 34,
-"x": 714,
+"x": 721,
 "y": 409,
 "plugs": [
 {
@@ -2826,7 +2864,7 @@
 "id": 36,
 "type": 3,
 "trgs": [
-38
+41
 ]
 }
 ],
@@ -2836,16 +2874,16 @@
 },
 {
 "type": 780,
-"id": 37,
-"x": 816,
-"y": 409,
+"id": 40,
+"x": 939,
+"y": 412,
 "plugs": [
 {
-"id": 38,
+"id": 41,
 "type": 2
 },
 {
-"id": 39,
+"id": 42,
 "type": 3
 }
 ],
@@ -3031,7 +3069,7 @@
 "uid": "L_CABINE_KISEL",
 "graph": {
 "board": {
-"nextid": 25,
+"nextid": 28,
 "x": -28,
 "y": -109,
 "boxes": [
@@ -3120,8 +3158,8 @@
 "type": 256,
 "id": 14,
 "resize": true,
-"width": 368,
-"height": 215,
+"width": 528,
+"height": 219,
 "x": 343,
 "y": 491,
 "name": "DIALOGUE"
@@ -3156,12 +3194,32 @@
 },
 {
 "id": 24,
-"type": 3
+"type": 3,
+"trgs": [
+26
+]
 }
 ],
 "player": "P_HERO",
 "item": "I_CANNABIS",
 "silent": "False"
+},
+{
+"type": 780,
+"id": 25,
+"x": 712,
+"y": 627,
+"plugs": [
+{
+"id": 26,
+"type": 2
+},
+{
+"id": 27,
+"type": 3
+}
+],
+"puzzle": "#Cannabis_recuperer"
 }
 ]
 }
@@ -5447,8 +5505,8 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
-"nextID": 9,
+"zoom": 79,
+"nextID": 11,
 "x": -260,
 "y": 65
 },
@@ -5826,6 +5884,42 @@
 "title": {
 "en": "VIP Wagon",
 "fr": "Wagon VIP"
+}
+},
+{
+"name": "PLACARD",
+"id": 9,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 25,
+"y": 604,
+"width": 63,
+"height": 172,
+"title": {
+"en": "Pantry",
+"fr": "Placard"
+}
+},
+{
+"name": "PLACARD2",
+"id": 10,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 106,
+"y": 579,
+"width": 52,
+"height": 160,
+"title": {
+"en": "Pantry",
+"fr": "Placard"
 }
 }
 ]
@@ -19932,7 +20026,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 50,
+"zoom": 79,
 "nextID": 7,
 "x": -446,
 "y": -7
@@ -26595,10 +26689,10 @@
 "icons": [
 {
 "image": {
-"aid": "32b5f6bf3471d9b8"
+"aid": "7e70c78c05852c1d"
 },
 "texture": {
-"aid": "e0cb5cfc2281a1b3"
+"aid": "392082f7149d30db"
 }
 },
 {},

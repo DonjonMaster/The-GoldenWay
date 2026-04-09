@@ -219,8 +219,8 @@
 "puzzle": {
 "board": {
 "nextid": 150,
-"x": 1159,
-"y": 644,
+"x": 1465,
+"y": 523,
 "boxes": [
 {
 "type": 257,
@@ -412,8 +412,8 @@
 "type": 256,
 "id": 61,
 "name": "#Cannabis_recuperer",
-"x": -1033,
-"y": 274,
+"x": -1025,
+"y": 272,
 "plugs": [
 {
 "id": 62,
@@ -432,8 +432,8 @@
 "type": 256,
 "id": 64,
 "name": "#Cuillere_recuperer",
-"x": -384,
-"y": 263,
+"x": -362,
+"y": 267,
 "plugs": [
 {
 "id": 65,
@@ -472,7 +472,7 @@
 "type": 256,
 "id": 70,
 "name": "#Recuperer_LettreAmour",
-"x": -315,
+"x": -317,
 "y": -4,
 "plugs": [
 {
@@ -493,8 +493,8 @@
 "type": 256,
 "id": 73,
 "name": "#Donner_lettre_Taurot",
-"x": 46,
-"y": -67,
+"x": 47,
+"y": -63,
 "plugs": [
 {
 "id": 74,
@@ -513,8 +513,8 @@
 "type": 256,
 "id": 76,
 "name": "#Donner_lettre_Zieg",
-"x": 52,
-"y": -191,
+"x": 46,
+"y": -184,
 "plugs": [
 {
 "id": 77,
@@ -566,8 +566,8 @@
 "type": 256,
 "id": 116,
 "name": "#Recuperer_farine",
-"x": -382,
-"y": 145,
+"x": -360,
+"y": 149,
 "plugs": [
 {
 "id": 117,
@@ -606,8 +606,8 @@
 "type": 256,
 "id": 122,
 "name": "#Empreinte_recuperer",
-"x": -215,
-"y": 196,
+"x": -193,
+"y": 200,
 "plugs": [
 {
 "id": 123,
@@ -693,8 +693,8 @@
 "resize": true,
 "width": 339,
 "height": 211,
-"x": -398,
-"y": 113
+"x": -376,
+"y": 117
 },
 {
 "type": 261,
@@ -790,14 +790,15 @@
 },
 "graph": {
 "board": {
-"nextid": 19,
-"x": 460,
-"y": 299,
+"nextid": 69,
+"x": 777,
+"y": 797,
 "boxes": [
 {
 "type": 1309,
 "id": 3,
-"y": 100,
+"x": 538,
+"y": 287,
 "plugs": [
 {
 "id": 4,
@@ -812,8 +813,8 @@
 {
 "type": 789,
 "id": 5,
-"x": 160,
-"y": 98,
+"x": 698,
+"y": 285,
 "plugs": [
 {
 "id": 6,
@@ -833,8 +834,8 @@
 {
 "type": 775,
 "id": 11,
-"x": 280,
-"y": 102,
+"x": 818,
+"y": 289,
 "plugs": [
 {
 "id": 12,
@@ -850,8 +851,8 @@
 {
 "type": 1303,
 "id": 14,
-"x": 9,
-"y": -163,
+"x": 151,
+"y": 295,
 "plugs": [
 {
 "id": 15,
@@ -868,8 +869,8 @@
 {
 "type": 780,
 "id": 16,
-"x": 156,
-"y": -163,
+"x": 282,
+"y": 298,
 "plugs": [
 {
 "id": 17,
@@ -881,6 +882,355 @@
 }
 ],
 "puzzle": "#acces_vip"
+},
+{
+"type": 1287,
+"id": 19,
+"x": -389,
+"y": -677,
+"plugs": [
+{
+"id": 20,
+"type": 3,
+"trgs": [
+32
+]
+}
+],
+"unresolved": "#Recuperer_LettreAmour",
+"var_cmp": "==",
+"instance": "ESAA_PRISTI"
+},
+{
+"type": 1287,
+"id": 21,
+"x": -389,
+"y": -564,
+"plugs": [
+{
+"id": 22,
+"type": 3,
+"trgs": [
+35
+]
+}
+],
+"unresolved": "#Recuperer_LettreAmour",
+"var_cmp": "==",
+"instance": "TAURO_RELOUT"
+},
+{
+"type": 788,
+"id": 23,
+"x": 107,
+"y": -691,
+"plugs": [
+{
+"id": 24,
+"type": 2
+},
+{
+"id": 25,
+"type": 3,
+"trgs": [
+38
+]
+}
+],
+"player": "P_HERO",
+"item": "I_LETTRE_AMOUR",
+"silent": "False"
+},
+{
+"type": 788,
+"id": 26,
+"x": 103,
+"y": -563,
+"plugs": [
+{
+"id": 27,
+"type": 2
+},
+{
+"id": 28,
+"type": 3,
+"trgs": [
+41
+]
+}
+],
+"player": "P_HERO",
+"item": "I_LETTRE_AMOUR",
+"silent": "False"
+},
+{
+"type": 256,
+"id": 29,
+"resize": true,
+"width": 459,
+"height": 133,
+"x": 507,
+"y": 249,
+"name": "GAME START"
+},
+{
+"type": 256,
+"id": 30,
+"resize": true,
+"width": 319,
+"height": 128,
+"x": 111,
+"y": 258,
+"name": "ACCES VIP PUZZLE"
+},
+{
+"type": 781,
+"id": 31,
+"x": -166,
+"y": -695,
+"plugs": [
+{
+"id": 32,
+"type": 2
+},
+{
+"id": 33,
+"type": 3,
+"trgs": [
+24
+]
+}
+],
+"dialog": "D_ESAA_PRISTI",
+"sentence": "1"
+},
+{
+"type": 781,
+"id": 34,
+"x": -166,
+"y": -567,
+"plugs": [
+{
+"id": 35,
+"type": 2
+},
+{
+"id": 36,
+"type": 3,
+"trgs": [
+27
+]
+}
+],
+"dialog": "D_THAURO_RELOUT",
+"sentence": "2"
+},
+{
+"type": 780,
+"id": 37,
+"x": 292,
+"y": -688,
+"plugs": [
+{
+"id": 38,
+"type": 2
+},
+{
+"id": 39,
+"type": 3
+}
+],
+"puzzle": "#Recuperer_LettreAmour"
+},
+{
+"type": 780,
+"id": 40,
+"x": 299,
+"y": -560,
+"plugs": [
+{
+"id": 41,
+"type": 2
+},
+{
+"id": 42,
+"type": 3
+}
+],
+"puzzle": "#Recuperer_LettreAmour"
+},
+{
+"type": 1290,
+"id": 43,
+"x": -377,
+"y": -443,
+"plugs": [
+{
+"id": 44,
+"type": 3,
+"trgs": [
+46
+]
+}
+],
+"var_cmp": "==",
+"item": "I_LETTRE_AMOUR",
+"instance": "ESAA_PRISTI"
+},
+{
+"type": 781,
+"id": 45,
+"x": -208,
+"y": -440,
+"plugs": [
+{
+"id": 46,
+"type": 2
+},
+{
+"id": 47,
+"type": 3
+}
+],
+"dialog": "D_ESAA_PRISTI"
+},
+{
+"type": 1290,
+"id": 48,
+"x": -377,
+"y": -352,
+"plugs": [
+{
+"id": 49,
+"type": 3,
+"trgs": [
+51
+]
+}
+],
+"var_cmp": "==",
+"item": "I_LETTRE_AMOUR",
+"instance": "TAURO_RELOUT"
+},
+{
+"type": 781,
+"id": 50,
+"x": -206,
+"y": -358,
+"plugs": [
+{
+"id": 51,
+"type": 2
+},
+{
+"id": 52,
+"type": 3,
+"trgs": [
+54
+]
+}
+],
+"dialog": "D_THAURO_RELOUT"
+},
+{
+"type": 780,
+"id": 53,
+"x": -15,
+"y": -356,
+"plugs": [
+{
+"id": 54,
+"type": 2
+},
+{
+"id": 55,
+"type": 3
+}
+],
+"puzzle": "#Donner_lettre_Taurot"
+},
+{
+"type": 1287,
+"id": 56,
+"x": -387,
+"y": -258,
+"plugs": [
+{
+"id": 57,
+"type": 3,
+"trgs": [
+59
+]
+}
+],
+"resolved": "#Donner_lettre_Taurot",
+"var_cmp": "==",
+"instance": "ESAA_PRISTI"
+},
+{
+"type": 781,
+"id": 58,
+"x": -190,
+"y": -261,
+"plugs": [
+{
+"id": 59,
+"type": 2
+},
+{
+"id": 60,
+"type": 3
+}
+],
+"dialog": "D_ESAA_PRISTI",
+"sentence": "3"
+},
+{
+"type": 1291,
+"id": 63,
+"x": -387,
+"y": -144,
+"plugs": [
+{
+"id": 64,
+"type": 3,
+"trgs": [
+66
+]
+}
+],
+"resolved": "#Recuperer_LettreAmour",
+"var_cmp": "==",
+"scene": "S_WAGON_VIP",
+"item": "I_LETTRE_AMOUR",
+"label": "VIPCABIN3"
+},
+{
+"type": 780,
+"id": 65,
+"x": -162,
+"y": -143,
+"plugs": [
+{
+"id": 66,
+"type": 2
+},
+{
+"id": 67,
+"type": 3
+}
+],
+"puzzle": "#Donner_lettre_Zieg"
+},
+{
+"type": 256,
+"id": 68,
+"resize": true,
+"width": 1066,
+"height": 732,
+"x": -476,
+"y": -728,
+"name": "PUZZLE LETTRE AMOUR"
 }
 ]
 }
@@ -892,8 +1242,8 @@
 "graph": {
 "board": {
 "nextid": 47,
-"x": -147,
-"y": -103,
+"x": -117,
+"y": -143,
 "boxes": [
 {
 "type": 1287,
@@ -1412,9 +1762,9 @@
 "uid": "L_WAGON_VIP",
 "graph": {
 "board": {
-"nextid": 39,
-"x": 23,
-"y": -157,
+"nextid": 42,
+"x": 117,
+"y": 66,
 "boxes": [
 {
 "type": 1285,
@@ -1500,6 +1850,7 @@
 ]
 }
 ],
+"resolved": "#Donner_lettre_Zieg",
 "var_cmp": "==",
 "scene": "S_WAGON_VIP",
 "label": "VIPCABIN3"
@@ -1507,8 +1858,8 @@
 {
 "type": 775,
 "id": 16,
-"x": 697,
-"y": 388,
+"x": 684,
+"y": 397,
 "plugs": [
 {
 "id": 17,
@@ -1525,8 +1876,8 @@
 "type": 256,
 "id": 30,
 "resize": true,
-"width": 416,
-"height": 268,
+"width": 423,
+"height": 296,
 "x": 421,
 "y": 182,
 "name": "CABINE VIP"
@@ -1575,6 +1926,22 @@
 "x": 411,
 "y": 507,
 "name": "BACK"
+},
+{
+"type": 780,
+"id": 39,
+"x": 272,
+"y": 749,
+"plugs": [
+{
+"id": 40,
+"type": 2
+},
+{
+"id": 41,
+"type": 3
+}
+]
 }
 ]
 }
@@ -2064,8 +2431,8 @@
 "graph": {
 "board": {
 "nextid": 24,
-"x": -1,
-"y": -22,
+"x": 215,
+"y": 97,
 "boxes": [
 {
 "type": 1285,
@@ -2115,8 +2482,8 @@
 {
 "type": 1285,
 "id": 9,
-"x": 267,
-"y": 335,
+"x": 206,
+"y": 296,
 "plugs": [
 {
 "id": 10,
@@ -2133,8 +2500,8 @@
 {
 "type": 788,
 "id": 11,
-"x": 414,
-"y": 336,
+"x": 353,
+"y": 297,
 "plugs": [
 {
 "id": 12,
@@ -2155,8 +2522,8 @@
 {
 "type": 1287,
 "id": 14,
-"x": 261,
-"y": 473,
+"x": 169,
+"y": 450,
 "plugs": [
 {
 "id": 15,
@@ -2173,8 +2540,8 @@
 {
 "type": 781,
 "id": 16,
-"x": 427,
-"y": 476,
+"x": 335,
+"y": 453,
 "plugs": [
 {
 "id": 17,
@@ -2190,8 +2557,8 @@
 {
 "type": 780,
 "id": 19,
-"x": 535,
-"y": 338,
+"x": 474,
+"y": 299,
 "plugs": [
 {
 "id": 20,
@@ -2210,8 +2577,8 @@
 "resize": true,
 "width": 368,
 "height": 122,
-"x": 214,
-"y": 437,
+"x": 122,
+"y": 414,
 "name": "DIALOGUE"
 },
 {
@@ -2220,8 +2587,8 @@
 "resize": true,
 "width": 555,
 "height": 109,
-"x": 187,
-"y": 295,
+"x": 126,
+"y": 256,
 "name": "PUZZLE SUCCESS"
 }
 ]

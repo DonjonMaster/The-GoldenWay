@@ -1,7 +1,2 @@
 New Game
-success ok #150
-success ok #156
-success ok #159
-success ok #162
-success ok #165
-success ok #168
+success failed (box not started) #49

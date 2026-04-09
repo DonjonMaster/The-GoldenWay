@@ -213,14 +213,14 @@
 }
 },
 "meta": {
-"nextAssetID": 67
+"nextAssetID": 68
 }
 },
 "puzzle": {
 "board": {
-"nextid": 150,
-"x": 1400,
-"y": 458,
+"nextid": 174,
+"x": 1358,
+"y": 514,
 "boxes": [
 {
 "type": 257,
@@ -352,8 +352,8 @@
 "type": 256,
 "id": 49,
 "name": "#Quiqucestquilafait",
-"x": 444,
-"y": 204,
+"x": 884,
+"y": 201,
 "plugs": [
 {
 "id": 50,
@@ -443,7 +443,7 @@
 "id": 66,
 "type": 3,
 "trgs": [
-123
+172
 ]
 }
 ]
@@ -513,8 +513,8 @@
 "type": 256,
 "id": 98,
 "name": "#Donner_empreinte_Remi",
-"x": 64,
-"y": 153,
+"x": 504,
+"y": 150,
 "plugs": [
 {
 "id": 99,
@@ -533,8 +533,8 @@
 "type": 260,
 "id": 114,
 "name": "end",
-"x": 607,
-"y": 203,
+"x": 1047,
+"y": 200,
 "plugs": [
 {
 "id": 115,
@@ -557,7 +557,7 @@
 "id": 118,
 "type": 3,
 "trgs": [
-123
+172
 ]
 }
 ]
@@ -584,31 +584,10 @@
 },
 {
 "type": 256,
-"id": 122,
-"name": "#Empreinte_recuperer",
-"x": -193,
-"y": 200,
-"plugs": [
-{
-"id": 123,
-"type": 2
-},
-{
-"id": 124,
-"type": 3,
-"trgs": [
-99,
-126
-]
-}
-]
-},
-{
-"type": 256,
 "id": 125,
 "name": "#Donner_empreinte_Lishei",
-"x": 60,
-"y": 250,
+"x": 500,
+"y": 247,
 "plugs": [
 {
 "id": 126,
@@ -671,8 +650,8 @@
 "id": 136,
 "name": "EMPREINTE",
 "resize": true,
-"width": 339,
-"height": 211,
+"width": 882,
+"height": 303,
 "x": -376,
 "y": 117
 },
@@ -680,8 +659,8 @@
 "type": 261,
 "id": 137,
 "name": "or",
-"x": 344,
-"y": 191,
+"x": 784,
+"y": 188,
 "plugs": [
 {
 "id": 138,
@@ -757,6 +736,151 @@
 ]
 }
 ]
+},
+{
+"type": 256,
+"id": 150,
+"name": "#Reveler_Empreinte1",
+"x": 7,
+"y": 144,
+"plugs": [
+{
+"id": 151,
+"type": 2
+},
+{
+"id": 152,
+"type": 3,
+"trgs": [
+169
+]
+}
+]
+},
+{
+"type": 256,
+"id": 156,
+"name": "#Reveler_Empreinte2",
+"x": 10,
+"y": 206,
+"plugs": [
+{
+"id": 157,
+"type": 2
+},
+{
+"id": 158,
+"type": 3,
+"trgs": [
+169
+]
+}
+]
+},
+{
+"type": 256,
+"id": 159,
+"name": "#Reveler_Empreinte3",
+"x": 9,
+"y": 257,
+"plugs": [
+{
+"id": 160,
+"type": 2
+},
+{
+"id": 161,
+"type": 3,
+"trgs": [
+169
+]
+}
+]
+},
+{
+"type": 256,
+"id": 162,
+"name": "#Reveler_Empreinte4",
+"x": 10,
+"y": 301,
+"plugs": [
+{
+"id": 163,
+"type": 2
+},
+{
+"id": 164,
+"type": 3,
+"trgs": [
+169
+]
+}
+]
+},
+{
+"type": 256,
+"id": 165,
+"name": "#Reveler_Empreinte5",
+"x": 8,
+"y": 364,
+"plugs": [
+{
+"id": 166,
+"type": 2
+},
+{
+"id": 167,
+"type": 3,
+"trgs": [
+169
+]
+}
+]
+},
+{
+"type": 256,
+"id": 168,
+"name": "#Empreinte_Tueur_recuperer",
+"x": 265,
+"y": 210,
+"plugs": [
+{
+"id": 169,
+"type": 2
+},
+{
+"id": 170,
+"type": 3,
+"trgs": [
+126,
+99
+]
+}
+]
+},
+{
+"type": 256,
+"id": 171,
+"name": "#Acces_Puzzle_Empreinte",
+"x": -217,
+"y": 230,
+"plugs": [
+{
+"id": 172,
+"type": 2
+},
+{
+"id": 173,
+"type": 3,
+"trgs": [
+151,
+157,
+160,
+163,
+166
+]
+}
+]
 }
 ]
 }
@@ -770,9 +894,9 @@
 },
 "graph": {
 "board": {
-"nextid": 97,
-"x": 499,
-"y": 781,
+"nextid": 111,
+"x": 783,
+"y": 254,
 "boxes": [
 {
 "type": 1309,
@@ -815,7 +939,7 @@
 "type": 775,
 "id": 11,
 "x": 398,
-"y": 144,
+"y": 153,
 "plugs": [
 {
 "id": 12,
@@ -831,8 +955,8 @@
 {
 "type": 1303,
 "id": 14,
-"x": -349,
-"y": 142,
+"x": -733,
+"y": 123,
 "plugs": [
 {
 "id": 15,
@@ -849,8 +973,8 @@
 {
 "type": 780,
 "id": 16,
-"x": -218,
-"y": 145,
+"x": -602,
+"y": 126,
 "plugs": [
 {
 "id": 17,
@@ -947,8 +1071,8 @@
 "type": 256,
 "id": 29,
 "resize": true,
-"width": 459,
-"height": 133,
+"width": 564,
+"height": 123,
 "x": 87,
 "y": 104,
 "name": "GAME START"
@@ -957,11 +1081,11 @@
 "type": 256,
 "id": 30,
 "resize": true,
-"width": 319,
-"height": 128,
-"x": -389,
-"y": 105,
-"name": "ACCES VIP PUZZLE"
+"width": 775,
+"height": 219,
+"x": -773,
+"y": 86,
+"name": "ACCES PUZZLE"
 },
 {
 "type": 781,
@@ -1380,10 +1504,107 @@
 },
 {
 "id": 96,
-"type": 3
+"type": 3,
+"trgs": [
+100
+]
 }
 ],
 "scene": "S_REVELATION_DES_EMPREINTES"
+},
+{
+"type": 1303,
+"id": 97,
+"x": -767,
+"y": 200,
+"plugs": [
+{
+"id": 98,
+"type": 3,
+"trgs": [
+103
+]
+}
+],
+"var_cmp": "==",
+"puzzle": "#Empreinte_Tueur_recuperer",
+"mode": "ENTER"
+},
+{
+"type": 780,
+"id": 99,
+"x": 942,
+"y": -325,
+"plugs": [
+{
+"id": 100,
+"type": 2
+},
+{
+"id": 101,
+"type": 3
+}
+],
+"puzzle": "#Acces_Puzzle_Empreinte"
+},
+{
+"type": 780,
+"id": 102,
+"x": -548,
+"y": 203,
+"plugs": [
+{
+"id": 103,
+"type": 2
+},
+{
+"id": 104,
+"type": 3,
+"trgs": [
+106
+]
+}
+],
+"puzzle": "#Empreinte_Tueur_recuperer"
+},
+{
+"type": 775,
+"id": 105,
+"x": -350,
+"y": 203,
+"plugs": [
+{
+"id": 106,
+"type": 2
+},
+{
+"id": 107,
+"type": 3,
+"trgs": [
+109
+]
+}
+],
+"scene": "S_WAGON_RESTAURANT"
+},
+{
+"type": 788,
+"id": 108,
+"x": -142,
+"y": 199,
+"plugs": [
+{
+"id": 109,
+"type": 2
+},
+{
+"id": 110,
+"type": 3
+}
+],
+"player": "P_HERO",
+"item": "I_MURDER_PRINTS",
+"silent": "False"
 }
 ]
 }
@@ -1395,8 +1616,8 @@
 "graph": {
 "board": {
 "nextid": 47,
-"x": -178,
-"y": -227,
+"x": -479,
+"y": -116,
 "boxes": [
 {
 "type": 1287,
@@ -1625,8 +1846,8 @@
 "graph": {
 "board": {
 "nextid": 112,
-"x": -688,
-"y": 33,
+"x": -476,
+"y": 15,
 "boxes": [
 {
 "type": 256,
@@ -3818,9 +4039,9 @@
 "uid": "L_REVELATION_DES_EMPREINTES",
 "graph": {
 "board": {
-"nextid": 45,
-"x": 167,
-"y": 23,
+"nextid": 72,
+"x": 115,
+"y": 97,
 "boxes": [
 {
 "type": 786,
@@ -3834,28 +4055,13 @@
 },
 {
 "id": 17,
-"type": 3
-}
-],
-"visible": "True",
-"instance": "EMRPEINTES"
-},
-{
-"type": 1287,
-"id": 18,
-"x": 1,
-"y": 93,
-"plugs": [
-{
-"id": 19,
 "type": 3,
 "trgs": [
-16
+58
 ]
 }
 ],
-"var_cmp": "==",
-"scene": "S_REVELATION_DES_EMPREINTES",
+"visible": "True",
 "instance": "EMRPEINTES"
 },
 {
@@ -3870,28 +4076,13 @@
 },
 {
 "id": 22,
-"type": 3
-}
-],
-"visible": "True",
-"instance": "EMRPEINTES2"
-},
-{
-"type": 1287,
-"id": 23,
-"x": -14,
-"y": 180,
-"plugs": [
-{
-"id": 24,
 "type": 3,
 "trgs": [
-21
+61
 ]
 }
 ],
-"var_cmp": "==",
-"scene": "S_REVELATION_DES_EMPREINTES",
+"visible": "True",
 "instance": "EMRPEINTES2"
 },
 {
@@ -3906,28 +4097,13 @@
 },
 {
 "id": 27,
-"type": 3
-}
-],
-"visible": "True",
-"instance": "EMRPEINTES3"
-},
-{
-"type": 1287,
-"id": 28,
-"x": -12,
-"y": 269,
-"plugs": [
-{
-"id": 29,
 "type": 3,
 "trgs": [
-26
+64
 ]
 }
 ],
-"var_cmp": "==",
-"scene": "S_REVELATION_DES_EMPREINTES",
+"visible": "True",
 "instance": "EMRPEINTES3"
 },
 {
@@ -3942,20 +4118,98 @@
 },
 {
 "id": 32,
-"type": 3
+"type": 3,
+"trgs": [
+67
+]
 }
 ],
 "visible": "True",
-"instance": "EMRPEINTES3"
+"instance": "EMRPEINTES4"
 },
 {
-"type": 1287,
-"id": 33,
-"x": -20,
-"y": 375,
+"type": 786,
+"id": 40,
+"x": 252,
+"y": 465,
 "plugs": [
 {
-"id": 34,
+"id": 41,
+"type": 2
+},
+{
+"id": 42,
+"type": 3,
+"trgs": [
+70
+]
+}
+],
+"visible": "True",
+"instance": "EMRPEINTES5"
+},
+{
+"type": 1285,
+"id": 45,
+"x": -13,
+"y": 75,
+"plugs": [
+{
+"id": 46,
+"type": 3,
+"trgs": [
+16
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_REVELATION_DES_EMPREINTES",
+"label": "LABEL"
+},
+{
+"type": 1285,
+"id": 47,
+"x": -19,
+"y": 148,
+"plugs": [
+{
+"id": 48,
+"type": 3,
+"trgs": [
+21
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_REVELATION_DES_EMPREINTES",
+"label": "LABEL2"
+},
+{
+"type": 1285,
+"id": 49,
+"x": -8,
+"y": 263,
+"plugs": [
+{
+"id": 50,
+"type": 3,
+"trgs": [
+26
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_REVELATION_DES_EMPREINTES",
+"label": "LABEL3"
+},
+{
+"type": 1285,
+"id": 51,
+"x": -16,
+"y": 371,
+"plugs": [
+{
+"id": 52,
 "type": 3,
 "trgs": [
 31
@@ -3964,70 +4218,16 @@
 ],
 "var_cmp": "==",
 "scene": "S_REVELATION_DES_EMPREINTES",
-"instance": "EMRPEINTES3"
+"label": "LABEL4"
 },
 {
-"type": 786,
-"id": 35,
-"x": 251,
-"y": 466,
+"type": 1285,
+"id": 53,
+"x": -35,
+"y": 462,
 "plugs": [
 {
-"id": 36,
-"type": 2
-},
-{
-"id": 37,
-"type": 3
-}
-],
-"visible": "True",
-"instance": "EMRPEINTES4"
-},
-{
-"type": 1287,
-"id": 38,
-"x": -19,
-"y": 471,
-"plugs": [
-{
-"id": 39,
-"type": 3,
-"trgs": [
-36
-]
-}
-],
-"var_cmp": "==",
-"scene": "S_REVELATION_DES_EMPREINTES",
-"instance": "EMRPEINTES4"
-},
-{
-"type": 786,
-"id": 40,
-"x": 239,
-"y": 561,
-"plugs": [
-{
-"id": 41,
-"type": 2
-},
-{
-"id": 42,
-"type": 3
-}
-],
-"visible": "True",
-"instance": "EMRPEINTES5"
-},
-{
-"type": 1287,
-"id": 43,
-"x": -31,
-"y": 566,
-"plugs": [
-{
-"id": 44,
+"id": 54,
 "type": 3,
 "trgs": [
 41
@@ -4036,7 +4236,92 @@
 ],
 "var_cmp": "==",
 "scene": "S_REVELATION_DES_EMPREINTES",
-"instance": "EMRPEINTES5"
+"label": "LABEL5"
+},
+{
+"type": 780,
+"id": 57,
+"x": 455,
+"y": 82,
+"plugs": [
+{
+"id": 58,
+"type": 2
+},
+{
+"id": 59,
+"type": 3
+}
+],
+"puzzle": "#Reveler_Empreinte1"
+},
+{
+"type": 780,
+"id": 60,
+"x": 455,
+"y": 164,
+"plugs": [
+{
+"id": 61,
+"type": 2
+},
+{
+"id": 62,
+"type": 3
+}
+],
+"puzzle": "#Reveler_Empreinte2"
+},
+{
+"type": 780,
+"id": 63,
+"x": 469,
+"y": 276,
+"plugs": [
+{
+"id": 64,
+"type": 2
+},
+{
+"id": 65,
+"type": 3
+}
+],
+"puzzle": "#Reveler_Empreinte3"
+},
+{
+"type": 780,
+"id": 66,
+"x": 474,
+"y": 379,
+"plugs": [
+{
+"id": 67,
+"type": 2
+},
+{
+"id": 68,
+"type": 3
+}
+],
+"puzzle": "#Reveler_Empreinte4"
+},
+{
+"type": 780,
+"id": 69,
+"x": 478,
+"y": 470,
+"plugs": [
+{
+"id": 70,
+"type": 2
+},
+{
+"id": 71,
+"type": 3
+}
+],
+"puzzle": "#Reveler_Empreinte5"
 }
 ]
 }
@@ -20026,7 +20311,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 79,
+"zoom": 50,
 "nextID": 7,
 "x": -446,
 "y": -7
@@ -20970,10 +21255,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 95,
-"x": -175,
-"y": 99,
-"nextID": 6
+"zoom": 55,
+"x": -246,
+"y": 22,
+"nextID": 12
 },
 "layers": {
 "BACK": {
@@ -21091,7 +21376,6 @@
 "parallax": 100,
 "opacity": 100,
 "angle": 135,
-"ide_hidden": true,
 "light_ambient": 255,
 "light_diffuse": 16777215,
 "light_angle": 16,
@@ -21115,7 +21399,8 @@
 {},
 {},
 {}
-]
+],
+"hidden": true
 },
 {
 "name": "EMRPEINTES2",
@@ -21133,7 +21418,6 @@
 "parallax": 100,
 "opacity": 100,
 "angle": 135,
-"ide_hidden": true,
 "light_ambient": 255,
 "light_diffuse": 16777215,
 "light_angle": 16,
@@ -21168,7 +21452,8 @@
 "a": 10,
 "b": 100
 }
-]
+],
+"hidden": true
 },
 {
 "name": "EMRPEINTES3",
@@ -21185,7 +21470,6 @@
 "parallax": 100,
 "opacity": 100,
 "angle": 135,
-"ide_hidden": true,
 "light_ambient": 255,
 "light_diffuse": 16777215,
 "light_angle": 16,
@@ -21220,7 +21504,8 @@
 "a": 10,
 "b": 100
 }
-]
+],
+"hidden": true
 },
 {
 "name": "EMRPEINTES4",
@@ -21237,7 +21522,6 @@
 "parallax": 100,
 "opacity": 100,
 "angle": 135,
-"ide_hidden": true,
 "light_ambient": 255,
 "light_diffuse": 16777215,
 "light_angle": 16,
@@ -21272,7 +21556,8 @@
 "a": 10,
 "b": 100
 }
-]
+],
+"hidden": true
 },
 {
 "name": "EMRPEINTES5",
@@ -21289,7 +21574,6 @@
 "parallax": 100,
 "opacity": 100,
 "angle": 135,
-"ide_hidden": true,
 "light_ambient": 255,
 "light_diffuse": 16777215,
 "light_angle": 16,
@@ -21324,7 +21608,130 @@
 "a": 10,
 "b": 100
 }
+],
+"hidden": true
+},
+{
+"name": "HERO",
+"uid": "O_HERO",
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 1233,
+"y": 1034,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"depths": [
+{
+"a": 50,
+"b": 100
+},
+{
+"y": 1024,
+"a": 50,
+"b": 100
+}
 ]
+}
+],
+"labels": [
+{
+"name": "LABEL",
+"id": 7,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 403,
+"y": 502,
+"width": 100,
+"height": 100
+},
+{
+"name": "LABEL2",
+"id": 8,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 486,
+"y": 445,
+"width": 100,
+"height": 100
+},
+{
+"name": "LABEL3",
+"id": 9,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 556,
+"y": 397,
+"width": 100,
+"height": 100
+},
+{
+"name": "LABEL4",
+"id": 10,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 635,
+"y": 330,
+"width": 100,
+"height": 100
+},
+{
+"name": "LABEL5",
+"id": 11,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 719,
+"y": 257,
+"width": 100,
+"height": 100
 }
 ]
 }
@@ -26716,6 +27123,29 @@
 },
 "texture": {
 "aid": "8f71f52ffa2ac610"
+}
+},
+{},
+{},
+{}
+]
+},
+{
+"sid": 67,
+"uid": "I_MURDER_PRINTS",
+"content": {
+"title": {
+"en": "Murderer fingerprints",
+"fr": "Empreintes du meurtrier"
+}
+},
+"icons": [
+{
+"image": {
+"aid": "51f6c07c960d4d34"
+},
+"texture": {
+"aid": "d6d2cef22c2c039b"
 }
 },
 {},
